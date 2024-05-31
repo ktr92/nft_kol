@@ -1,0 +1,114 @@
+<% var data={ title: "MAIN" , author: "" }; %>
+  <%= _.template(require('../includes/head.html').default)(data) %>
+    <%= _.template(require('../includes/header_v2.html').default)(data) %>
+      <main>
+        
+
+
+
+          <div class="maincontent maincontent_v2">
+            <div class="container"> 
+              <div class="tabsnav onlyDesktop">
+                <div class="tabsnav__links flex content-between items-center tabsnav__links_wallets">
+                  <div class="itemsnav itemsnav_table flex items-center content-between mt-0 ">
+                    <div class="itemsnav__right">
+                      <div class="pagesearch pagesearch_v2" data-togglewrapper="suggestions">
+                        <div class="pagesearch__form">
+                          <form action="">
+                            <div class="pagesearch__input">
+                              <div class="searchinput">
+                                <input type="text" placeholder="Search by ticker" oninput=""
+                                  value='Aifisbb'>
+                                <!-- <a href="#" data-toggleclick="headersearch" class="headersearch__close">
+                                  <img src="img/closesearch.svg" alt="">
+                                </a> -->
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex items-center content-between itemsnav_v2">
+                    <ul class="flex tabsbuttons ">
+                      <li>
+                        <a class="change_leaderboard_tab" data-name="popular_tokens" href="#">New</a>
+                      </li>
+                      <li>
+                        <a class="change_leaderboard_tab" data-name="popular_presales" href="#">Curated</a>
+                      </li>
+                      <li class="active">
+                        <a class="change_leaderboard_tab " data-name="top_calls" href="#">Everyone</a>
+                      </li>
+  
+                    </ul>
+
+
+                    <div class="flex items-center">
+                    
+                      <div class="linkset linkset_v2">
+                        <div class="linkset__items statistics_ranges" style="display: flex;">
+                         
+                          <div class="linkset__item"><a data-value="15m" href="#" class="linkset__link ">15m</a></div>
+                          <div class="linkset__item"><a data-value="30m" href="#" class="linkset__link ">30m</a></div>
+                          <div class="linkset__item"><a data-value="1h" href="#" class="linkset__link ">1h</a></div>
+                          <div class="linkset__item"><a data-value="3h" href="#" class="linkset__link ">3h</a></div>
+                          <div class="linkset__item"><a data-value="6h" href="#" class="linkset__link ">6h</a></div>
+                          <div class="linkset__item"><a data-value="12h" href="#" class="linkset__link ">12h</a></div>
+                          <div class="linkset__item"><a data-value="24h" href="#" class="linkset__link active">24h</a></div>
+                          <div class="linkset__item"><a data-value="3d" href="#" class="linkset__link ">3d</a></div>
+                          <div class="linkset__item"><a data-value="7d" href="#" class="linkset__link ">7d</a></div>
+                        </div>
+                       
+                      </div>
+                      <div class="pagesearch__slide onlyTablet">
+                        <li class="mainmenu__search ">
+                          <a href="#" data-toggleclick="headersearch" class="active"><img src="img/Search.svg" alt=""></a>
+                        </li>
+                        <div class="headersearch" data-toggle="headersearch" data-togglewrapper="suggestions">
+                          <form action="">
+                            <div class="headersearch__wrapper">
+                              <div class="headersearch__bg">
+                                <input type="text" placeholder="Search by ticker">
+                                <a href="#" data-toggleclick="headersearch" class="headersearch__close">
+                                  <img src="img/closesearch.svg" alt="">
+                                </a>
+                              </div><!-- /.headersearch__bg -->
+
+                                <button type="submit" class="headersearch__button">
+                                  <img src="img/Search.svg" alt="">
+                                </button>
+                            </div>
+                            
+                        </form>
+                        </div>
+                      </div><!-- /.pagesearch__slide -->
+                    </div><!-- /.flex -->
+
+                     
+
+                  </div><!-- /.flex -->
+
+                 
+                  
+                </div>
+              </div>
+
+              <div class="emptyblock emptyblock_lg">
+                <div class="emptyblock__wrapper flex column items-center">
+                  <div class="emptyblock__image">
+                    <div class="emptyblock__img">
+                      <img src="img/empty_folder.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="emptyblock__text">No mentions found</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+
+      </main>
+      <%= _.template(require('../includes/footer.html').default)(data) %>
