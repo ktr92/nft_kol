@@ -396,3 +396,120 @@ background: #F8FAFD !important;
 .tableblock_refferals .tableblock__body .tableblock__row:nth-child(2n) {
 background: #fff !important;
 }
+.mentionspage_v3 {
+  [ data-showmore] {
+    display: none;
+  }
+  .mentionsmain__button {
+
+    margin-top: get-vw-large(21px);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+}
+
+.tabsnav_v3 .tabsnav__links .tabsbuttons li a.change_leaderboard_tab--icon img {
+  max-width:  get-vw-large(34px);
+  min-width:  get-vw-large(34px);
+  height:  get-vw-large(34px);
+}
+
+.tabsnav_v3 {
+
+  .tabsnav__links .tabsbuttons li a.change_leaderboard_tab--icon {
+    padding-left: get-vw-large(18px) !important;
+  }
+  
+  .tabsnav__links .tabsbuttons li a {
+    padding-top: get-vw-large(6px);
+    padding-bottom: get-vw-large(6px);
+    height: get-vw-large(46px);
+    display: flex;
+    align-items: center;
+    span {
+      padding-left: get-vw-large(2px);
+    }
+
+  }
+
+  .tabsbuttons  {
+    margin-left:  get-vw-large(25px);
+  }
+  .itemsnav__right {
+    display: flex;
+    align-items: center;
+  
+  }
+
+ 
+}
+
+.mentionsaside__icons {
+  display: flex;
+  align-items: center;
+  margin-top: get-vw-large(20px);
+}
+.mentionsaside__icon  {
+  margin-right: get-vw-large(13px);
+  opacity: 0.3;
+}
+.mentionsaside__icon, .mentionsaside__icon img {
+  width: get-vw-large(22px);
+  height: get-vw-large(22px);
+
+}
+.mentionsblock__main {
+  width: 100%;
+}
+.mentionsmain__empty {
+  width: 100%;
+}
+.mentionsempty {
+  margin-bottom:  get-vw-large(21px);
+  display: flex;
+  align-items: center;
+  padding:  get-vw-large(31px)  get-vw-large(20px);
+  border-radius:  get-vw-large(12px);
+background: linear-gradient(180deg, #f3f5f8 0%, #f3f5f8 100%);
+width: 100%;
+}
+
+.mentionsempty__text {
+  font-weight: 400;
+font-size: get-vw-large(16px);
+line-height: 100%;
+color: #212531;
+margin-left: get-vw-large(21px);
+opacity: 0.4;
+}
+
+.mentionsmain__info {
+}
+.mentionsadd {
+  display: flex;
+  align-items: center;
+}
+.mentionsadd__count {
+  background: #30ca4c;
+  font-weight: 700;
+font-size: get-vw-large(16px);
+line-height: 100%;
+color: #fff;
+border-radius: 555px;
+padding: get-vw-large(3px) get-vw-large(8px);
+width: get-vw-large(36px);
+height: get-vw-large(22px);
+}
+.mentionsadd__text {
+  font-weight: 700;
+font-size: get-vw-large(16px);
+line-height: 100%;
+color: #212531;
+margin-left: get-vw-large(8px);
+}
+.mentionsmain__info.onlyMobile {
+  display: none !important
+}
+ 
