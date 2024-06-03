@@ -24,6 +24,8 @@
       border: none;
     }
     .btnicon {
+      max-width: get-vw-large(22px);
+      min-width: get-vw-large(22px);
     }
     .btntext {
       padding-left: get-vw-large(4px);
@@ -35,10 +37,10 @@
   }
   .pageasidev3__aside {
     margin-right: get-vw-large(62px);
-  }
-  .asidev3 {
+
+    max-width: get-vw-large(340px);
+    min-width: get-vw-large(340px);
     width: get-vw-large(340px);
-    max-width: 100%;
   }
   .asidev3__header {
     padding-bottom: get-vw-large(20px);
@@ -219,6 +221,7 @@ margin-bottom: get-vw-large(33px);
 }
 
 
+
 .pageasidev3__main {
  .pagination ul {
   margin: 0;
@@ -251,10 +254,10 @@ line-height: 100%;
 color: #212531;
 }
 
-.tableblock__col_rside, .tableblock__col_rside * {
+/* .tableblock__col_rside, .tableblock__col_rside * {
   text-align: right;
   justify-content: flex-end;
-}
+} */
 
 
 .tablesubstatus {
@@ -289,10 +292,44 @@ color: #212531;
     color: #30ca4c;
   }
 }
+.tablesubstatus_paid {
+  .tablesubstatus__name {
+    color: #0085FF;
+  }
+}
+
+
 
 .tableblock_refferals .tableblock__body .tableblock__col_default.tableblock__col_regdate {
   width: get-vw-large(215px);
   font-size: get-vw-large(16px);
+}
+.tableblock_refferals .tableblock__body  .tableblock__col_default.tableblock__col_regrank {
+  width: get-vw-large(48px);
+  font-size: get-vw-large(16px);
+}
+.tableblock_refferals .tableblock__col_default.tableblock__col_substatus {
+  width: get-vw-large(142px) !important;
+  font-size: get-vw-large(16px);
+  text-align: right;
+}
+.tableblock_refferals .tableblock__body .tableblock__col_default.tableblock__col_payamount {
+  width: get-vw-large(140px);
+ text-align: right;
+}
+.tableblock__col_payamount {
+  text-align: right;
+}
+.tableblock__col_paydate {
+  text-align: center;
+}
+.tableblock_refferals .tableblock__body .tableblock__col_default.tableblock__col_paydate {
+  width: get-vw-large(120px);
+ text-align: center;
+}
+
+.tablesubstatus {
+  justify-content: flex-end;
 }
 
 
@@ -301,7 +338,61 @@ color: #212531;
   font-size: get-vw-large(16px);
 }
 
+.tableblock__regdate {
+  font-size: get-vw-large(16px);
+}
+
 .tableblock_refferals .tableblock__body .tableblock__row .tableblock__col {
   padding-top: get-vw-large(20px);
   padding-bottom: get-vw-large(20px);
+}
+
+.tableprice {
+  font-weight: 700;
+font-size: get-vw-large(16px);
+line-height: 100%;
+color: #30ca4c;
+}
+
+
+.tableblock__col_textcenter {
+  text-align: center !important;
+}
+
+.tableblock_refferals .tableblock__body .tableblock__col_status {
+  width: get-vw-large(100px) !important;
+}
+.tableblock_refferals .tableblock__col_default.tableblock___col_yourcomission {
+  width: get-vw-large(160px) !important;
+}
+.tableblock_refferals  .tableblock__col_default.tableblock__col_totalpayments {
+  width: get-vw-large(150px) !important;
+}
+.tableblock_refferals  .tableblock__col_default.tableblock__col_revshare {
+  width: get-vw-large(200px)  !important;
+}
+.tableblock_refferals  .tableblock__col_default.tableblock__col_totrefs {
+  width: get-vw-large(160px)  !important;
+}
+.tableblock_refferals  .tableblock__col_default.tableblock__col_month {
+  width: get-vw-large(160px)  !important;
+}
+
+
+
+.tableblock__col_textright {
+  text-align: right !important
+}
+
+.tableblock_refferals .tableblock__body .tableblock__row .tableblock__col {
+  min-height: get-vw-large(80px);
+  height: get-vw-large(80px);
+}
+
+.tableblock_refferals .tableblock__body .tableblock__row:nth-child(2n-1) {
+background: #F8FAFD !important;
+}
+
+.tableblock_refferals .tableblock__body .tableblock__row:nth-child(2n) {
+background: #fff !important;
 }

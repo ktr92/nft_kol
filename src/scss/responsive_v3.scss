@@ -22,6 +22,8 @@
   }
   .pageasidev3__aside {
     margin-right: 0;
+    width: 100%;
+    max-width: 100%;
   }
   .asidev3 {
     width: 100%;
@@ -247,13 +249,149 @@ margin-bottom: get-vw-medium(33px);
  .tableblock_refferals .tableblock__header .tableblock__col:first-child, .tableblock_refferals .tableblock__body .tableblock__col:first-child {
   padding-left:  get-vw-medium(18px) !important;
  }
- .tableblock_refferals .tableblock__header .tableblock__row .tableblock__col {
+/*  .tableblock_refferals .tableblock__header .tableblock__row .tableblock__col {
   padding-top: get-vw-medium(27px);
   padding-bottom: get-vw-medium(27px);
+} */
+
+.tableprice {
+font-size: get-vw-medium(14px);
 }
+
+.tableblock__regdate {
+  font-size: get-vw-medium(16px);
+}
+
+.tableblock_refferals .tableblock__body  .tableblock__col_default.tableblock__col_regrank {
+  width: get-vw-medium(48px);
+}
+.tableblock_refferals  .tableblock__body.tableblock__col_default.tableblock__col_substatus {
+  width: get-vw-medium(142px);
+
+}
+.tableblock_refferals .tableblock__body .tableblock__col_default.tableblock__col_payamount {
+  width: get-vw-medium(140px);
+}
+
+.tableblock_refferals .tableblock__body .tableblock__col_default.tableblock__col_paydate {
+  width: get-vw-medium(120px);
+}
+
+.btnicon {
+  max-width: get-vw-medium(22px);
+  min-width: get-vw-medium(22px);
+}
+
+
+.tableblock_refferals .tableblock__body .tableblock__col_default.tableblock__col_regdate {
+  width: get-vw-medium(215px);
+  font-size: get-vw-medium(16px);
+}
+.tableblock_refferals .tableblock__body  .tableblock__col_default.tableblock__col_regrank {
+  width: get-vw-medium(48px);
+  font-size: get-vw-medium(16px);
+}
+.tableblock_refferals .tableblock__col_default.tableblock__col_substatus {
+  width: get-vw-medium(142px) !important;
+  font-size: get-vw-medium(16px);
+  text-align: right;
+}
+.tableblock_refferals .tableblock__body .tableblock__col_default.tableblock__col_payamount {
+  width: get-vw-medium(140px);
+}
+
+.tableblock_refferals .tableblock__body .tableblock__col_default.tableblock__col_paydate {
+  width: get-vw-medium(120px);
+}
+
+.tableblock_refferals .tableblock__body .tableblock__title.tableblock__btitle {
+  font-weight: 700;
+  font-size: get-vw-medium(16px);
+}
+
+.tableblock__regdate {
+  font-size: get-vw-medium(16px);
+}
+
+/* .tableblock_refferals .tableblock__body .tableblock__row .tableblock__col {
+  padding-top: get-vw-medium(20px);
+  padding-bottom: get-vw-medium(20px);
+} */
+
+.tableprice {
+font-size: get-vw-medium(16px);
+
+}
+
+.tableblock_refferals .tableblock__body .tableblock__col_status {
+  width: get-vw-medium(100px) !important;
+}
+.tableblock_refferals .tableblock__col_default.tableblock___col_yourcomission {
+  width: get-vw-medium(100px) !important;
+}
+.tableblock_refferals  .tableblock__col_default.tableblock__col_totalpayments {
+  width: get-vw-medium(100px) !important;
+}
+.tableblock_refferals  .tableblock__col_default.tableblock__col_revshare {
+  width: get-vw-medium(100px)  !important;
+}
+.tableblock_refferals  .tableblock__col_default.tableblock__col_totrefs {
+  width: get-vw-medium(100px)  !important;
+}
+.tableblock_refferals  .tableblock__col_default.tableblock__col_month {
+  width: get-vw-medium(100px)  !important;
+}
+
+
+
+
+.tableblock_refferals .tableblock__body .tableblock__row .tableblock__col {
+  min-height: get-vw-medium(60px);
+  height: get-vw-medium(60px);
+}
+.tableblock_refferals .tableblock__header .tableblock__row .tableblock__col {
+  min-height: get-vw-medium(70px);
+  height: get-vw-medium(70px);
+}
+.tableblock_tab.tableblock_refferals .tableblock__body .tableblock__title {
+  font-size: get-vw-medium(16px);
+}
+
+.btnicon img {
+  max-width: get-vw-medium(22px);
+  min-width: get-vw-medium(22px);
+}
+
+.pageasidev3 .btnicon {
+  max-width: get-vw-medium(22px);
+  min-width: get-vw-medium(22px);
+  width:  get-vw-medium(22px);
+}
+
+.tableblock_refferals .tableblock__header .tableblock__col_default.tableblock__col .tableblock__title {
+  white-space: unset !important;
+  text-align: left !important;
+ }
+.tableblock_refferals .tableblock__header .tableblock__col_default.tableblock__col  {
+  text-align: left !important;
+ }
+.tableblock_refferals .tableblock__header .tableblock__col_default.tableblock__col_status  {
+  text-align: right !important;
+ }
 }
 
 @include small-screen {
+
+  .btnicon img {
+    max-width: get-vw-small(22px);
+    min-width: get-vw-small(22px);
+  }
+
+  .pageasidev3 .btnicon {
+    max-width: get-vw-small(22px);
+    min-width: get-vw-small(22px);
+    width:  get-vw-small(22px);
+  }
   .pageasidev3 {
     flex-wrap: wrap;
     margin-top:0;
@@ -476,10 +614,10 @@ height: get-vw-small(44px);
    padding-top: get-vw-small(13px);
    padding-bottom: get-vw-small(13px);
  }
- .tableblock_refferals .tableblock__header .tableblock__row .tableblock__col {
+/*  .tableblock_refferals .tableblock__header .tableblock__row .tableblock__col {
    padding-top: get-vw-small(22px);
    padding-bottom: get-vw-small(22px);
- }
+ } */
  .tableblock_refferals .tableblock__body .tableblock__title.tableblock__btitle {
   font-weight: 700;
   font-size: get-vw-small(14px);
@@ -499,5 +637,104 @@ height: get-vw-small(44px);
  .tableblock_refferals .tableblock__wrapper {
   border: none;
 }
+.tableprice {
+  font-size: get-vw-small(14px);
+  }
+  
+  .tableblock__regdate {
+    font-size: get-vw-small(16px);
+  }
+  
+  .tableblock_refferals .tableblock__body  .tableblock__col_default.tableblock__col_regrank {
+    width: get-vw-small(48px);
+  }
+  .tableblock_refferals  .tableblock__body.tableblock__col_default.tableblock__col_substatus {
+    width: get-vw-small(142px);
+  
+  }
+  .tableblock_refferals .tableblock__body .tableblock__col_default.tableblock__col_payamount {
+    width: get-vw-small(140px);
+  }
+  
+  .tableblock_refferals .tableblock__body .tableblock__col_default.tableblock__col_paydate {
+    width: get-vw-small(120px);
+  }
+  
+ /*  .btnicon {
+    max-width: get-vw-small(22px);
+    min-width: get-vw-small(22px);
+  } */
+  
+  
+  .tableblock_refferals .tableblock__body .tableblock__col_default.tableblock__col_regdate {
+    width: get-vw-small(215px);
+    font-size: get-vw-small(14px);
+  }
+  .tableblock_refferals .tableblock__body  .tableblock__col_default.tableblock__col_regrank {
+    width: get-vw-small(48px);
+    font-size: get-vw-small(14px);
+  }
+  .tableblock_refferals .tableblock__col_default.tableblock__col_substatus {
+    width: get-vw-small(142px) !important;
+    font-size: get-vw-small(14px);
+    text-align: right;
+  }
+  .tableblock_refferals .tableblock__body .tableblock__col_default.tableblock__col_payamount {
+    width: get-vw-small(140px);
+  }
+  
+  .tableblock_refferals .tableblock__body .tableblock__col_default.tableblock__col_paydate {
+    width: get-vw-small(120px);
+  }
+  
+  .tableblock_refferals .tableblock__body .tableblock__title.tableblock__btitle {
+    font-weight: 700;
+    font-size: get-vw-small(14px);
+  }
+  
+  .tableblock__regdate {
+    font-size: get-vw-small(14px);
+  }
+  
+  .tableblock_refferals .tableblock__body .tableblock__row .tableblock__col {
+    padding-top: get-vw-small(20px);
+    padding-bottom: get-vw-small(20px);
+  }
+  
+  .tableprice {
+  font-size: get-vw-small(14px);
+  
+  }
+  
+  .tableblock_refferals .tableblock__body .tableblock__col_status {
+    width: get-vw-small(120px) !important;
+  }
+  .tableblock_refferals .tableblock__col_default.tableblock___col_yourcomission {
+    width: get-vw-small(120px) !important;
+  }
+  .tableblock_refferals  .tableblock__col_default.tableblock__col_totalpayments {
+    width: get-vw-small(100px) !important;
+  }
+  .tableblock_refferals  .tableblock__col_default.tableblock__col_revshare {
+    width: get-vw-small(180px)  !important;
+  }
+  .tableblock_refferals  .tableblock__col_default.tableblock__col_totrefs {
+    width: get-vw-small(160px)  !important;
+  }
+  .tableblock_refferals  .tableblock__col_default.tableblock__col_month {
+    width: get-vw-small(200px)  !important;
+  }
+  
+  
+  
+  .tableblock_refferals .tableblock__body .tableblock__row .tableblock__col {
+    min-height: get-vw-small(60px);
+    height: get-vw-small(60px);
+  }
+  .tableblock_tab.tableblock_refferals .tableblock__body .tableblock__title {
+    font-size: get-vw-small(14px);
+  }
 
+ 
+   
 }
