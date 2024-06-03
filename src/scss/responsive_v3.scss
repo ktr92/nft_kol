@@ -1090,4 +1090,17 @@ height: get-vw-small(44px);
     }
   }
 
+  .sitefooter__links {
+    justify-content: center;
+    .sitefooter__link {
+      margin-left: get-vw-small(19px);
+      a {
+        padding-bottom: get-vw-small(6px);
+        font-size: get-vw-small(14px);
+        &:after {
+          height: get-vw-small(2px);
+        }
+      }
+    }
+  }
 }

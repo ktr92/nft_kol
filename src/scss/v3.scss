@@ -513,3 +513,29 @@ margin-left: get-vw-large(8px);
   display: none !important
 }
  
+.sitefooter__links {
+  display: flex;
+  align-items: center;
+  .sitefooter__link {
+    margin-left: get-vw-large(19px);
+    &:first-child {
+      margin-left: 0;
+    }
+    a {
+      position: relative;
+      padding-bottom: get-vw-large(6px);
+      font-weight: 700;
+      font-size: get-vw-large(16px);
+      color: #fff;
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        height: get-vw-large(2px);
+        width: 100%;
+        left: 0;
+        background: #30CA4C;
+      }
+    }
+  }
+}
