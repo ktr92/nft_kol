@@ -108,7 +108,7 @@
 
   </div>
 
-  <div class="mobilemenu mobilemenu_v2" data-menu="mobilemenu">
+  <div class="mobilemenu mobilemenu_v2 mobilemenu_v3" data-menu="mobilemenu">
     <div class="mobilemenu__wrapper">
       <div class="mobilemenu__block">
         <div class="mobilemenu__title">Filters</div><!-- /.mobilemenu__title -->
@@ -120,13 +120,16 @@
               <div class="itemsnav_v2">
                 <ul class="flex tabsbuttons ">
                   <li>
-                    <a class="change_leaderboard_tab" data-name="popular_tokens" href="#">New</a>
+                    <a class="change_leaderboard_tab change_leaderboard_tab--icon" data-name="popular_tokens" href="#">
+                      <img src="img/SmartMoney.svg" alt="">
+                      <span>Smart Money</span>
+                    </a>
                   </li>
                   <li>
-                    <a class="change_leaderboard_tab" data-name="popular_presales" href="#">Curated</a>
+                    <a class="change_leaderboard_tab" data-name="popular_presales" href="#">New Mentions</a>
                   </li>
                   <li class="active">
-                    <a class="change_leaderboard_tab " data-name="top_calls" href="#">Everyone</a>
+                    <a class="change_leaderboard_tab " data-name="top_calls" href="#">All Mentions</a>
                   </li>
 
                 </ul>
@@ -154,6 +157,22 @@
       </div>
       <!-- /.mobilemenu__block -->
       <div class="mobilemenu__footer">
+        <div class="subscribelink subscribelink_expires onlyMobile">
+          <div class="subscribelink__wrapper flex items-center">
+            <a href='#' class="subscribelink__main flex items-center">
+              <div class="subscribelink__icon"><img src="img/coin_3305481.svg" alt=""></div><!-- /.subscribelink__icon -->
+              <div class="subscribelink__content">
+                <div class="subscribelink__text">
+                  <div class="subscribelink__price ">Subscription expires soon</div><!-- /.subscribelink__price -->
+                </div><!-- /.subscribelink__text -->
+                <div class="subscribelink__title">Renew</div><!-- /.subscribelink__title -->
+
+              </div><!-- /.subscribelink__content -->
+            </a><!-- /.subscribelink__main -->
+           
+          </div><!-- /.subscribelink__wrapper -->
+        </div><!-- /.subscribelink -->
+
         <div class="mobilemenu__item  mobilemenu__signout mb-0">
           <div class="mobilemenu__content">
             <a href='#' class="mobilemenu__link">
