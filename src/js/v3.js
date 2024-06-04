@@ -10,4 +10,9 @@ $(document).ready(function() {
       navigator.clipboard.writeText($copyValue);
     })
   }
+
+  $('.benefits__title').on('click', function(e) {
+    $(this).siblings('.benefits__text').slideToggle()
+    $(this).toggleClass('active')
+  })
 })

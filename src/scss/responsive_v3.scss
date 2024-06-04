@@ -406,7 +406,7 @@ font-size: get-vw-medium(16px);
     padding-bottom: get-vw-medium(4px);
     height: get-vw-medium(34px);
     span {
-      padding-left: get-vw-large(7px);
+      padding-left: get-vw-medium(7px);
     }
 
   }
@@ -424,7 +424,7 @@ font-size: get-vw-medium(16px);
   margin-top: get-vw-medium(19px);
 }
 .mentionsaside__icon  {
-  margin-right: get-vw-large(13px);
+  margin-right: get-vw-medium(13px);
 
 }
 .mentionsaside__icon, .mentionsaside__icon img {
@@ -509,6 +509,87 @@ margin-left: get-vw-medium(9px);
 }
 .tabsnav.tabsnav_v3.onlyDesktop.onlyTablet {
   display: block !important;
+}
+
+.modal_lg {
+  .modal-content {
+    padding: get-vw-medium(42px) get-vw-medium(40px) get-vw-medium(32px) get-vw-medium(40px);
+  }
+  .modal-dialog {
+    width: get-vw-medium(711px);
+  }
+  .modal-title {
+    text-align: left;
+    font-size: get-vw-medium(26px);
+    margin-bottom: get-vw-medium(27px);
+  }
+  .modal_subtitle {
+    margin-bottom: get-vw-medium(38px);
+    font-size: get-vw-medium(16px);
+ 
+  }
+}
+
+.benefits__item {
+  margin-bottom: get-vw-medium(31px);
+
+}
+.benefits__image {
+  img {
+    max-width: get-vw-medium(70px);
+    min-width: get-vw-medium(70px);
+    width: get-vw-medium(70px);
+  }
+}
+.benefits__content {
+  margin-left: get-vw-medium(23px);
+}
+.benefits__title {
+font-size: get-vw-medium(16px);
+
+  margin-bottom: get-vw-medium(8px);
+}
+.benefits__text {
+font-size: get-vw-medium(12px);
+}
+.modal_footer {
+  .btn_w347 {
+    width:100%;
+  }
+}
+
+
+$modal_footer: get-vw-medium(80px);
+.modal_footer {
+  padding-top: get-vw-medium(28px);
+  border-top: 3px solid #f3f5f8;
+  width: calc(100% + #{$modal_footer});
+  margin-left: calc(-1 * #{$modal_footer} / 2);
+  margin-right: calc(-1 * #{$modal_footer} / 2);
+  padding-left: calc(#{$modal_footer} / 2);
+  padding-right: calc(#{$modal_footer} / 2);
+}
+
+.sitefooter__links {
+
+  .sitefooter__link {
+    margin-left: get-vw-medium(21px);
+   
+    a {
+      padding-bottom: get-vw-medium(6px);
+      font-size: get-vw-medium(14px);
+      color: #fff;
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        height: get-vw-medium(2px);
+        width: 100%;
+        left: 0;
+        background: #30CA4C;
+      }
+    }
+  }
 }
 
 }
@@ -1103,4 +1184,96 @@ height: get-vw-small(44px);
       }
     }
   }
+
+  .modal_lg {
+    .modal-content {
+      padding: get-vw-small(18px);
+    }
+    .modal-dialog {
+      width: inherit
+    }
+    .modal-title {
+      text-align: left;
+      font-size: get-vw-small(18px);
+      margin-bottom: get-vw-small(21px);
+      img {
+        display: none;
+      }
+    }
+    .modal_subtitle {
+      font-weight: 700;
+
+      margin-bottom: get-vw-small(27px);
+      font-size: get-vw-small(14px);
+   
+    }
+  }
+  
+  .benefits__item {
+    margin-bottom: get-vw-small(26px);
+    align-items: flex-start;
+    width: 100%;
+  }
+  .benefits__image {
+    transform: translateY(-20%);
+    img {
+      max-width: get-vw-small(35px);
+      min-width: get-vw-small(35px);
+      width: get-vw-small(35px);
+    }
+  }
+  .benefits__content {
+    margin-left: get-vw-small(17px);
+    width: 100%;
+  }
+  .benefits__title {
+  font-size: get-vw-small(14px);
+  padding-right: get-vw-small(80px);
+    width: 100%;
+    margin-bottom: get-vw-small(8px);
+
+    position: relative;
+
+    &:after {
+      content: url(../img/benefits_button.svg);
+      position: absolute;right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    &.active::after {
+      content: url(../img/benefits_button2.svg);
+      position: absolute;right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+  }
+  .benefits__text {
+  font-size: get-vw-small(12px);
+  }
+  .modal_footer {
+    .btn_w347 {
+      width:100%;
+      font-size: get-vw-small(14px);
+    }
+  }
+  
+  
+  $modal_footer: get-vw-small(36px);
+  .modal_footer {
+    padding-top: get-vw-small(17px);
+    border-top: 3px solid #f3f5f8;
+    width: calc(100% + #{$modal_footer});
+    margin-left: calc(-1 * #{$modal_footer} / 2);
+    margin-right: calc(-1 * #{$modal_footer} / 2);
+    padding-left: calc(#{$modal_footer} / 2);
+    padding-right: calc(#{$modal_footer} / 2);
+  }
+ 
+  .benefits__text {
+    display: none;
+  }
+
+
 }
