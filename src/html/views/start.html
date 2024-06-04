@@ -1,0 +1,42 @@
+<% var data = {
+  title: "MAIN",
+  author: ""
+  }; %>
+<%= _.template(require('../includes/head.html').default)(data) %>
+<%= _.template(require('../includes/header.html').default)(data) %>
+<style>
+  ul {
+    list-style: decimal;
+  }
+  li {
+    margin-bottom: 15px;
+    list-style: decimal;
+  }
+  a {
+    color: #000 !important;
+    display: inline-block;
+  }
+  ul {
+    margin: 30px;
+  } 
+</style>
+<main>
+    <div class="container">
+     <ul>
+      <li><a href="smartwallets_refferals.html" target="_blank" rel="noopener noreferrer" class=''>smartwallets_refferals</a></li>
+      <li><a href="smartwallets_refferals_empty.html" target="_blank" rel="noopener noreferrer" class=''>smartwallets_refferals_empty</a></li>
+      <li><a href="smartwallets.html" target="_blank" rel="noopener noreferrer" class=''>smartwallets</a></li>
+      <li><a href="smartwallets_payments.html" target="_blank" rel="noopener noreferrer" class=''>smartwallets_payments</a></li>
+      <li><a href="smartwallets_payments_empty.html" target="_blank" rel="noopener noreferrer" class=''>smartwallets_payments_empty</a></li>
+      <li><a href="smartwallets_statistics.html" target="_blank" rel="noopener noreferrer" class=''>smartwallets_statistics</a></li>
+      <li><a href="smartwallets_statistics_empty.html" target="_blank" rel="noopener noreferrer" class=''>smartwallets_statistics_empty</a></li>
+      <li><a href="smartwallets_popup.html" target="_blank" rel="noopener noreferrer" class=''>smartwallets_popup</a></li>
+     
+
+
+
+     </ul>
+    </div><!-- /.container -->
+</main>
+
+<%= _.template(require('../includes/footer.html').default)(data) %>

@@ -592,6 +592,68 @@ $modal_footer: get-vw-medium(80px);
   }
 }
 
+
+.contentform_months input.input_months {
+  padding-left:  get-vw-medium(61px);
+  font-size:  get-vw-medium(16px);
+  height: get-vw-medium(58px);
+  
+}
+
+.contentform_months {
+  .noUi-horizontal .noUi-handle {
+    width:  get-vw-medium(16px);
+    height:  get-vw-medium(16px);
+  }
+
+  .inputplaceholder__placeholder {
+    left: get-vw-medium(18px);
+    img {
+      width:  get-vw-medium(24px);
+      height:  get-vw-medium(24px);
+    }
+  }
+}
+
+.formslider__footer {
+  margin-top: get-vw-medium(60px);
+}
+.formslider__price {
+  min-width: get-vw-medium(150px);
+}
+.formslider__pricevalue {
+  margin-bottom: get-vw-medium(8px);
+font-size: get-vw-medium(24px);
+
+}
+.formslider__text {
+font-size: get-vw-medium(14px);
+color: rgba(33, 37, 49, 0.5);
+}
+.formslider__button {
+  margin-left: get-vw-medium(10px);
+}
+
+.btn_full {
+font-size: get-vw-medium(16px);
+  height: get-vw-medium(62px);
+  max-width: get-vw-medium(328px);
+}
+.formslider__button {
+  text-align: right;
+}
+
+.modal_plan {
+  .contentform__label {
+    font-size: get-vw-medium(14px);
+
+  }
+  .modal-title {
+    font-size: get-vw-medium(28px);
+  }
+}
+
+
 }
 
 @include small-screen {
@@ -1274,6 +1336,74 @@ height: get-vw-small(44px);
   .benefits__text {
     display: none;
   }
+  .contentform_months input.input_months {
+    padding-left:  get-vw-small(38px);
+    font-size:  get-vw-small(14px);
+    height: get-vw-small(44px);
+    
+  }
+  
+  .contentform_months {
+    .noUi-horizontal .noUi-handle {
+      width:  get-vw-small(16px);
+      height:  get-vw-small(16px);
+    }
+  
+    .inputplaceholder__placeholder {
+      left: get-vw-small(11px);
 
+      img {
+        width:  get-vw-small(20px);
+        height:  get-vw-small(20px);
+      }
+    }
+  }
+  
+  .formslider__footer {
+    margin-top: get-vw-small(40px);
+  }
+  .formslider__price {
+    min-width: get-vw-small(97px);
+  }
+  .formslider__pricevalue {
+    margin-bottom: get-vw-small(5px);
+  font-size: get-vw-small(20px);
+  
+  }
+  .formslider__text {
+  font-size: get-vw-small(12px);
+  color: rgba(33, 37, 49, 0.5);
+  }
+  .formslider__button {
+    margin-left: get-vw-small(10px);
+  }
+  
+  .btn_full {
+    font-size: get-vw-small(14px);
+    height: get-vw-small(46px);
+    max-width: get-vw-small(328px);
+  }
+  .formslider__button {
+    text-align: right;
+  }
+  
+  .modal_plan {
+    .contentform__label {
+      font-size: get-vw-small(12px);
+  
+    }
+    .modal-title {
+      font-size: get-vw-small(16px);
+    }
+  }
+
+  .modal_plan {
+    button.close {
+        width:  get-vw-small(10px);
+        height:  get-vw-small(10px);
+        top:  get-vw-small(10px);
+        right:  get-vw-small(10px);
+    } 
+  }
 
 }

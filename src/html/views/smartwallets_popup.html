@@ -80,6 +80,7 @@
           <div class="pagemainv3">
             <div class="container">
               <a href="#popup_smartwallets_sub" data-toggle='modal' class="btn btn_main">popup_smartwallets_sub </a>
+              <a href="#popup_smartwallets_plan" data-toggle='modal' class="btn btn_main">Select your subscription plan </a>
     
             </div><!-- /.container -->
     
@@ -143,6 +144,48 @@
                 </div>
               </div>
             </div>
+
+
+            <div class="modal modal_md modal_plan fade" tabindex="-1" role="dialog" id='popup_smartwallets_plan'>
+              <div class="modal-dialog" role="document">
+                <form action="">
+                  <div class="modal-content">
+                    <div class="modal-title">Select your subscription plan</div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">
+                        <img src="img/closebutton.svg" alt="">
+                      </span>
+                    </button>
+                    <div class="modal-body">
+                      <div class="formslider">
+                        <div class="contentform__item_col contentform_months">
+                          <div class="contentform__label">Period</div>
+                          <div class="contentform__input">
+                            <div class="form-control__wrapper months-slider" data-range-slider-type="month" data-range-slider-ready="yes">
+                              <input  class="form-control months-slider__control input input_dark input_months" data-max="12" data-min="1" data-months-format="" name="months1" placeholder="4 months" type="text" inputmode="integer" value="1">
+                              <div class="months-slider__ui"></div>
+                              <div class="inputplaceholder__placeholder ">
+                                <img src="img/months_slider.svg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="formslider__footer">
+                          <div class="formslider__price">
+                            <div class="formslider__pricevalue">$49.00</div><!-- /.formslider__pricevalue -->
+                            <div class="formslider__text">per month</div><!-- /.formslider__text -->
+                          </div><!-- /.formslider__price -->
+                          <div class="formslider__button"><button type='submit' class="btn btn_main btn_full">Checkout</button><!-- /.btn btn_main btn_full --></div><!-- /.formslider__button -->
+                        </div><!-- /.formslider__footer -->
+                      </div><!-- /.formslider -->
+                    </div>
+                    <!-- /.formblock -->
+                  </div>
+              </div>
+              </form>
+            </div>
+
+
           </div>
         </div>
       </div><!-- /.pageasidev3 -->

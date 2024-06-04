@@ -619,4 +619,65 @@ $modal_footer: get-vw-large(120px);
   img {
     transform: translateY(10%);
   }
+  
+}
+
+.contentform_months input.input_months {
+  padding-left:  get-vw-large(61px);
+  font-weight: 700;
+  font-size:  get-vw-large(16px);
+  line-height: 100%;
+  color: #212531;
+
+  
+}
+
+.contentform_months {
+  .contentform__label {
+    line-height: unset;
+  }
+  .inputplaceholder__placeholder {
+    left: get-vw-large(18px);
+    top: 50%;
+    transform: translateY(-50%);
+    img {
+      width:  get-vw-large(30px);
+      height:  get-vw-large(30px);
+    }
+  }
+}
+
+.formslider__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: get-vw-large(60px);
+}
+.formslider__price {
+  min-width: get-vw-large(150px);
+}
+.formslider__pricevalue {
+  margin-bottom: get-vw-large(7px);
+  font-weight: 700;
+font-size: get-vw-large(28px);
+line-height: 100%;
+color: #212531;
+}
+.formslider__text {
+  font-weight: 500;
+font-size: get-vw-large(16px);
+line-height: 100%;
+color: rgba(33, 37, 49, 0.5);
+}
+.formslider__button {
+  margin-left: get-vw-large(10px);
+  width: 100%;
+}
+.btn {
+}
+.btn_main {
+}
+.btn_full {
+  width: 100%;
+  height: get-vw-large(62px);
 }
