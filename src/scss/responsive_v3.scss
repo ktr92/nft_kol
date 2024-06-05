@@ -488,9 +488,7 @@ margin-left: get-vw-medium(9px);
   .itemsnav_v2 {
     width: unset;
   }
-  .onlyTablet {
-    display: none !important
-  }
+
   .pagesearch__slide {
     margin-left: get-vw-medium(10px);
   }
@@ -652,8 +650,26 @@ font-size: get-vw-medium(16px);
     font-size: get-vw-medium(28px);
   }
 }
+.tabsnav.tabsnav_v3.onlyDesktop.onlyTablet {
+  display: flex !important;
+  width: 100%;
+  justify-content: space-between;
+  .tabsnav__links.flex.content-between.items-center {
+    width: 100%;
+  }
+}
 
-
+.tabsnav.tabsnav_v3.onlyDesktop.onlyTablet {
+  display: flex !important;
+}
+.tabsnav.tabsnav_v3 {
+  .linkset__item.onlyTablet {
+    display: block;
+  }
+  .linkset__item.onlyDesktop {
+    display: none;
+  }
+}
 }
 
 @include small-screen {
@@ -1289,7 +1305,7 @@ height: get-vw-small(44px);
     width: 100%;
   }
   .benefits__title {
-  font-size: get-vw-small(14px);
+  font-size: get-vw-small(16px);
   padding-right: get-vw-small(80px);
     width: 100%;
     margin-bottom: get-vw-small(8px);
@@ -1312,7 +1328,7 @@ height: get-vw-small(44px);
 
   }
   .benefits__text {
-  font-size: get-vw-small(12px);
+  font-size: get-vw-small(14px);
   }
   .modal_footer {
     .btn_w347 {

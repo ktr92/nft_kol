@@ -148,9 +148,11 @@
   margin-bottom: get-vw-large(10px);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .asidev3share__icon {
+  display: flex;
+
 }
 .asidev3share__title {
   font-weight: 500;
@@ -582,14 +584,14 @@ margin-left: get-vw-large(8px);
 }
 .benefits__title {
   font-weight: 700;
-font-size: get-vw-large(16px);
+font-size: get-vw-large(18px);
 line-height: 120%;
 color: #212531;
   margin-bottom: get-vw-large(8px);
 }
 .benefits__text {
   font-weight: 400;
-font-size: get-vw-large(14px);
+font-size: get-vw-large(16px);
 line-height: 120%;
 color: rgba(33, 37, 49, 0.5);
 }
@@ -680,4 +682,10 @@ color: rgba(33, 37, 49, 0.5);
 .btn_full {
   width: 100%;
   height: get-vw-large(62px);
+}
+.tabsnav.tabsnav_v3.onlyDesktop.onlyTablet {
+  display: block !important;
+}
+.mentionscard__content {
+  line-height: 140%;
 }
