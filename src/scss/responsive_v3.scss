@@ -477,6 +477,7 @@ margin-left: get-vw-medium(9px);
   max-width:  get-vw-medium(26px);
   min-width:  get-vw-medium(26px);
   height:  get-vw-medium(26px);
+  max-height: unset;
 }
 .maincontent_v3 {
  
@@ -712,6 +713,8 @@ font-size: get-vw-medium(16px);
     max-width:  get-vw-small(22px);
     min-width:  get-vw-small(22px);
     height:  get-vw-small(22px);
+    max-height: unset;
+
   }
 
   .btnicon img {
@@ -1097,6 +1100,8 @@ height: get-vw-small(44px);
       padding-top: get-vw-small(4px);
       padding-bottom: get-vw-small(4px);
       height: get-vw-small(34px);
+      max-height: unset;
+
       span {
         padding-left: get-vw-small(7px);
       }
@@ -1170,6 +1175,8 @@ height: get-vw-small(44px);
     max-width:  get-vw-small(26px);
     min-width:  get-vw-small(26px);
     height:  get-vw-small(26px);
+    max-height: unset;
+
   }
   .maincontent_v3 {
     .onlyDesktop {
@@ -1275,6 +1282,8 @@ height: get-vw-small(44px);
         height: get-vw-small(22px);
         max-width: get-vw-small(22px);
         min-width: get-vw-small(22px);
+        max-height: unset;
+
       }
     }
     .tabsnav__links .tabsbuttons li a {
