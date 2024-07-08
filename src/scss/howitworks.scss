@@ -1,0 +1,144 @@
+/* .landlayout_half {
+  background-image: url(../img/landlayout_bg1.svg), url(../img/landlayout_bg2.svg); 
+  background-size: 50% cover, 50% cover;
+  background-position: left top, right top;
+  background-repeat: no-repeat, no-repeat;
+} */
+
+.landlayout_halfs {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.landlayout__half {
+  width: 50%;
+}
+.landlayout__half_1 {
+  background-image: url(../img/landlayout_bg1.svg);
+  background-size: cover;
+  background-position: top left;
+}
+.landlayout__half_2 {
+  background-image: url(../img/landlayout_bg2.svg);
+  background-size: cover;
+  background-position: top left;
+}
+
+.landwrapper {
+  position: absolute;
+ padding-top: 42px;
+ padding-bottom: 42px;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 8;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.landheader__buttons {
+  .btn_main {
+    padding: 18px 51px;
+  }
+}
+
+.landwrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.landcontent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landcontent__title {
+  margin-bottom: 21px;
+font-weight: 700;
+font-size: 40px;
+color: #fff;
+}
+
+.landcontent__text {
+margin-bottom: 36px;
+font-weight: 400;
+font-size: 22px;
+color: #fff
+}
+
+.textwhite {
+  color: #fff;
+}
+.textblack{
+  color: #fff;
+}
+
+.landcontent__icons {
+  display: flex;
+
+  a {
+    display: block;
+    margin-right: 37px;
+  }
+}
+
+.landcontent__textgreen {
+  font-weight: 700;
+font-size: 32px;
+color: #30ca4c;
+}
+
+.landcontent__right {
+  text-align: right;
+}
+
+.landcontent__item {
+  max-width: 371px;
+}
+
+.sitefooter__copy.textwhite {
+  opacity: 1;
+  font-weight: 700;
+font-size: 16px;
+color: #fff;
+}
+
+
+.landcontent__center {
+}
+.landcontent__item {
+}
+.landcontent__card {
+}
+.landcard {
+  padding: 33px;
+  border-radius: 12px;
+  text-align: center;
+  width: 382px;
+  background: #fff;
+}
+.landcard__icon {
+  margin-bottom: 13px;
+}
+.landcard__title {
+  margin-bottom: 20px;
+  font-weight: 700;
+font-size: 26px;
+color: #212531;
+}
+.landcard__text {
+  font-weight: 400;
+font-size: 14px;
+text-align: center;
+color: #212531;margin-bottom: 30px;
+}
+.landcard__text:last-child {
+  margin-bottom: 0;
+}
+.green {
+  color: #30ca4c;
+}
