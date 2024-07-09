@@ -71,9 +71,34 @@
                 </a>
               </div><!-- /.landheader__logo -->
               <div class="landheader__buttons">
-                <div class="accountblock accountblock_unauthored">
-                  <a href="" class="accountblock__link btn btn_main">Sign In</a>
-                </div>
+                <div class="accountmenu" data-toggleclick="accountmenu">
+                  <div class="accountmenu__wrapper flex items-center">
+                    <div class="accountmenu__icon">
+                      <div class="accountmenu__img">
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5356 4.5732C14.9448 4.5732 16.8719 6.48823 16.8719 8.81884C16.8719 11.1495 14.9448 13.0645 12.5356 13.0645C10.1264 13.0645 8.19934 11.1495 8.19934 8.81884C8.19934 6.48823 10.1264 4.5732 12.5356 4.5732ZM18.5897 8.81884C18.5897 5.51111 15.8649 2.85535 12.5356 2.85535C9.20633 2.85535 6.48149 5.51111 6.48149 8.81884C6.48149 12.1266 9.20633 14.7823 12.5356 14.7823C15.8649 14.7823 18.5897 12.1266 18.5897 8.81884ZM12.5356 18.4015C16.8741 18.4015 20.5993 20.5574 22.4797 23.6595C22.7256 24.0652 23.2537 24.1947 23.6594 23.9488C24.0651 23.7029 24.1946 23.1747 23.9487 22.769C21.7354 19.1176 17.4318 16.6836 12.5356 16.6836C7.63939 16.6836 3.33582 19.1176 1.12252 22.769C0.876625 23.1747 1.00615 23.7029 1.41181 23.9488C1.81748 24.1947 2.34568 24.0652 2.59157 23.6595C4.47191 20.5574 8.19714 18.4015 12.5356 18.4015Z" fill="white" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="accountmenu__name">
+                      <span>Andrew M.</span>
+                      <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.51025 1.57313C6.41258 1.47546 6.25441 1.47546 6.15674 1.57313L4.00008 3.72979L1.84358 1.57313C1.74591 1.47546 1.58775 1.47546 1.49008 1.57313L0.406746 2.65646C0.309079 2.75413 0.309079 2.91229 0.406746 3.00996L3.82341 6.42663C3.87208 6.47563 3.93608 6.49996 4.00008 6.49996C4.06408 6.49996 4.12808 6.47563 4.17691 6.4268L7.59358 3.01013C7.69125 2.91246 7.69125 2.75429 7.59358 2.65663L6.51025 1.57313Z" fill="white"/>
+                        </svg>
+                              
+                                    
+                    </div>
+                  </div>
+                  <div class="accountmenu__menu dropdownblock" data-toggle="accountmenu">
+                    <div class="dropdownblock__wrapper">
+                      <div class="dropdownblock__links">
+                        <ul>
+                          <li class="signout"><a href="">Sign Out</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+              </div>
               </div><!-- /.landheader__buttons -->
             </div><!-- /.landheader__wrapper flex items-center content-between -->
           </div><!-- /.landeheader -->
@@ -136,11 +161,16 @@
                 <div class="landcontent__right">
                   <div class="landcontent__item">
                     <div class="landcontent__title textwhite">Pro Alpha</div><!-- /.landcontent__title textwhite -->
-                    <div class="landcontent__text textwhite">Register to Purchase Pro Subscription</div>
+                    <div class="landcontent__text textwhite">
+                     
+
+                        <a href="#">
+                          <span>Purchase&nbsp;Pro Subscription</span>
+                          <img src="img/Purchase.svg" alt="">
+                        </a>
+                    </div>
                     <!-- /.landcontent__text textwhite -->
-                    <div class="landcontent__textgreen">
-                      $49.00 / month
-                    </div><!-- /.landcontent__icons -->
+                    
                   </div><!-- /.landcontent__item -->
 
                 </div><!-- /.landcontent__right -->
@@ -167,3 +197,7 @@
         </div>
       </div>
     </main>
+
+  </body>
+
+  <script src='js/index.js'></script>
