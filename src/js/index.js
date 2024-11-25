@@ -10,7 +10,13 @@ function initFE() {
     repostSliderInit()
     inputSliderInit()
     radioTooltip()
+    setBodyheight()
+
+
+
 }
+
+
 
 function showSuggestions(e) {
     if (e.value.length > 0) {
