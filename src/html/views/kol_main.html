@@ -58,7 +58,7 @@
                             class="tableblock__col tableblock__param tableblock__param_roi flex items-center   tableblock__col_project">
                             <span class="tableblock__title">Project</span>
                           </div>
-                          
+
                           <div
                             class="tableblock__col tableblock__param tableblock__param_shiller flex items-center   tableblock__col_age">
                             <a href='#' class="tableblock__title">
@@ -111,13 +111,13 @@
                             <a href='#' class="tableblock__title">
                               <span>Watchlist</span>
                               <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <g opacity="0.4">
-                                <path
-                                  d="M2.2339 2.35988C2.3804 2.21337 2.61765 2.21337 2.76415 2.35988L5.99915 5.59488L9.2339 2.35988C9.3804 2.21337 9.61765 2.21337 9.76415 2.35988L11.3891 3.98488C11.5356 4.13138 11.5356 4.36862 11.3891 4.51513L6.26415 9.64013C6.19115 9.71363 6.09515 9.75013 5.99915 9.75013C5.90315 9.75013 5.80715 9.71363 5.7339 9.64038L0.608898 4.51538C0.462399 4.36888 0.462399 4.13163 0.608898 3.98513L2.2339 2.35988Z"
-                                  fill="white" />
-                              </g>
-                            </svg>
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g opacity="0.4">
+                                  <path
+                                    d="M2.2339 2.35988C2.3804 2.21337 2.61765 2.21337 2.76415 2.35988L5.99915 5.59488L9.2339 2.35988C9.3804 2.21337 9.61765 2.21337 9.76415 2.35988L11.3891 3.98488C11.5356 4.13138 11.5356 4.36862 11.3891 4.51513L6.26415 9.64013C6.19115 9.71363 6.09515 9.75013 5.99915 9.75013C5.90315 9.75013 5.80715 9.71363 5.7339 9.64038L0.608898 4.51538C0.462399 4.36888 0.462399 4.13163 0.608898 3.98513L2.2339 2.35988Z"
+                                    fill="white" />
+                                </g>
+                              </svg>
 
                             </a>
                           </div>
@@ -125,7 +125,7 @@
                             class="tableblock__col tableblock__param tableblock__param_total flex items-center    tableblock__col_kolbd">
                             <a href='#' class="tableblock__title">
                               <span>KOL Breakdown</span>
-                             
+
 
                             </a>
                           </div>
@@ -139,7 +139,7 @@
                           </div>
                           <div
                             class="tableblock__col tableblock__param tableblock__param_total flex items-center    tableblock__col_count">
-                            
+
                           </div>
 
 
@@ -151,7 +151,7 @@
                           <div
                             class="tableblock__col tableblock__param tableblock__param_roi flex items-center   tableblock__col_fav">
                             <span class="tableblock__fav">
-                              <a href="#">
+                              <a href="#" data-action='addtofav' class='active'>
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
                                   xmlns="http://www.w3.org/2000/svg">
                                   <g clip-path="url(#clip0_3424_1497)">
@@ -175,15 +175,38 @@
                             <div class="tableblock__kolmain">
                               <div class="kolmain">
                                 <div class="kolmain__img">
-                                  <img src="img/kolmain__img.png" alt="">
+                                  <a href="#">
+                                    <img src="img/kolmain__img.png" alt="">
+                                  </a>
                                 </div>
                                 <div class="kolmain__content">
-                                  <div class="kolmain__title">NATHAN</div>
+                                  <div class="kolmain__title">
+                                    <a href="#">NATHAN</a>
+                                  </div>
                                   <div class="kolmain__buttons">
                                     <div class="kolmain__button">
-                                      <a href="#">
-                                        <img src="img/Capa_1.svg" alt="">
+                                      <a href="#" class='projectlink unactive' data-action="project_link">
+                                        <img class='projectlink_img_off' src="img/Capa_1_off.svg" alt="">
+                                        <img class='projectlink_img_on' src="img/Capa_1.svg" alt="">
                                       </a>
+                                      <div class="linkpopup" data-toggle="project_link">
+                                        <div class="linkpopup__wrapper">
+                                          <div class="linkpopup__marker">
+                                            <img src="img/popup_marker.svg" alt="">
+                                          </div>
+                                          <div class="linkpopup__title">Some text bla bla blah if it needed</div>
+                                          <form action="">
+                                            <div class="linkpopup__form">
+                                              <div class="linkpopup__input">
+                                                <input type="text" placeholder='Enter your link here'>
+                                              </div>
+                                              <div class="linkpopup__button">
+                                                <button type='submit'>Save</button>
+                                              </div>
+                                            </div>
+                                          </form>
+                                        </div>
+                                      </div>
                                     </div>
                                     <div class="kolmain__button">
                                       <a href="#">
@@ -197,29 +220,29 @@
                           </div>
                           <div
                             class="tableblock__col tableblock__param tableblock__param_bullish flex items-center   tableblock__col_age">
-                              <span class='grayvalue'>6d</span>
-                              
+                            <span class='grayvalue'>6d</span>
+
 
                           </div>
                           <div
                             class="tableblock__col tableblock__param tableblock__param_shiller flex items-center   tableblock__col_newkols">
-                              <span class='greenvalue'>+3</span>
-                             
+                            <span class='greenvalue'>+3</span>
 
-                       
+
+
 
                           </div>
                           <div
                             class="tableblock__col tableblock__param tableblock__param_total flex items-center    tableblock__col_time">
-                              <span>+7</span>
-                             
-                        
+                            <span>+7</span>
+
+
                           </div>
                           <div
                             class="tableblock__col tableblock__param tableblock__param_total flex items-center    tableblock__col_watchlist">
-                              <span>4</span>
-                             
-                        
+                            <span>4</span>
+
+
                           </div>
                           <div
                             class="tableblock__col tableblock__param tableblock__param_total flex items-center    tableblock__col_kolbd">
@@ -246,19 +269,107 @@
                           </div>
                           <div
                             class="tableblock__col tableblock__param tableblock__param_total flex items-center    tableblock__col_hashtags">
-                            <span class="tableblock__title">Hashtags</span>
+                            <div class="tablehashtags">
+                              <div class="tablehashtags__selected">
+                                <div class="tablehashtags__list">
+                                  <ul>
+                                    
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="tablehashtags__button">
+                                <a href="#" data-action="hashtagsblock">
+                                  <img src="img/plusbuttoon.svg" alt="">
+                                </a>
+                                <div class="hashtagsblock" data-toggle="hashtagsblock">
+                                  <div class="linkpopup__marker">
+                                    <img src="img/linkpopup__marker.svg" alt="">
+                                  </div><!-- /.linkpopup__marker -->
+                                  <div class="hashtagsblock__wrapper">
+                                    <div class="hashtagsblock__items">
+                                      <div class="hashtagsblock__item">
+                                        <div class="tablehashtags__list">
+                                          <ul>
+                                            <li>
+                                              <!-- либо active либо notactive обязательно одно из двух -->
+                                              <div class="tablehastag buying notactive">
+                                                <div class="tablehastag__title">Buying</div>
+                                                <div class="tablehastag__sep"></div>
+                                                <div class="tablehastag__number">48</div>
+                                              </div>
+                                            </li>
+                                            <li>
+                                              <div class="tablehastag prelaunch notactive">
+                                                <div class="tablehastag__title">Prelaunch</div>
+                                                <div class="tablehastag__sep"></div>
+                                                <div class="tablehastag__number">48</div>
+                                              </div>
+                                            </li>
+                                            <li>
+                                              <div class="tablehastag pass notactive">
+                                                <div class="tablehastag__title">Pass</div>
+                                                <div class="tablehastag__sep"></div>
+                                                <div class="tablehastag__number">48</div>
+                                              </div>
+                                            </li>
+                                            <li>
+                                              <div class="tablehastag trader notactive">
+                                                <div class="tablehastag__title">Trader</div>
+                                                <div class="tablehastag__sep"></div>
+                                                <div class="tablehastag__number">48</div>
+                                              </div>
+                                            </li>
+                                            <li>
+                                              <div class="tablehastag founder notactive">
+                                                <div class="tablehastag__title">Founder</div>
+                                                <div class="tablehastag__sep"></div>
+                                                <div class="tablehastag__number">48</div>
+                                              </div>
+                                            </li>
+                                            <li>
+                                              <div class="tablehastag nft notactive">
+                                                <div class="tablehastag__title">NFT</div>
+                                                <div class="tablehastag__sep"></div>
+                                                <div class="tablehastag__number">48</div>
+                                              </div>
+                                            </li>
+                                            <li>
+                                              <div class="tablehastag scam notactive">
+                                                <div class="tablehastag__title">scam</div>
+                                                <div class="tablehastag__sep"></div>
+                                                <div class="tablehastag__number">48</div>
+                                              </div>
+                                            </li>
+                                            <li>
+                                              <div class="tablehastag interesting notactive disabled">
+                                                <div class="tablehastag__title">Interesting</div>
+                                                <div class="tablehastag__sep"></div>
+                                                <div class="tablehastag__number">48</div>
+                                              </div>
+                                            </li>
+                                           
+        
+                                          </ul>
+                                        </div>
+                                      </div><!-- /.hashtagsblock__item -->
+                                    </div><!-- /.hashtagsblock__items -->
+                                  </div><!-- /.hashtagsblock__wrapper -->
+                                </div><!-- /.hashtagsblock -->
+                              </div>
+                            </div>
                           </div>
                           <div
                             class="tableblock__col tableblock__param tableblock__param_total flex items-center    tableblock__col_notes">
                             <span class="tableblock__title grayvalue">
-                              Write here...
+                              <textarea name="" rows='3' maxlength="260" id="" placeholder='Write here...'></textarea><!-- /# -->
+                             
                             </span>
                           </div>
                           <div
                             class="tableblock__col tableblock__param tableblock__param_total flex items-center    tableblock__col_count">
                             <a href='#' data-toggleclick='notesbtn' class="notescount empty">
                               0
-                            </a> 
+                            </a>
                           </div>
 
 
@@ -268,7 +379,7 @@
                           <div
                             class="tableblock__col tableblock__param tableblock__param_roi flex items-center   tableblock__col_fav">
                             <span class="tableblock__fav">
-                              <a href="#">
+                              <a href="#" data-action='addtofav'>
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
                                   xmlns="http://www.w3.org/2000/svg">
                                   <g clip-path="url(#clip0_3424_1497)">
@@ -292,15 +403,38 @@
                             <div class="tableblock__kolmain">
                               <div class="kolmain">
                                 <div class="kolmain__img">
-                                  <img src="img/kolmain__img.png" alt="">
+                                  <a href="#">
+                                    <img src="img/kolmain__img.png" alt="">
+                                  </a>
                                 </div>
                                 <div class="kolmain__content">
-                                  <div class="kolmain__title">NATHAN</div>
+                                  <div class="kolmain__title">
+                                    <a href="#">NATHAN</a>
+                                  </div>
                                   <div class="kolmain__buttons">
                                     <div class="kolmain__button">
-                                      <a href="#">
-                                        <img src="img/Capa_1.svg" alt="">
+                                      <a href="#" class='projectlink' data-action="project_link">
+                                        <img class='projectlink_img_off' src="img/Capa_1_off.svg" alt="">
+                                        <img class='projectlink_img_on' src="img/Capa_1.svg" alt="">
                                       </a>
+                                      <div class="linkpopup" data-toggle="project_link">
+                                        <div class="linkpopup__wrapper">
+                                          <div class="linkpopup__marker">
+                                            <img src="img/popup_marker.svg" alt="">
+                                          </div>
+                                          <div class="linkpopup__title">Some text bla bla blah if it needed</div>
+                                          <form action="">
+                                            <div class="linkpopup__form">
+                                              <div class="linkpopup__input">
+                                                <input type="text" placeholder='Enter your link here'>
+                                              </div>
+                                              <div class="linkpopup__button">
+                                                <button type='submit'>Save</button>
+                                              </div>
+                                            </div>
+                                          </form>
+                                        </div>
+                                      </div>
                                     </div>
                                     <div class="kolmain__button">
                                       <a href="#">
@@ -314,29 +448,29 @@
                           </div>
                           <div
                             class="tableblock__col tableblock__param tableblock__param_bullish flex items-center   tableblock__col_age">
-                              <span class='grayvalue'>6d</span>
-                              
+                            <span class='grayvalue'>6d</span>
+
 
                           </div>
                           <div
                             class="tableblock__col tableblock__param tableblock__param_shiller flex items-center   tableblock__col_newkols">
-                              <span class='greenvalue'>+3</span>
-                             
+                            <span class='greenvalue'>+3</span>
 
-                       
+
+
 
                           </div>
                           <div
                             class="tableblock__col tableblock__param tableblock__param_total flex items-center    tableblock__col_time">
-                              <span>+7</span>
-                             
-                        
+                            <span>+7</span>
+
+
                           </div>
                           <div
                             class="tableblock__col tableblock__param tableblock__param_total flex items-center    tableblock__col_watchlist">
-                              <span>4</span>
-                             
-                        
+                            <span>4</span>
+
+
                           </div>
                           <div
                             class="tableblock__col tableblock__param tableblock__param_total flex items-center    tableblock__col_kolbd">
@@ -382,7 +516,7 @@
                                         <div class="tablehastag__number">48</div>
                                       </div>
                                     </li>
-                                   
+
                                   </ul>
                                 </div>
                               </div>
@@ -403,7 +537,7 @@
                             class="tableblock__col tableblock__param tableblock__param_total flex items-center    tableblock__col_count">
                             <a href='#' data-toggleclick='notesbtn' class="notescount ">
                               99+
-                            </a> 
+                            </a>
                           </div>
 
 
