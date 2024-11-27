@@ -24,6 +24,7 @@ var __webpack_exports__ = {};
 function initFE() {
     closeByClickOutside('[data-toggle="accountmenu"]', '[data-toggleclick="accountmenu"]')
     closeByClickOutside('[data-toggle="messageblock"]', '[data-toggleclick="messageblock"]')
+    closeByClickOutside('[data-toggle="notesbtn"]', '[data-toggleclick="notesbtn"]')
     closeByClickOutside('.fdropdown__menu', '.fdropdown__button')
     closeByClickOutside('.headersearch', '[data-toggleclick="headersearch"]')
     closeByClickOutside('.suggestions', '.searchinput')
@@ -33,8 +34,6 @@ function initFE() {
     repostSliderInit()
     inputSliderInit()
     radioTooltip()
-    setBodyheight()
-
 
 
 }
@@ -209,6 +208,16 @@ function rangeSliderInit(rangeSliders) {
 }
 
 $(document).ready(function(){
+
+
+    function setBodyheight() {
+        const h = $(window).height() - $('#footer').height() - $('#header').height() - $('.navcontent').height()
+        $('.vhblock').css('min-height', `${h}px`)
+      }
+    
+    
+      setBodyheight();
+    
 
     $('[data-day-format]').inputmask('integer', {
         mask: "( 999){+|1} \\d\\a\\y",

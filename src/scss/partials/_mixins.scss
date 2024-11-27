@@ -26,6 +26,13 @@
 	@return $font / $vw-context * 1vw;
 	@return $font;
   }
+  
+  @function get-vw-xxsmall($font){
+	$vw-viewport-small: 375;
+	$vw-context: $vw-viewport-small * 0.01 * 1px;
+	@return $font / $vw-context * 1vw;
+	@return $font;
+  }
 
   
   $imagecard_scale: 895/500;
