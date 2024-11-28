@@ -4,6 +4,7 @@
 
   .container {
     max-width: 100%;
+   /*  max-width: 1832px); */
     padding: 0 get-vw-large(38px);
   }
 
@@ -521,17 +522,17 @@
 }
 
 .tablehastag__sep {
-  width: 4px;
-  height: 4px;
+  width: get-vw-large(4px);
+  height: get-vw-large(4px);
   border-radius: 50%;
-  margin: 0 4px;
+  margin: 0 get-vw-large(4px);
 }
 .tablehastag {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  padding: 5px 8px;
-  border-radius: 555px;
+  padding: get-vw-large(5px) get-vw-large(8px);
+  border-radius: get-vw-large(555px);
 }
 
 .tablehashtags__list {
@@ -543,8 +544,8 @@
     margin: 0;
     padding: 0;
     li {
-      margin-right: 6px;
-      margin-bottom: 6px;
+      margin-right: get-vw-large(6px);
+      margin-bottom: get-vw-large(6px);
       cursor: pointer;
     }
   }
@@ -552,7 +553,7 @@
 
 .tablehastag {
   font-weight: 700;
-  font-size: 12px;
+  font-size: get-vw-large(12px);
   text-transform: uppercase;
   border: 1px solid #fff !important;
 }
@@ -645,20 +646,29 @@
     background: #ffd059;
   }
 }
-.tablehastag.disabled {
-  opacity: 0.5;
-  border-color: #7b85a3 !important;
-  background-color: #7b85a3 !important;
-  * {
-    color: #7b85a3 !important;
+.disabled {
+  .tablehastag {
+    opacity: 0.5;
+    border-color: #7b85a3 !important;
+    background-color: #7b85a3 !important;
+    * {
+      color: #7b85a3 !important;
+    }
+    .tablehastag__sep {
+      background: #7b85a3;
+    }
   }
+ 
+}
+.tablehastag.active {
   .tablehastag__sep {
-    background: #7b85a3;
+    background: #212531 !important;
   }
 }
-
 .tablehastag.active * {
   color: #212531 !important;
+
+
 }
 
 .tablehastag.notactive {
@@ -691,10 +701,10 @@
 }
 
 .linkpopup {
-  top: 13px;
+  top: get-vw-large(13px);
   left: 0;
   transform: translateY(-100%);
-  width: 466px;
+  width: get-vw-large(466px);
   position: absolute;
   z-index: 99999999;
   display: none;
@@ -705,28 +715,28 @@
 }
 .linkpopup__wrapper {
   background: #303646 !important;
-  border-radius: 8px;
-  padding: 22px 18px 16px 19px;
+  border-radius: get-vw-large(8px);
+  padding: get-vw-large(22px) get-vw-large(18px) get-vw-large(16px) get-vw-large(19px);
 }
 .linkpopup__title {
   font-weight: 700;
-  font-size: 14px;
+  font-size: get-vw-large(14px);
   line-height: 100%;
   color: #fff;
-  margin-bottom: 19px;
+  margin-bottom: get-vw-large(19px);
 }
 .linkpopup__form {
   background: #252a39;
-  border-radius: 6px;
+  border-radius: get-vw-large(6px);
   border: 1px solid #252a39;
   display: flex;
   align-items: center;
 }
 .linkpopup__input {
   input {
-    padding: 15px 16px;
+    padding: get-vw-large(15px) get-vw-large(16px);
     background: #252a39;
-    height: 46px;
+    height: get-vw-large(46px);
     width: 100%;
     border: none;
   }
@@ -737,13 +747,13 @@
 .linkpopup__button {
   button {
     font-weight: 400;
-    font-size: 14px;
+    font-size: get-vw-large(14px);
     line-height: 100%;
     color: #fff;
-    border: 2px solid #252a39;
-    border-radius: 6px;
-    width: 75px;
-    height: 46px;
+    border: get-vw-large(2px) solid #252a39;
+    border-radius: get-vw-large(6px);
+    width: get-vw-large(75px);
+    height: get-vw-large(46px);
     background: #30ca4c !important;
   }
 }
@@ -757,7 +767,7 @@
     background: none;
   }
   input, textarea {
-    padding: 15px 16px;
+    padding: get-vw-large(15px) get-vw-large(16px);
     background: #252a39;
     border: none;
   }
@@ -794,11 +804,12 @@
     width: 100%;
     overflow: hidden;
     font-weight: 400;
-font-size: 14px;
+font-size: get-vw-large(14px);
 line-height: 120%;
 color: #fff;
-height: 50px;
-display: table-cell;
+background: transparent !important;
+height: get-vw-large(50px);
+/* display: table-cell; */
 vertical-align: middle;
   }
   .tableblock__wrapper {
@@ -811,9 +822,9 @@ vertical-align: middle;
 
 .linkpopup__marker {
   line-height: 1;
-  height: 9px;
+  height: get-vw-large(9px);
   position: absolute;
-  bottom: 4px;
+  bottom: get-vw-large(4px);
   transform: translateY(100%);
   left: 0;
 }
@@ -833,16 +844,19 @@ vertical-align: middle;
   display: none;
   position: absolute;
   z-index: 99999;
-  top: 10px;
+  top: get-vw-large(10px);
   left: 0;
-  width: 316px;
-  padding: 19px 18px;
+  width: get-vw-large(316px);
+  padding: get-vw-large(19px) get-vw-large(18px);
   background: #303646;
-  border-radius: 8px;
+  border-radius: get-vw-large(8px);
   transform: translateY(-100%);
 
   &.active {
     display: block;
   }
 }
-
+.kolmain__img {
+  max-width: get-vw-large(50px);
+  min-width: get-vw-large(50px);
+}

@@ -267,6 +267,25 @@ function inputSliderInit() {
         e.preventDefault()
         $(this).toggleClass("active")
       })
+      $("[data-action='getHashtag']").on("click", function (e) {
+        e.preventDefault()
+        e.stopPropagation()
+        if ($(this).hasClass('disabled')) {
+          return
+        }
+  
+        $(this).find('.tablehastag').removeClass("notactive").addClass("active")
+        const html = $(this).wrap('<p/>').parent().html()
+        $(this).unwrap()
+        $(this).hide()
+        if ($(this).attr('data-type') && $(this).attr('data-type') === 'type1') {
+          $('[data-type="type1"]').not($(this)).addClass('disabled')
+        }
+        $(this).closest('.tableblock__col_hashtags').find('.tablehashtags__selected ul').prepend(html)
+
+        $('[data-toggle="hashtagsblock"]').removeClass('active')
+
+      })
       $("[data-action='hashtagsblock']").on("click", function (e) {
         e.preventDefault()
         $(this).toggleClass("active")
