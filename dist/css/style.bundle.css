@@ -16873,6 +16873,25 @@ i.icon-datepicker-plus {
 .perfect-datetimepicker table {
   padding: 0 !important; }
 
+.tableblock__kols .tableblock__row .tableblock__col:first-child {
+  padding-left: 1.97917vw !important; }
+
+.tableblock__kols .tableblock__row .tableblock__col:last-child {
+  padding-right: 1.97917vw !important; }
+
+.tablesection {
+  margin: 2.60417vw 0;
+  position: relative; }
+  .tablesection .tableblock_tab.tableblock__kols .tableblock__header .tableblock__col {
+    padding-top: 1.14583vw;
+    padding-bottom: 1.14583vw; }
+
+.tablesection__title {
+  font-weight: 700;
+  font-size: 1.35417vw;
+  line-height: 100%;
+  color: #fff; }
+
 @media only screen and (max-width: 999px) {
   .tabsnav_mobile {
     display: block; }
@@ -17492,7 +17511,22 @@ i.icon-datepicker-plus {
     padding: 1.19904vw 1.79856vw; }
     .notify svg {
       min-width: 2.8777vw;
-      max-width: 2.8777vw; } }
+      max-width: 2.8777vw; }
+  .tableblock__kols .tableblock__row .tableblock__col:first-child {
+    padding-left: 4.55635vw !important; }
+  .tableblock__kols .tableblock__row .tableblock__col:last-child {
+    padding-right: 4.55635vw !important; }
+  .tablesection {
+    margin: 5.9952vw 0;
+    position: relative; }
+    .tablesection .tableblock_tab.tableblock__kols .tableblock__header .tableblock__col {
+      padding-top: 2.63789vw;
+      padding-bottom: 2.63789vw; }
+  .tablesection__title {
+    font-weight: 700;
+    font-size: 3.11751vw;
+    line-height: 100%;
+    color: #fff; } }
 
 @media only screen and (max-width: 600px) {
   .kolmain__img {
@@ -18240,7 +18274,19 @@ i.icon-datepicker-plus {
     font-size: 3.2vw;
     margin-bottom: 0.8vw; }
   .tabledatetime__time {
-    font-size: 3.2vw; } }
+    font-size: 3.2vw; }
+  .tableblock__kols .tableblock__row .tableblock__col:first-child {
+    padding-left: 2.13333vw !important; }
+  .tableblock__kols .tableblock__row .tableblock__col:last-child {
+    padding-right: 2.13333vw !important; }
+  .tablesection {
+    margin: 8vw 0;
+    position: relative; }
+    .tablesection .tableblock_tab.tableblock__kols .tableblock__header .tableblock__col {
+      padding-top: 5.86667vw;
+      padding-bottom: 5.86667vw; }
+  .tablesection__title {
+    font-size: 5.33333vw; } }
 
 @media (min-width: 1921px) {
   .siteheader__main {

@@ -1015,3 +1015,27 @@ color: #6f7997 !important;
   .perfect-datetimepicker table {
     padding: 0 !important;
   }
+
+  .tableblock__kols .tableblock__row .tableblock__col:first-child {
+    padding-left: get-vw-large(38px) !important;
+  }
+  .tableblock__kols .tableblock__row .tableblock__col:last-child {
+    padding-right:  get-vw-large(38px) !important;
+  }
+
+  .tablesection {
+    margin: get-vw-large(50px) 0;
+    position: relative;
+
+    .tableblock_tab.tableblock__kols .tableblock__header .tableblock__col {
+      padding-top: get-vw-large(22px);
+      padding-bottom: get-vw-large(22px);
+    }
+  }
+
+  .tablesection__title {
+    font-weight: 700;
+font-size: get-vw-large(26px);
+line-height: 100%;
+color: #fff;
+  }
