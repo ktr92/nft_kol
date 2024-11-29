@@ -16756,6 +16756,85 @@ main {
   max-width: 2.60417vw;
   min-width: 2.60417vw; }
 
+.notify svg {
+  width: 1.25vw;
+  height: 1.25vw; }
+  .notify svg:hover path {
+    transition: all 0.3s ease;
+    fill: #fff; }
+
+.notify.chosen svg {
+  display: none; }
+
+.perfect-datetimepicker table {
+  background: #303646 !important; }
+
+.tableblock_tab.tableblock__kols .tableblock__body .tableblock__col.tableblock__col_notify {
+  min-width: 5.15625vw;
+  max-width: 5.15625vw;
+  position: relative; }
+
+i.icon-datepicker-prev:before {
+  content: url('data:image/svg+xml,<svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.03366 0.318191L0.309472 7.23182C-0.103158 7.65607 -0.103157 8.34393 0.309472 8.76818L7.03366 15.6818L8.52792 14.1454L3.60747 9.08637H14L14 6.91363L3.60747 6.91363L8.52792 1.85455L7.03366 0.318191Z" fill="%236F7997"/></svg>'); }
+
+i.icon-datepicker-next:before {
+  content: url('data:image/svg+xml,<svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.96634 0.318191L13.6905 7.23182C14.1032 7.65607 14.1032 8.34393 13.6905 8.76818L6.96634 15.6818L5.47208 14.1454L10.3925 9.08637H3.11728e-07L0 6.91363L10.3925 6.91363L5.47208 1.85455L6.96634 0.318191Z" fill="%236F7997"/></svg>'); }
+
+.perfect-datetimepicker {
+  border: none !important;
+  border-radius: 0 !important; }
+
+.datepickblock {
+  top: 100%; }
+
+.datepickblock .dropdownblock__wrapper {
+  border: none;
+  padding: 0.625vw 0.57292vw; }
+
+.perfect-datetimepicker table td {
+  border: none !important; }
+
+.perfect-datetimepicker table td:hover {
+  background: #30ca4c !important; }
+
+.perfect-datetimepicker table:first-child tbody td {
+  border-radius: 50%;
+  font-weight: 400 !important; }
+
+.perfect-datetimepicker table:first-child tbody td.selected,
+.perfect-datetimepicker table:first-child tbody td:hover {
+  background: #30ca4c !important; }
+
+i.icon-datepicker-minus,
+i.icon-datepicker-plus {
+  display: none !important; }
+
+.perfect-datetimepicker table thead td.name {
+  font-weight: 400;
+  font-size: 0.625vw;
+  line-height: 100%;
+  text-align: center;
+  color: #6f7997 !important;
+  border: none !important; }
+
+.tabledatetime {
+  padding: 10px 15px;
+  border-radius: 9px;
+  background: #303646; }
+
+.tabledatetime__date {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  color: #fff;
+  margin-bottom: 5px; }
+
+.tabledatetime__time {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #6f7997 !important; }
+
 @media only screen and (max-width: 999px) {
   .tabsnav_mobile {
     display: block; }
@@ -18043,7 +18122,22 @@ main {
     font-size: 3.2vw; }
   .tableblock__col_notes textarea {
     max-height: 18.66667vw;
-    overflow: auto; } }
+    overflow: auto; }
+  .tableblock_tab.tableblock__kols .tableblock__body .tableblock__col.tableblock__col_hashtags {
+    max-width: 66.66667vw;
+    min-width: 66.66667vw; }
+  .datepickblock {
+    left: 0; }
+  .dropdownblock.active {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: 0;
+    top: 100%;
+    transform: translateX(-50%);
+    width: fit-content;
+    margin: auto; } }
 
 @media (min-width: 1921px) {
   .siteheader__main {

@@ -12,8 +12,14 @@ function initFE() {
     '[data-toggleclick="notesbtn"]'
   )
   closeByClickOutside(".fdropdown__menu", ".fdropdown__button")
-  closeByClickOutside("[data-toggle='project_link']", "[data-action='project_link']")
-  closeByClickOutside("[data-toggle='hashtagsblock']", "[data-action='hashtagsblock']")
+  closeByClickOutside(
+    "[data-toggle='project_link']",
+    "[data-action='project_link']"
+  )
+  closeByClickOutside(
+    "[data-toggle='hashtagsblock']",
+    "[data-action='hashtagsblock']"
+  )
   closeByClickOutside(".headersearch", '[data-toggleclick="headersearch"]')
   closeByClickOutside(".suggestions", ".searchinput")
   closeByClickOutside(
@@ -239,9 +245,6 @@ function inputSliderInit() {
   }
 
   $(document).ready(function () {
-    
-   
-
     ;(function v4() {
       function setBodyheight() {
         const h =
@@ -254,13 +257,15 @@ function inputSliderInit() {
       setBodyheight()
 
       function showLinkpopup(element) {
-        $('[data-toggle="project_link"]').removeClass('active')
+        $('[data-toggle="project_link"]').removeClass("active")
 
         const markpos = element.position().left
 
- 
-        element.siblings('[data-toggle="project_link"]').addClass('active')
-        element.siblings('[data-toggle="project_link"]').find('.linkpopup__marker').css('left', markpos + 'px')
+        element.siblings('[data-toggle="project_link"]').addClass("active")
+        element
+          .siblings('[data-toggle="project_link"]')
+          .find(".linkpopup__marker")
+          .css("left", markpos + "px")
       }
 
       $("[data-action='addtofav']").on("click", function (e) {
@@ -270,26 +275,33 @@ function inputSliderInit() {
       $("[data-action='getHashtag']").on("click", function (e) {
         e.preventDefault()
         e.stopPropagation()
-        if ($(this).hasClass('disabled')) {
+        if ($(this).hasClass("disabled")) {
           return
         }
-  
-        $(this).find('.tablehastag').removeClass("notactive").addClass("active")
-        const html = $(this).wrap('<p/>').parent().html()
+
+        $(this).find(".tablehastag").removeClass("notactive").addClass("active")
+        const html = $(this).wrap("<p/>").parent().html()
         $(this).unwrap()
         $(this).hide()
-        if ($(this).attr('data-type') && $(this).attr('data-type') === 'type1') {
-          $('[data-type="type1"]').not($(this)).addClass('disabled')
+        if (
+          $(this).attr("data-type") &&
+          $(this).attr("data-type") === "type1"
+        ) {
+          $('[data-type="type1"]').not($(this)).addClass("disabled")
         }
-        $(this).closest('.tableblock__col_hashtags').find('.tablehashtags__selected ul').prepend(html)
+        $(this)
+          .closest(".tableblock__col_hashtags")
+          .find(".tablehashtags__selected ul")
+          .prepend(html)
 
-        $('[data-toggle="hashtagsblock"]').removeClass('active')
-
+        $('[data-toggle="hashtagsblock"]').removeClass("active")
       })
       $("[data-action='hashtagsblock']").on("click", function (e) {
         e.preventDefault()
+        $(".hashtagsblock").removeClass("active")
+
         $(this).toggleClass("active")
-        $(this).siblings('[data-toggle="hashtagsblock"]').toggleClass('active')
+        $(this).siblings('[data-toggle="hashtagsblock"]').toggleClass("active")
       })
 
       $("[data-action='project_link'].unactive").on("click", function (e) {
@@ -298,17 +310,54 @@ function inputSliderInit() {
         showLinkpopup(element)
       })
 
-      $('body').on('mousedown', "[data-action='project_link']", function (e) {
-        document.oncontextmenu = function() {return false;};
-        if( e.button == 2 ) { 
-            const element = $(this)
-            showLinkpopup(element)
-          return false; 
-        } 
-        return true; 
-    });
-     
-    })();
+      $("body").on("mousedown", "[data-action='project_link']", function (e) {
+        document.oncontextmenu = function () {
+          return false
+        }
+        if (e.button == 2) {
+          const element = $(this)
+          showLinkpopup(element)
+          return false
+        }
+        return true
+      })
+
+      $('[data-datepicker="datepick"]').on('click', function(e) {
+        e.preventDefault()
+        $('[data-toggle="datepick"]').removeClass('active')
+        $(this).closest('.tableblock__col_notify').find('[data-toggle="datepick"]').toggleClass('active')
+      })
+
+      $(".datepick").each(function () {
+        const notify = $(this)
+        $(this).datetimepicker({
+          date: new Date(),
+          viewMode: "YMDHMS",
+          firstDayOfWeek: 1,
+          onOk: function () {
+            notify.closest('[data-toggle]').removeClass('active')
+          },
+          onClear: function(){
+            notify.closest('.tableblock__col ').find('.notify').removeClass('chosen')
+            notify.closest('[data-toggle]').removeClass('active')
+          },
+          onDateChange: function () {
+            notify.closest('.tableblock__col ').find('.notify').addClass('chosen')
+            notify
+              .closest(".tableblock__col")
+              .find(".tabledatetime__date")
+              .text(this.getText("YYYY-MM-DD"))
+            /*   $('#date-text-ymd2').text(this.getText('YYYY-MM-DD')); */
+            notify
+              .closest(".tableblock__col")
+              .find(".tabledatetime__time")
+              .text(this.getValue())
+
+          },
+        })
+       
+      })
+    })()
 
     $("[data-day-format]").inputmask("integer", {
       mask: "( 999){+|1} \\d\\a\\y",

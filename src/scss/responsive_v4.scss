@@ -1970,5 +1970,25 @@ background: transparent !important;
     overflow: auto;
   }
 }
+.tableblock_tab.tableblock__kols .tableblock__body .tableblock__col.tableblock__col_hashtags {
+  max-width:  get-vw-xxsmall(250px);
+        min-width:  get-vw-xxsmall(250px);
+}
+.datepickblock  {
+  left: 0;
+}
+
+.dropdownblock.active {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: 0;
+  top: 100%;
+  transform: translateX(-50%);
+  width: fit-content;
+  margin: auto;
+ // box-shadow: -1px -3px 28px -4px #fff;
+}
 }
 
