@@ -874,9 +874,24 @@ vertical-align: middle;
 
   }
 }
+
+.notify {
+  display: block;
+  padding: get-vw-large(10px) get-vw-large(15px);
+  .tabledatetime {
+    display: none;
+  }
+  svg {
+    min-width: get-vw-large(24px);
+    max-width: get-vw-large(24px);
+  }
+}
 .notify.chosen {
   svg {
     display: none;
+  }
+  .tabledatetime {
+    display: block;
   }
 }
 
@@ -912,7 +927,10 @@ vertical-align: middle;
   }
   .perfect-datetimepicker table td {
     border: none !important;
-
+    &.oday {
+      opacity: 0.3;
+      
+    }
   }
   .perfect-datetimepicker table td:hover {
     background: #30ca4c !important;
@@ -942,22 +960,58 @@ vertical-align: middle;
   }
 
   .tabledatetime {
-    padding: 10px 15px;
-    border-radius: 9px;
-    background: #303646;
+    
+    border-radius: get-vw-large(9px);
+   
+
+    &:hover {
+      background: #303646;
+    }
   }
 
   .tabledatetime__date {
     font-weight: 700;
-font-size: 14px;
+font-size: get-vw-large(14px);
 line-height: 100%;
 color: #fff;
-margin-bottom: 5px;
+margin-bottom: get-vw-large(5px);
   }
 
   .tabledatetime__time {
     font-weight: 400;
-font-size: 14px;
+font-size: get-vw-large(14px);
 line-height: 100%;
 color: #6f7997 !important;
+  }
+
+  .dategreen {
+    .tabledatetime__date {
+      color: #86f89b !important;
+    }
+    .tabledatetime__time {
+      color: #86f89b !important;
+      opacity: 0.6;
+    }
+  }
+  .dateyellow {
+    .tabledatetime__date {
+      color: #ffd059 !important;
+    }
+    .tabledatetime__time {
+      color: #ffd059 !important;
+      opacity: 0.6;
+    }
+  }
+  .datered{
+    .tabledatetime__date {
+      color: #ff6464 !important;
+    }
+    .tabledatetime__time {
+      color: #ff6464 !important;
+      opacity: 0.6;
+    }
+  }
+
+  .perfect-datetimepicker table {
+    padding: 0 !important;
   }

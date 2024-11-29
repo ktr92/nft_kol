@@ -16763,8 +16763,20 @@ main {
     transition: all 0.3s ease;
     fill: #fff; }
 
+.notify {
+  display: block;
+  padding: 0.52083vw 0.78125vw; }
+  .notify .tabledatetime {
+    display: none; }
+  .notify svg {
+    min-width: 1.25vw;
+    max-width: 1.25vw; }
+
 .notify.chosen svg {
   display: none; }
+
+.notify.chosen .tabledatetime {
+  display: block; }
 
 .perfect-datetimepicker table {
   background: #303646 !important; }
@@ -16793,6 +16805,8 @@ i.icon-datepicker-next:before {
 
 .perfect-datetimepicker table td {
   border: none !important; }
+  .perfect-datetimepicker table td.oday {
+    opacity: 0.3; }
 
 .perfect-datetimepicker table td:hover {
   background: #30ca4c !important; }
@@ -16818,22 +16832,46 @@ i.icon-datepicker-plus {
   border: none !important; }
 
 .tabledatetime {
-  padding: 10px 15px;
-  border-radius: 9px;
-  background: #303646; }
+  border-radius: 0.46875vw; }
+  .tabledatetime:hover {
+    background: #303646; }
 
 .tabledatetime__date {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 0.72917vw;
   line-height: 100%;
   color: #fff;
-  margin-bottom: 5px; }
+  margin-bottom: 0.26042vw; }
 
 .tabledatetime__time {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.72917vw;
   line-height: 100%;
   color: #6f7997 !important; }
+
+.dategreen .tabledatetime__date {
+  color: #86f89b !important; }
+
+.dategreen .tabledatetime__time {
+  color: #86f89b !important;
+  opacity: 0.6; }
+
+.dateyellow .tabledatetime__date {
+  color: #ffd059 !important; }
+
+.dateyellow .tabledatetime__time {
+  color: #ffd059 !important;
+  opacity: 0.6; }
+
+.datered .tabledatetime__date {
+  color: #ff6464 !important; }
+
+.datered .tabledatetime__time {
+  color: #ff6464 !important;
+  opacity: 0.6; }
+
+.perfect-datetimepicker table {
+  padding: 0 !important; }
 
 @media only screen and (max-width: 999px) {
   .tabsnav_mobile {
@@ -17356,23 +17394,28 @@ i.icon-datepicker-plus {
     border: none; }
   .darkmode .tableblock__row {
     background: none; }
-  .darkmode input, .darkmode textarea {
+  .darkmode input,
+  .darkmode textarea {
     padding: 0.95923vw 1.91847vw;
     background: #252a39;
     border: none; }
-  .darkmode input::-webkit-input-placeholder, .darkmode textarea::-webkit-input-placeholder {
+  .darkmode input::-webkit-input-placeholder,
+  .darkmode textarea::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     color: #7b85a3 !important;
     font-size: 1.43885vw; }
-  .darkmode input::-moz-placeholder, .darkmode textarea::-moz-placeholder {
+  .darkmode input::-moz-placeholder,
+  .darkmode textarea::-moz-placeholder {
     /* Firefox 19+ */
     color: #7b85a3 !important;
     font-size: 1.43885vw; }
-  .darkmode input:-ms-input-placeholder, .darkmode textarea:-ms-input-placeholder {
+  .darkmode input:-ms-input-placeholder,
+  .darkmode textarea:-ms-input-placeholder {
     /* IE 10+ */
     color: #7b85a3 !important;
     font-size: 1.43885vw; }
-  .darkmode input:-moz-placeholder, .darkmode textarea:-moz-placeholder {
+  .darkmode input:-moz-placeholder,
+  .darkmode textarea:-moz-placeholder {
     /* Firefox 18- */
     color: #7b85a3 !important;
     font-size: 1.43885vw; }
@@ -17424,7 +17467,32 @@ i.icon-datepicker-plus {
       display: block; }
   .kolmain__img {
     max-width: 5.9952vw;
-    min-width: 5.9952vw; } }
+    min-width: 5.9952vw; }
+  .tableblock_tab.tableblock__kols
+.tableblock__body
+.tableblock__col.tableblock__col_notify {
+    min-width: 11.8705vw;
+    max-width: 11.8705vw;
+    position: relative; }
+  .datepickblock .dropdownblock__wrapper {
+    border: none;
+    padding: 1.43885vw 1.31894vw; }
+  .perfect-datetimepicker table thead td.name {
+    font-size: 1.43885vw; }
+  .tabledatetime {
+    border-radius: 1.07914vw; }
+    .tabledatetime:hover {
+      background: #303646; }
+  .tabledatetime__date {
+    font-size: 1.67866vw;
+    margin-bottom: 0.59952vw; }
+  .tabledatetime__time {
+    font-size: 1.67866vw; }
+  .notify {
+    padding: 1.19904vw 1.79856vw; }
+    .notify svg {
+      min-width: 2.8777vw;
+      max-width: 2.8777vw; } }
 
 @media only screen and (max-width: 600px) {
   .kolmain__img {
@@ -17721,7 +17789,8 @@ i.icon-datepicker-plus {
     justify-content: space-between; }
   .sitefooter_sm .sitefooter__items > * {
     width: 50%; }
-  .sitefooter_sm .sitefooter__text, .sitefooter_sm a {
+  .sitefooter_sm .sitefooter__text,
+  .sitefooter_sm a {
     font-size: 2.66667vw; }
   .tabsnav_v2 .linkset__item a.linkset__link {
     font-size: 3.2vw; }
@@ -17741,7 +17810,8 @@ i.icon-datepicker-plus {
     padding: 0 2.13333vw; }
   .sitefooter_sm .sitefooter__info {
     justify-content: flex-end; }
-  .sitefooter_sm .sitefooter__text, .sitefooter_sm a {
+  .sitefooter_sm .sitefooter__text,
+  .sitefooter_sm a {
     width: 100%; }
   .darkmode .dropdownblock__links ul li a {
     color: #fff !important; }
@@ -18047,23 +18117,28 @@ i.icon-datepicker-plus {
     border: none; }
   .darkmode .tableblock__row {
     background: none; }
-  .darkmode input, .darkmode textarea {
+  .darkmode input,
+  .darkmode textarea {
     padding: 4vw 4.26667vw;
     background: #252a39;
     border: none; }
-  .darkmode input::-webkit-input-placeholder, .darkmode textarea::-webkit-input-placeholder {
+  .darkmode input::-webkit-input-placeholder,
+  .darkmode textarea::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     color: #7b85a3 !important;
     font-size: 3.2vw; }
-  .darkmode input::-moz-placeholder, .darkmode textarea::-moz-placeholder {
+  .darkmode input::-moz-placeholder,
+  .darkmode textarea::-moz-placeholder {
     /* Firefox 19+ */
     color: #7b85a3 !important;
     font-size: 3.2vw; }
-  .darkmode input:-ms-input-placeholder, .darkmode textarea:-ms-input-placeholder {
+  .darkmode input:-ms-input-placeholder,
+  .darkmode textarea:-ms-input-placeholder {
     /* IE 10+ */
     color: #7b85a3 !important;
     font-size: 3.2vw; }
-  .darkmode input:-moz-placeholder, .darkmode textarea:-moz-placeholder {
+  .darkmode input:-moz-placeholder,
+  .darkmode textarea:-moz-placeholder {
     /* Firefox 18- */
     color: #7b85a3 !important;
     font-size: 3.2vw; }
@@ -18123,7 +18198,9 @@ i.icon-datepicker-plus {
   .tableblock__col_notes textarea {
     max-height: 18.66667vw;
     overflow: auto; }
-  .tableblock_tab.tableblock__kols .tableblock__body .tableblock__col.tableblock__col_hashtags {
+  .tableblock_tab.tableblock__kols
+.tableblock__body
+.tableblock__col.tableblock__col_hashtags {
     max-width: 66.66667vw;
     min-width: 66.66667vw; }
   .datepickblock {
@@ -18137,7 +18214,33 @@ i.icon-datepicker-plus {
     top: 100%;
     transform: translateX(-50%);
     width: fit-content;
-    margin: auto; } }
+    margin: auto; }
+  .tableblock_tab.tableblock__kols
+.tableblock__body
+.tableblock__col.tableblock__col_notify {
+    min-width: 26.4vw;
+    max-width: 26.4vw;
+    position: relative; }
+  .notify {
+    padding: 2.66667vw 4vw; }
+    .notify svg {
+      min-width: 6.4vw;
+      max-width: 6.4vw;
+      height: 6.4vw; }
+  .datepickblock .dropdownblock__wrapper {
+    border: none;
+    padding: 3.2vw 2.93333vw; }
+  .perfect-datetimepicker table thead td.name {
+    font-size: 3.2vw; }
+  .tabledatetime {
+    border-radius: 2.4vw; }
+    .tabledatetime:hover {
+      background: #303646; }
+  .tabledatetime__date {
+    font-size: 3.2vw;
+    margin-bottom: 0.8vw; }
+  .tabledatetime__time {
+    font-size: 3.2vw; } }
 
 @media (min-width: 1921px) {
   .siteheader__main {

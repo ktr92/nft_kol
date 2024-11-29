@@ -8,6 +8,10 @@ function initFE() {
     '[data-toggleclick="messageblock"]'
   )
   closeByClickOutside(
+    '[data-toggle="datepick"]',
+    '[data-datepicker="datepick"]'
+  )
+  closeByClickOutside(
     '[data-toggle="notesbtn"]',
     '[data-toggleclick="notesbtn"]'
   )
@@ -322,6 +326,14 @@ function inputSliderInit() {
         return true
       })
 
+      function join(date, options, separator) {
+        function format(option) {
+           let formatter = new Intl.DateTimeFormat('en', option);
+           return formatter.format(date);
+        }
+        return options.map(format).join(separator);
+     }
+
       $('[data-datepicker="datepick"]').on('click', function(e) {
         e.preventDefault()
         $('[data-toggle="datepick"]').removeClass('active')
@@ -335,24 +347,30 @@ function inputSliderInit() {
           viewMode: "YMDHMS",
           firstDayOfWeek: 1,
           onOk: function () {
-            notify.closest('[data-toggle]').removeClass('active')
+            notify.closest('.tableblock__col_notify').find('[data-toggle="datepick"]').removeClass('active')
           },
           onClear: function(){
-            notify.closest('.tableblock__col ').find('.notify').removeClass('chosen')
-            notify.closest('[data-toggle]').removeClass('active')
+            notify.closest('.tableblock__col_notify').find('[data-datepicker="datepick"]').removeClass('chosen')
+            notify.closest('.tableblock__col_notify').find('[data-toggle="datepick"]').removeClass('active')
           },
           onDateChange: function () {
             notify.closest('.tableblock__col ').find('.notify').addClass('chosen')
-            notify
-              .closest(".tableblock__col")
-              .find(".tabledatetime__date")
-              .text(this.getText("YYYY-MM-DD"))
-            /*   $('#date-text-ymd2').text(this.getText('YYYY-MM-DD')); */
-            notify
-              .closest(".tableblock__col")
-              .find(".tabledatetime__time")
-              .text(this.getValue())
-
+            let options = [{day: 'numeric'}, {month: 'short'}];
+            if ( this.getValue()) {
+              const date = join(this.getValue(), options, ' ');
+              const time = ("0" + this.getValue().getHours()).slice(-2) + ":" + ("0" + this.getValue().getMinutes()).slice(-2);
+              notify
+                .closest(".tableblock__col")
+                .find(".tabledatetime__date")
+                .text(date)
+              /*   $('#date-text-ymd2').text(this.getText('YYYY-MM-DD')); */
+              notify
+                .closest(".tableblock__col")
+                .find(".tabledatetime__time")
+                .text(time)
+  
+            }
+          
           },
         })
        
