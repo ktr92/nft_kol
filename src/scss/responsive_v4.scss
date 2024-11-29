@@ -904,11 +904,8 @@
 
   .tabledatetime {
   
-    border-radius: get-vw-medium(9px);
+ 
 
-    &:hover {
-      background: #303646;
-    }
   }
 
   .tabledatetime__date {
@@ -920,6 +917,7 @@
     font-size: get-vw-medium(14px);
   }
   .notify {
+    border-radius: get-vw-medium(9px);
     padding: get-vw-medium(10px) get-vw-medium(15px);
     svg {
       min-width: get-vw-medium(24px);
@@ -2055,12 +2053,15 @@ color: #fff;
   max-width: get-vw-xxsmall(99px);
   position: relative;
 }.notify {
+  border-radius: get-vw-xxsmall(9px);
+
   padding: get-vw-xxsmall(10px) get-vw-xxsmall(15px);
   svg {
     min-width: get-vw-xxsmall(24px);
     max-width: get-vw-xxsmall(24px);
     height: get-vw-xxsmall(24px);
   }
+
 }
 
 .datepickblock .dropdownblock__wrapper {
@@ -2074,11 +2075,7 @@ color: #fff;
 
 .tabledatetime {
 
-  border-radius: get-vw-xxsmall(9px);
 
-  &:hover {
-    background: #303646;
-  }
 }
 
 .tabledatetime__date {

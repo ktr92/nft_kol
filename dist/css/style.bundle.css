@@ -16772,11 +16772,14 @@ main {
     min-width: 1.25vw;
     max-width: 1.25vw; }
 
-.notify.chosen svg {
-  display: none; }
-
-.notify.chosen .tabledatetime {
-  display: block; }
+.notify.chosen {
+  border-radius: 0.46875vw; }
+  .notify.chosen svg {
+    display: none; }
+  .notify.chosen .tabledatetime {
+    display: block; }
+  .notify.chosen:hover {
+    background: #303646; }
 
 .perfect-datetimepicker table {
   background: #303646 !important; }
@@ -16812,7 +16815,6 @@ i.icon-datepicker-next:before {
   background: #30ca4c !important; }
 
 .perfect-datetimepicker table:first-child tbody td {
-  border-radius: 50%;
   font-weight: 400 !important; }
 
 .perfect-datetimepicker table:first-child tbody td.selected,
@@ -16830,11 +16832,6 @@ i.icon-datepicker-plus {
   text-align: center;
   color: #6f7997 !important;
   border: none !important; }
-
-.tabledatetime {
-  border-radius: 0.46875vw; }
-  .tabledatetime:hover {
-    background: #303646; }
 
 .tabledatetime__date {
   font-weight: 700;
@@ -16891,6 +16888,16 @@ i.icon-datepicker-plus {
   font-size: 1.35417vw;
   line-height: 100%;
   color: #fff; }
+
+.perfect-datetimepicker table.tt input {
+  border: none !important; }
+
+.perfect-datetimepicker .buttonpane {
+  padding-top: 5px !important; }
+
+.perfect-datetimepicker table td,
+.perfect-datetimepicker table td.hover {
+  padding: 0 !important; }
 
 @media only screen and (max-width: 999px) {
   .tabsnav_mobile {
@@ -17498,16 +17505,13 @@ i.icon-datepicker-plus {
     padding: 1.43885vw 1.31894vw; }
   .perfect-datetimepicker table thead td.name {
     font-size: 1.43885vw; }
-  .tabledatetime {
-    border-radius: 1.07914vw; }
-    .tabledatetime:hover {
-      background: #303646; }
   .tabledatetime__date {
     font-size: 1.67866vw;
     margin-bottom: 0.59952vw; }
   .tabledatetime__time {
     font-size: 1.67866vw; }
   .notify {
+    border-radius: 1.07914vw;
     padding: 1.19904vw 1.79856vw; }
     .notify svg {
       min-width: 2.8777vw;
@@ -18256,6 +18260,7 @@ i.icon-datepicker-plus {
     max-width: 26.4vw;
     position: relative; }
   .notify {
+    border-radius: 2.4vw;
     padding: 2.66667vw 4vw; }
     .notify svg {
       min-width: 6.4vw;
@@ -18266,10 +18271,6 @@ i.icon-datepicker-plus {
     padding: 3.2vw 2.93333vw; }
   .perfect-datetimepicker table thead td.name {
     font-size: 3.2vw; }
-  .tabledatetime {
-    border-radius: 2.4vw; }
-    .tabledatetime:hover {
-      background: #303646; }
   .tabledatetime__date {
     font-size: 3.2vw;
     margin-bottom: 0.8vw; }
