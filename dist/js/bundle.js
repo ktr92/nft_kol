@@ -303,6 +303,9 @@ function inputSliderInit() {
 
       })
     
+ /*      $(".tablehashtags]").on("click", function (e) {
+        
+      }) */
       $("[data-action='getHashtag']").on("click", function (e) {
         e.preventDefault()
         e.stopPropagation()
@@ -314,8 +317,8 @@ function inputSliderInit() {
           $(this).removeClass("active")
 
           return
-        }
- */
+        } */
+
 
         $(this).find(".tablehastag").removeClass("notactive").addClass("active")
         const html = $(this).wrap("<p/>").parent().html()

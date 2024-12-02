@@ -1,4 +1,11 @@
 @include medium-screen {
+  .darkmode .tablepagination .pagination li a {
+    height: 44px;
+    line-height: 44px;
+  }
+  .darkmode .tablepagination {
+    padding-bottom: 34px;
+  }
   .tabsnav_mobile {
     display: block;
   }
@@ -2182,7 +2189,6 @@ font-size: get-vw-xxsmall(20px);
   min-width: 100%;
   max-width: 100%;
 }
-
 
 
 }
