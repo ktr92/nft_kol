@@ -16919,7 +16919,7 @@ i.icon-datepicker-plus {
   margin-top: -250px; */
   overflow: auto !important;
   /*   overflow-x: scroll !important; */
-  height: calc(100vh + 12px); }
+  height: calc(100vh - 238px); }
 
 .tableblock_tab.tableblock__kols .tableblock__body .tableblock__col {
   padding-top: 14px;
