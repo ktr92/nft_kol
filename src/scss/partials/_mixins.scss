@@ -5,32 +5,32 @@
 	@return $font;
   }
 @function get-vw-large($font){
-	$vw-viewport-large: 1920;
+/* 	$vw-viewport-large: 1920;
 	$vw-context: $vw-viewport-large * 0.01 * 1px;
-	@return $font / $vw-context * 1vw;
+	@return $font / $vw-context * 1vw; */
 	@return $font;
   }
   
   
   @function get-vw-medium($font){
-	$vw-viewport-medium: 834;
+	/* $vw-viewport-medium: 834;
 	$vw-context: $vw-viewport-medium * 0.01 * 1px;
-	@return $font / $vw-context * 1vw;
+	@return $font / $vw-context * 1vw; */
 	@return $font;
   }
   
   
   @function get-vw-small($font){
-	$vw-viewport-small: 320;
+	/* $vw-viewport-small: 320;
 	$vw-context: $vw-viewport-small * 0.01 * 1px;
-	@return $font / $vw-context * 1vw;
+	@return $font / $vw-context * 1vw; */
 	@return $font;
   }
   
   @function get-vw-xxsmall($font){
-	$vw-viewport-small: 375;
+	/* $vw-viewport-small: 375;
 	$vw-context: $vw-viewport-small * 0.01 * 1px;
-	@return $font / $vw-context * 1vw;
+	@return $font / $vw-context * 1vw; */
 	@return $font;
   }
 
@@ -114,14 +114,19 @@
 }
 
 @mixin medium-screen() {
-  @media only screen and (max-width: 999px) {
+  @media only screen and (max-width: 1090px) {
     @content;
   }
 }
 
 
 @mixin small-screen() {
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 811px) {
+    @content;
+  }
+}
+@mixin xxsmall-screen() {
+  @media only screen and (max-width: 480px) {
     @content;
   }
 }
