@@ -17042,6 +17042,8 @@ i.icon-datepicker-plus {
     display: none; }
   .sm_mode {
     padding-bottom: 46px; }
+    .sm_mode .mobilemenu_v2 {
+      display: none !important; }
     .sm_mode .container {
       max-width: 100%;
       padding: 0 36px; }

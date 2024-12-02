@@ -1,4 +1,5 @@
 @include medium-screen {
+  
   .darkmode .tablepagination .pagination li a {
     height: 44px;
     line-height: 44px;
@@ -14,6 +15,10 @@
   }
   .sm_mode {
     padding-bottom: get-vw-medium(46px);
+
+    .mobilemenu_v2 {
+      display: none !important
+    }
 
     .container {
       max-width: 100%;
