@@ -16595,6 +16595,9 @@ main {
 .tablehastag.active .tablehastag__sep {
   background: #212531 !important; }
 
+.tablehastag.active:hover .tablehastag__sep {
+  background: inherit !important; }
+
 .tablehastag.active * {
   color: #212531 !important; }
 
