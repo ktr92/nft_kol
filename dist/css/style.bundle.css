@@ -25586,5 +25586,24 @@ p {
 .landingwrapper .sitefooter__copy {
   margin: 30px auto 0 auto; }
 
+.landingwrapper .accountblock__link:hover {
+  background: #fff;
+  color: #212531; }
+
+.landingslider__link a:hover {
+  opacity: 0.8; }
+
+.cost__button a:hover {
+  opacity: 0.8; }
+
+.landingwrapper .landingcontent .landcontent__icons a:hover {
+  opacity: 0.8; }
+
+.landingwrapper .landingcontent .textwhite a:hover {
+  text-decoration: underline; }
+
+.sitefooter__links .sitefooter__link a:hover:after {
+  background: transparent; }
+
 
 /*# sourceMappingURL=style.bundle.css.map*/
