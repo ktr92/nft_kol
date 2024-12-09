@@ -20471,12 +20471,12 @@ i.icon-datepicker-plus {
 @media (min-width: 2133px) {
   .tableblock_tab.tableblock__kols .tableblock__col_hashtags {
     max-width: 682px;
-    min-width: 682px; }
+    /* min-width: 682px; */ }
   .tableblock_tab.tableblock__kols .tableblock__col_kolbd {
-    max-width: 582px; }
+    max-width: 482px; }
   .tableblock_tab.tableblock__kols .tableblock__col_notes {
-    max-width: 800px;
-    min-width: 500px; }
+    max-width: unset;
+    min-width: 450px; }
   .hashtagsblock .tablehashtags__list ul {
     flex-wrap: nowrap; }
   .tablehashtags__button .tablehashtags__list ul {
