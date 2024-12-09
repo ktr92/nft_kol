@@ -529,7 +529,7 @@
 .tablehastag {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+/*   flex-wrap: wrap; */
   padding: get-vw-large(4px) get-vw-large(8px);
   border-radius: get-vw-large(555px);
 }
