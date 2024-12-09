@@ -431,10 +431,10 @@
 }
 
 .tableblock_tab.tableblock__kols .tableblock__body .tableblock__col {
-  padding: get-vw-large(20px) get-vw-large(8px);
+  padding: get-vw-large(7px) get-vw-large(8px);
 }
 .tableblock_tab.tableblock__kols .tableblock__header .tableblock__col {
-  padding: get-vw-large(20px) get-vw-large(8px);
+  padding: get-vw-large(7px) get-vw-large(8px);
 }
 
 .tableblock_tab.tableblock__kols .tableblock__col_kolbd {
@@ -467,7 +467,7 @@
   font-size: get-vw-large(14px);
   line-height: 100%;
   color: #fff;
-  margin-bottom: get-vw-large(11px);
+  margin-bottom: get-vw-large(7px);
 }
 
 .kolbd__text {
@@ -542,7 +542,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 6px;
+    gap: 4px;
     li {
    /*    margin-right: get-vw-large(6px); */
    /*    margin-bottom: get-vw-large(6px); */
@@ -1026,8 +1026,8 @@ i.icon-datepicker-plus {
   position: relative;
 
   .tableblock_tab.tableblock__kols .tableblock__header .tableblock__col {
-    padding-top: get-vw-large(22px);
-    padding-bottom: get-vw-large(22px);
+    padding-top: get-vw-large(7px);
+    padding-bottom: get-vw-large(7px);
   }
 }
 
@@ -1064,14 +1064,22 @@ i.icon-datepicker-plus {
   margin-top: -250px; */
   overflow: auto !important;
   /*   overflow-x: scroll !important; */
-  height: calc(100vh - 238px);
+  height: calc(100vh - 191px);
 }
 .tableblock_tab.tableblock__kols {
   .tableblock__body {
     .tableblock__col {
-      padding-top: 14px;
-      padding-bottom: 14px;
-      height: 90px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      height: 70px;
+      font-size: 14px;
+    }
+  }
+  .tableblock__header {
+    .tableblock__col {
+      padding-top: 7px;
+      padding-bottom: 7px;
+      height: 70px;
     }
   }
 
@@ -1120,7 +1128,7 @@ i.icon-datepicker-plus {
 .sm_mode {
   /*   padding-bottom: 0; */
   .navcontent {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     .tabsnav {
       margin-bottom: 0;
     }
