@@ -2441,3 +2441,1320 @@ font-size: get-vw-xxsmall(20px);
     }
   }
 }
+
+
+@media (min-width: 980px) and (max-width: 1919px) {
+  .sm_mode {
+    min-height: 100vh;
+    /*   padding-bottom: get-vw-laptop(46px);
+   */
+    .container {
+      max-width: 100%;
+      /*  max-width: 1832px); */
+      padding: 0 get-vw-laptop(38px);
+    }
+  
+    #footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+    }
+  }
+  .darkmode {
+    background-repeat: repeat-x;
+    background-color: #252a39;
+    
+  }
+  
+  .darkmode {
+    * {
+      color: #fff !important;
+    }
+  }
+  
+  .siteheader__nav {
+    .iconlink__count {
+      position: static;
+      display: inline-block;
+      margin-left: get-vw-laptop(5px);
+  
+      width: get-vw-laptop(19px);
+      height: get-vw-laptop(19px);
+      font-size: get-vw-laptop(14px);
+      line-height: get-vw-laptop(19px);
+    }
+    .tabsnav {
+      margin-bottom: 0;
+      margin-left: get-vw-laptop(76px);
+    }
+    .tabsnav__links ul li {
+      line-height: 1;
+    }
+    .tabsnav__links ul li a {
+      border: none;
+      background: #303646;
+      color: #fff;
+      padding: 0 get-vw-laptop(32px);
+      height: get-vw-laptop(46px);
+      line-height: get-vw-laptop(46px);
+  
+      &:hover {
+        background: #30ca4c;
+      }
+    }
+    .tabsnav__links .tabsbuttons li.active a,
+    .tabsnav__links .tabsbuttons li:hover a {
+      .iconlink__count {
+        background: #fff;
+        color: #30ca4c !important;
+      }
+    }
+  }
+  
+  .tabsnav_v2 {
+    .linkset__items {
+      border-radius: get-vw-laptop(555px);
+      padding: get-vw-laptop(4px) get-vw-laptop(14px);
+      background: #303646;
+    }
+  
+    .maincontent_v2 {
+      margin: 0 0 get-vw-laptop(47px) 0;
+    }
+  
+    .linkset__item {
+      a.linkset__link {
+        height: unset;
+        min-width: unset;
+        font-weight: 500;
+        font-size: get-vw-laptop(16px);
+        line-height: 100%;
+        color: #fff;
+        opacity: 0.4;
+        border-radius: get-vw-laptop(555px);
+        padding: get-vw-laptop(6px) get-vw-laptop(15px);
+  
+        &:hover {
+          background: #212531;
+        }
+        &.active {
+          opacity: 1;
+          background: #212531;
+        }
+      }
+    }
+  }
+  
+  .darkmode {
+    .searchinput input {
+      height: get-vw-laptop(46px);
+      padding-left: get-vw-laptop(54px);
+      border: none;
+      color: #7b85a3 !important;
+      background: #303646;
+      background-image: url(../img/Search_dark.svg);
+      background-position: left get-vw-laptop(21px) center;
+      background-repeat: no-repeat;
+  
+      &::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: #7b85a3 !important;
+      }
+      &::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #7b85a3 !important;
+      }
+      &:-ms-input-placeholder {
+        /* IE 10+ */
+        color: #7b85a3 !important;
+      }
+      &:-moz-placeholder {
+        /* Firefox 18- */
+        color: #7b85a3 !important;
+      }
+    }
+  }
+  
+  .navcontent {
+    .itemsnav__right .pagesearch {
+      width: get-vw-laptop(427px);
+    }
+  }
+  
+  .darkmode {
+    .emptyblock {
+      background: #252a39;
+      border-radius: 0;
+    }
+    .emptyblock__image {
+      margin-bottom: 0;
+      margin-right: get-vw-laptop(23px);
+    }
+    .emptyblock__img {
+      width: get-vw-laptop(50px);
+    }
+  
+    .tableblock__wrapper {
+      background: transparent;
+    }
+  }
+  
+  .navcontent {
+    .tableblock {
+      margin-bottom: 0;
+  
+      /*  * {
+        background: transparent;
+        border-color: transparent;
+      } */
+    }
+  }
+  
+  .sm_mode {
+    .emptyblock {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 0;
+    }
+    .emptyblock_lg .emptyblock__wrapper {
+      padding: 0;
+      min-height: 100%;
+    }
+  }
+  
+  .tableblock_tab.tableblock__kols {
+    .tableblock__col_notes {
+      max-width: get-vw-laptop(423px);
+      min-width: get-vw-laptop(350px);
+    }
+    .tableblock__header .tableblock__col,
+    .tableblock__body .tableblock__col {
+      padding-left: get-vw-laptop(15px);
+      padding-right: get-vw-laptop(15px);
+    }
+    .tableblock__col_project {
+      max-width: get-vw-laptop(280px);
+      min-width: get-vw-laptop(180px);
+    }
+    .tableblock__col_hashtags {
+      max-width: get-vw-laptop(340px);
+      min-width: get-vw-laptop(240px);
+    }
+    /*   .tableblock__col_watchlist {
+      max-width: get-vw-laptop(340px);
+      min-width: get-vw-laptop(240px);
+    } */
+    .tableblock__title {
+      font-weight: 400;
+      font-size: get-vw-laptop(14px);
+      line-height: 100%;
+      color: #fff;
+      display: flex;
+      align-items: center;
+  
+      span {
+        white-space: nowrap;
+        padding-right: get-vw-laptop(5px);
+      }
+  
+      svg {
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+  }
+  
+  .sitefooter {
+    .dropdownblock {
+      top: get-vw-laptop(-50px);
+      right: unset;
+      left: get-vw-laptop(50px);
+      transform: translateY(-100%);
+    }
+  }
+  
+  .notesbtn {
+    display: flex;
+    align-items: center;
+    height: get-vw-laptop(46px);
+    padding: 0 get-vw-laptop(15px);
+  
+    &.active,
+    &:hover {
+      background: #303646;
+    }
+  
+    span {
+      font-weight: 500;
+      font-size: get-vw-laptop(14px);
+      line-height: 100%;
+      color: #fff;
+      padding-left: get-vw-laptop(14px);
+    }
+  }
+  
+  .sitefooter_sm {
+    padding: 0;
+    bottom: 0;
+    position: sticky;
+  
+    &:before {
+      content: "";
+      height: get-vw-laptop(32px);
+      position: absolute;
+      top: 0;
+      transform: translateY(-100%) rotate(180deg);
+      width: 100%;
+      right: 0;
+      background: linear-gradient(
+        360deg,
+        rgba(23, 27, 39, 0) 0%,
+        rgba(23, 27, 39, 0.5) 100%
+      );
+    }
+  
+    .sitefooter__wrapper {
+      padding: 0;
+      background: #252a39;
+    }
+  
+    .sitefooter__text,
+    a {
+      font-weight: 500;
+      font-size: get-vw-laptop(14px);
+      line-height: 100%;
+      text-align: right;
+      color: #7b85a3 !important;
+    }
+  
+    .sitefooter__info {
+      height: get-vw-laptop(46px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: get-vw-laptop(500px);
+    }
+  }
+  
+  .darkmode {
+    /* width */
+    ::-webkit-scrollbar {
+      width: get-vw-laptop(4px);
+      height: get-vw-laptop(4px);
+    }
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #414757;
+      border-radius: get-vw-laptop(10px);
+    }
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #677292;
+      border-radius: get-vw-laptop(10px);
+    }
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #677292;
+    }
+  
+    .dropdownblock__wrapper {
+      background: #303646;
+    }
+  }
+  
+  .sitefooter .dropdownblock.messageblock_notes {
+    min-width: get-vw-laptop(767px);
+    max-width: get-vw-laptop(767px);
+    .messageblock__items {
+      max-height: get-vw-laptop(451px);
+    }
+    .messageblock__header {
+      margin-bottom: get-vw-laptop(18px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .messageblock__user {
+      display: flex;
+      align-items: center;
+    }
+    .messageblock__left {
+      display: flex;
+      align-items: center;
+    }
+    .messageblock__thing {
+      display: flex;
+      align-items: center;
+      margin-left: get-vw-laptop(23px);
+    }
+    .messageblock__username {
+      padding-left: get-vw-laptop(12px);
+      font-weight: 700;
+      font-size: get-vw-laptop(16px);
+      color: #fff;
+    }
+  
+    .messageblock__thingtitle {
+      font-weight: 700;
+      font-size: get-vw-laptop(14px);
+      line-height: 100%;
+      color: #fff;
+      padding-left: get-vw-laptop(6px);
+    }
+    .messageblock__param {
+      font-weight: 500;
+      font-size: get-vw-laptop(14px);
+      line-height: 100%;
+      color: #6f7997 !important;
+    }
+    .messageblock__note {
+      padding: get-vw-laptop(10px) get-vw-laptop(14px);
+      border-radius: get-vw-laptop(6px);
+      background: #252a39;
+      display: flex;
+      align-items: center;
+    }
+    .messageblock__noteimg {
+      margin-right: get-vw-laptop(15px);
+      max-width: get-vw-laptop(20px);
+      min-width: get-vw-laptop(20px);
+    }
+  
+  }
+  .messageblock__notetext {
+    font-size:  get-vw-laptop(16px);
+  }
+  .itemsnav__right .searchinput input {
+    font-size: get-vw-laptop(14px);
+  }
+  .tabsnav_v2 .searchv2 {
+    display: none;
+  }
+  
+  .tabsnav_mobile {
+    display: none;
+  }
+  
+  .dropdownblock__links ul li a {
+    color: #fff !important;
+  }
+  
+  .darkmode {
+    .tableblock_tab .tableblock__body > .tableblock__row {
+      background: #252a39 !important;
+    }
+    .tableblock_tab .tableblock__body > .tableblock__row:nth-child(2n) {
+      background: #212531 !important;
+    }
+  }
+  
+  .kolmain {
+    display: flex;
+    align-items: center;
+  }
+  .kolmain__img {
+  }
+  .kolmain__content {
+    margin-left: get-vw-laptop(20px);
+    display: flex;
+    align-items: center;
+  }
+  .kolmain__title {
+    margin-right: get-vw-laptop(11px);
+  }
+  .kolmain__buttons {
+    display: flex;
+    align-items: center;
+  }
+  .kolmain__button {
+    margin-left: get-vw-laptop(11px);
+  
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+  .tableblock_tab.tableblock__kols .tableblock__body {
+  }
+  
+  .tableblock_tab.tableblock__kols .tableblock__body .tableblock__col {
+    padding: get-vw-laptop(7px) get-vw-laptop(8px);
+  }
+  .tableblock_tab.tableblock__kols .tableblock__header .tableblock__col {
+    padding: get-vw-laptop(7px) get-vw-laptop(8px);
+  }
+  
+  .tableblock_tab.tableblock__kols .tableblock__col_kolbd {
+    max-width: get-vw-laptop(260px);
+    min-width: get-vw-laptop(260px);
+  }
+  .grayvalue {
+    color: #6f7997 !important;
+  }
+  .greenvalue {
+    color: #86f89b !important;
+  }
+  
+  .yellowvalue {
+    color: #ffd059 !important;
+  }
+  
+  .kolbd__items {
+    display: flex;
+  }
+  .kolbd__item {
+    margin-right: get-vw-laptop(23px);
+  
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  .kolbd__value {
+    font-weight: 700;
+    font-size: get-vw-laptop(14px);
+    line-height: 100%;
+    color: #fff;
+    margin-bottom: get-vw-laptop(7px);
+  }
+  
+  .kolbd__text {
+    font-weight: 400;
+    font-size: get-vw-laptop(12px);
+    line-height: 100%;
+    color: #6f7997 !important;
+  }
+  
+  .notescount {
+    font-size: get-vw-laptop(12px);
+    width: get-vw-laptop(29px);
+    height: get-vw-laptop(29px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/notescount.svg) !important;
+    background-size: get-vw-laptop(29px);
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    &.empty {
+      opacity: 0.4;
+    }
+  }
+  .tableblock__kols .tableblock__body .tableblock__title {
+    font-size: get-vw-laptop(14px);
+  }
+  
+  .tableblock__kols {
+    .tableblock__body .tableblock__row {
+      border: none !important;
+      border-collapse: collapse;
+    }
+  }
+  .tableblock__kols .tableblock__scroll,
+  .tableblock__kols .tableblock__row,
+  .tableblock__kols .tableblock__col,
+  .tableblock__kols .tableblock__body {
+    border: none !important;
+    border-collapse: collapse;
+  }
+  .tablehashtags {
+    display: flex;
+    align-items: center;
+  }
+  
+  .tablehashtags__button {
+    a {
+      display: block;
+    }
+  }
+  
+  .tablehastag__sep {
+    width: get-vw-laptop(4px);
+    height: get-vw-laptop(4px);
+    border-radius: 50%;
+    margin: 0 get-vw-laptop(4px);
+  }
+  .tablehastag {
+    display: flex;
+    align-items: center;
+  /*   flex-wrap: wrap; */
+    padding: get-vw-laptop(4px) get-vw-laptop(8px);
+    border-radius: get-vw-laptop(555px);
+  }
+  
+  .tablehashtags__list {
+    ul {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      gap:  get-vw-laptop(4px);
+      li {
+     /*    margin-right: get-vw-laptop(6px); */
+     /*    margin-bottom: get-vw-laptop(6px); */
+        cursor: pointer;
+      }
+    }
+  }
+  
+  .tablehastag {
+    font-weight: 700;
+    font-size: get-vw-laptop(12px);
+    text-transform: uppercase;
+    border: 1px solid #fff !important;
+  }
+  
+  .tableblock__fav {
+    .active {
+      svg path {
+        fill: #60f67b;
+      }
+    }
+  }
+  
+  .buying {
+    border-color: #86f89b !important;
+    background-color: #86f89b !important;
+    * {
+      color: #86f89b !important;
+    }
+    .tablehastag__sep {
+      background: #86f89b;
+    }
+  }
+  .pass {
+    border-color: #a8e8fc !important;
+    background-color: #a8e8fc !important;
+    * {
+      color: #a8e8fc !important;
+    }
+    .tablehastag__sep {
+      background: #a8e8fc;
+    }
+  }
+  .prelaunch {
+    border-color: #f47bff !important;
+    background-color: #f47bff !important;
+    * {
+      color: #f47bff !important;
+    }
+    .tablehastag__sep {
+      background: #f47bff;
+    }
+  }
+  .founder {
+    border-color: #ffaf84 !important;
+    background-color: #ffaf84 !important;
+    * {
+      color: #ffaf84 !important;
+    }
+    .tablehastag__sep {
+      background: #ffaf84;
+    }
+  }
+  .nft {
+    border-color: #847bff !important;
+    background-color: #847bff !important;
+    * {
+      color: #847bff !important;
+    }
+    .tablehastag__sep {
+      background: #847bff;
+    }
+  }
+  .trader {
+    border-color: #c7ff43 !important;
+    background-color: #c7ff43 !important;
+    * {
+      color: #c7ff43 !important;
+    }
+    .tablehastag__sep {
+      background: #c7ff43;
+    }
+  }
+  .scam {
+    border-color: #ff6464 !important;
+    background-color: #ff6464 !important;
+    * {
+      color: #ff6464 !important;
+    }
+    .tablehastag__sep {
+      background: #ff6464;
+    }
+  }
+  .interesting {
+    border-color: #ffd059 !important;
+    background-color: #ffd059 !important;
+    * {
+      color: #ffd059 !important;
+    }
+    .tablehastag__sep {
+      background: #ffd059;
+    }
+  }
+  .disabled {
+    .tablehastag {
+      opacity: 0.5;
+      border-color: #7b85a3 !important;
+      background-color: #7b85a3 !important;
+      * {
+        color: #7b85a3 !important;
+      }
+      .tablehastag__sep {
+        background: #7b85a3;
+      }
+    }
+  }
+  .tablehastag.active {
+    .tablehastag__sep {
+      background: #212531 !important;
+    }
+  }
+  .tablehastag.active:hover {
+    .tablehastag__sep {
+      background: inherit !important;
+    }
+  }
+  .tablehastag.active * {
+    color: #212531 !important;
+  }
+  
+  .tablehastag.notactive {
+    background-color: transparent !important;
+  }
+  
+  .tableblock__kols .tableblock__row {
+    padding: 0 get-vw-laptop(38px);
+  }
+  
+  .tabsnav_v2 .linkset__item a.linkset__link {
+    font-size: get-vw-laptop(16px) !important;
+  }
+  
+  .tableblock__kols .tableblock__col.tableblock__col_fav {
+    min-width: unset;
+  }
+  
+  .projectlink_img_off {
+    display: none;
+  }
+  
+  .projectlink.unactive {
+    .projectlink_img_off {
+      display: block;
+    }
+    .projectlink_img_on {
+      display: none;
+    }
+  }
+  
+  .linkpopup {
+    top: get-vw-laptop(13px);
+    left: 0;
+    transform: translateY(-100%);
+    width: get-vw-laptop(466px);
+    position: absolute;
+    z-index: 99999999;
+    display: none;
+  
+    &.active {
+      display: block;
+    }
+  }
+  .linkpopup__wrapper {
+    background: #303646 !important;
+    border-radius: get-vw-laptop(8px);
+    padding: get-vw-laptop(22px) get-vw-laptop(18px) get-vw-laptop(16px)
+      get-vw-laptop(19px);
+  }
+  .linkpopup__title {
+    font-weight: 700;
+    font-size: get-vw-laptop(14px);
+    line-height: 100%;
+    color: #fff;
+    margin-bottom: get-vw-laptop(19px);
+  }
+  .linkpopup__form {
+    background: #252a39;
+    border-radius: get-vw-laptop(6px);
+    border: 1px solid #252a39;
+    display: flex;
+    align-items: center;
+  }
+  .linkpopup__input {
+    input {
+      padding: get-vw-laptop(15px) get-vw-laptop(16px);
+      background: #252a39;
+      height: get-vw-laptop(46px);
+      width: 100%;
+      border: none;
+    }
+  }
+  .linkpopup__input {
+    width: 100%;
+  }
+  .linkpopup__button {
+    button {
+      font-weight: 400;
+      font-size: get-vw-laptop(14px);
+      line-height: 100%;
+      color: #fff;
+      border: get-vw-laptop(2px) solid #252a39;
+      border-radius: get-vw-laptop(6px);
+      width: get-vw-laptop(75px);
+      height: get-vw-laptop(46px);
+      background: #30ca4c !important;
+    }
+  }
+  
+  .darkmode {
+    .tableblock__wrapper {
+      background: none;
+      border: none;
+    }
+    .tableblock__row {
+      background: none;
+    }
+    input,
+    textarea {
+      padding: get-vw-laptop(15px) get-vw-laptop(16px);
+      background: #252a39;
+      border: none;
+    }
+    input,
+    textarea {
+      &::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: #7b85a3 !important;
+      }
+      &::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #7b85a3 !important;
+      }
+      &:-ms-input-placeholder {
+        /* IE 10+ */
+        color: #7b85a3 !important;
+      }
+      &:-moz-placeholder {
+        /* Firefox 18- */
+        color: #7b85a3 !important;
+      }
+    }
+  }
+  /* .tableblock_tab.tableblock__kols .tableblock__header .tableblock__col {
+    padding-top: get-vw-laptop(46px);
+  } */
+  .tableblock__col_project {
+    position: relative;
+  }
+
+  .tablehashtags__button {
+    img {
+      width: get-vw-laptop(26px);
+      height: get-vw-laptop(26px);
+    }
+  }
+  .accountmenu__name {
+    font-size: get-vw-laptop(16px);
+  }
+  .dropdownblock__wrapper {
+    border-radius: get-vw-laptop(6px);
+    padding: get-vw-laptop(29px) get-vw-laptop(30px);
+  }
+  .dropdownblock__links ul li a {
+    font-size: get-vw-laptop(16px);
+  }
+  .kolmain__button {
+    img {
+      width: get-vw-laptop(16px);
+      height: get-vw-laptop(16px);
+    }
+  }
+  .searchinput input {
+    background-size: get-vw-laptop(28px) !important;
+
+  }
+  .siteheader_v2 .accountmenu__img img {
+    width: get-vw-laptop(26px);
+  }
+
+  input {
+    &::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      font-size: get-vw-laptop(12px);
+    }
+    &::-moz-placeholder {
+      /* Firefox 19+ */
+      font-size: get-vw-laptop(12px);
+    }
+    &:-ms-input-placeholder {
+      /* IE 10+ */
+      font-size: get-vw-laptop(12px);
+    }
+    &:-moz-placeholder {
+      /* Firefox 18- */
+      font-size: get-vw-laptop(12px);
+    }
+  }
+  
+  .tableblock__kols {
+    textarea {
+      resize: none;
+      padding: 0;
+      width: 100%;
+      overflow: hidden;
+      font-weight: 400;
+      font-size: get-vw-laptop(14px);
+      line-height: 120%;
+      color: #fff;
+      background: transparent !important;
+      height: get-vw-laptop(50px);
+      /* display: table-cell; */
+      vertical-align: middle;
+
+ 
+      &::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: #7b85a3 !important;
+        font-size: get-vw-laptop(12px);
+      }
+      &::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #7b85a3 !important;
+        font-size: get-vw-laptop(12px);
+      }
+      &:-ms-input-placeholder {
+        /* IE 10+ */
+        color: #7b85a3 !important;
+        font-size: get-vw-laptop(12px);
+      }
+      &:-moz-placeholder {
+        /* Firefox 18- */
+        color: #7b85a3 !important;
+        font-size: get-vw-laptop(12px);
+      }
+ 
+    }
+    .tableblock__wrapper {
+      overflow: visible !important;
+    }
+    .tableblock__table {
+      overflow: visible !important;
+    }
+  }
+  
+  .linkpopup__marker {
+    line-height: 1;
+    height: get-vw-laptop(9px);
+    position: absolute;
+    bottom: get-vw-laptop(4px);
+    transform: translateY(100%);
+    left: 0;
+  }
+  .tablehashtags__button {
+    a {
+      opacity: 0.5;
+  
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+  .tableblock__col_hashtags {
+    position: relative;
+  }
+  .hashtagsblock {
+    display: none;
+    position: absolute;
+    z-index: 99999;
+    top: get-vw-laptop(10px);
+    left: 0;
+    width: get-vw-laptop(316px);
+    padding: get-vw-laptop(19px) get-vw-laptop(18px);
+    background: #303646;
+    border-radius: get-vw-laptop(8px);
+    transform: translateY(-100%);
+  
+    &.active {
+      display: block;
+    }
+  }
+  .kolmain__img {
+    max-width: get-vw-laptop(50px);
+    min-width: get-vw-laptop(50px);
+  }
+  
+  .notify svg {
+    width: get-vw-laptop(24px);
+    height: get-vw-laptop(24px);
+  
+    &:hover {
+      path {
+        transition: all 0.3s ease;
+        fill: #fff;
+      }
+    }
+  }
+  .kolmain__title {
+    font-size: get-vw-laptop(14px);
+  }
+  .tablehastag {
+    height: get-vw-laptop(26px);
+  }
+  .tableblock__fav svg {
+    width: get-vw-laptop(18px);
+    height: get-vw-laptop(18px);
+  }
+  .siteheader_v2 .logo_default {
+    width: get-vw-laptop(218px);
+  }
+  .tabsnav__links .tabsbuttons li a {
+    font-size: get-vw-laptop(16px);
+  }
+  .notify {
+    display: block;
+    padding: get-vw-laptop(10px) get-vw-laptop(15px);
+    .tabledatetime {
+      display: none;
+    }
+    svg {
+      min-width: get-vw-laptop(24px);
+      max-width: get-vw-laptop(24px);
+    }
+  }
+  .notify.chosen {
+    border-radius: get-vw-laptop(9px);
+  
+    svg {
+      display: none;
+    }
+    .tabledatetime {
+      display: block;
+    }
+  
+    &:hover {
+      background: #303646;
+    }
+  }
+  
+  .perfect-datetimepicker table {
+    background: #303646 !important;
+  }
+  
+  .tableblock_tab.tableblock__kols
+    .tableblock__body
+    .tableblock__col.tableblock__col_notify {
+    min-width: get-vw-laptop(99px);
+    max-width: get-vw-laptop(99px);
+    position: relative;
+  }
+  i.icon-datepicker-prev:before {
+    content: url('data:image/svg+xml,<svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.03366 0.318191L0.309472 7.23182C-0.103158 7.65607 -0.103157 8.34393 0.309472 8.76818L7.03366 15.6818L8.52792 14.1454L3.60747 9.08637H14L14 6.91363L3.60747 6.91363L8.52792 1.85455L7.03366 0.318191Z" fill="%236F7997"/></svg>');
+  }
+  
+  i.icon-datepicker-next:before {
+    content: url('data:image/svg+xml,<svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.96634 0.318191L13.6905 7.23182C14.1032 7.65607 14.1032 8.34393 13.6905 8.76818L6.96634 15.6818L5.47208 14.1454L10.3925 9.08637H3.11728e-07L0 6.91363L10.3925 6.91363L5.47208 1.85455L6.96634 0.318191Z" fill="%236F7997"/></svg>');
+  }
+  
+  .perfect-datetimepicker {
+    border: none !important;
+    border-radius: 0 !important;
+  }
+  .datepickblock {
+    top: 100%;
+  }
+  .datepickblock .dropdownblock__wrapper {
+    border: none;
+    padding: get-vw-laptop(12px) get-vw-laptop(11px);
+  }
+  .perfect-datetimepicker table td {
+    border: none !important;
+    &.oday {
+      opacity: 0.3;
+    }
+  }
+  .perfect-datetimepicker table td:hover {
+    background: #30ca4c !important;
+  }
+  .perfect-datetimepicker table:first-child tbody td {
+    font-weight: 400 !important;
+  }
+  .perfect-datetimepicker table:first-child tbody td.selected,
+  .perfect-datetimepicker table:first-child tbody td:hover {
+    background: #30ca4c !important;
+  }
+  i.icon-datepicker-minus,
+  i.icon-datepicker-plus {
+    display: none !important;
+  }
+  
+  .perfect-datetimepicker table thead td.name {
+    font-weight: 400;
+    font-size: get-vw-laptop(12px);
+    line-height: 100%;
+    text-align: center;
+    color: #6f7997 !important;
+    border: none !important;
+  }
+  
+  .tabledatetime {
+  }
+  
+  .tabledatetime__date {
+    font-weight: 700;
+    font-size: get-vw-laptop(14px);
+    line-height: 100%;
+    color: #fff;
+    margin-bottom: get-vw-laptop(5px);
+  }
+  
+  .tabledatetime__time {
+    font-weight: 400;
+    font-size: get-vw-laptop(14px);
+    line-height: 100%;
+    color: #6f7997 !important;
+  }
+  
+  .dategreen {
+    .tabledatetime__date {
+      color: #86f89b !important;
+    }
+    .tabledatetime__time {
+      color: #86f89b !important;
+      opacity: 0.6;
+    }
+  }
+  .dateyellow {
+    .tabledatetime__date {
+      color: #ffd059 !important;
+    }
+    .tabledatetime__time {
+      color: #ffd059 !important;
+      opacity: 0.6;
+    }
+  }
+  .datered {
+    .tabledatetime__date {
+      color: #ff6464 !important;
+    }
+    .tabledatetime__time {
+      color: #ff6464 !important;
+      opacity: 0.6;
+    }
+  }
+  
+  .perfect-datetimepicker table {
+    padding: 0 !important;
+  }
+  
+  .tableblock__kols .tableblock__row .tableblock__col:first-child {
+    padding-left: get-vw-laptop(38px) !important;
+  }
+  .tableblock__kols .tableblock__row .tableblock__col:last-child {
+    padding-right: get-vw-laptop(38px) !important;
+  }
+  
+  .tablesection {
+    margin: get-vw-laptop(50px) 0;
+    position: relative;
+  
+    .tableblock_tab.tableblock__kols .tableblock__header .tableblock__col {
+      padding-top: get-vw-laptop(7px);
+      padding-bottom: get-vw-laptop(7px);
+    }
+  }
+  
+  .tablesection__title {
+    font-weight: 700;
+    font-size: get-vw-laptop(26px);
+    line-height: 100%;
+    color: #fff;
+  }
+  
+  .perfect-datetimepicker table.tt input {
+    border: none !important;
+  }
+  
+  .perfect-datetimepicker .buttonpane {
+    padding-top:  get-vw-laptop(5px) !important;
+  }
+  .perfect-datetimepicker table td,
+  .perfect-datetimepicker table td.hover {
+    padding: 0 !important;
+  }
+  
+  .darkmode {
+    .messageblock__wrapper.dropdownblock__wrapper {
+      background: #303646;
+    }
+  
+    .dropdownblock__wrapper {
+    }
+  }
+  
+  .tableblock__kols .tableblock__table {
+  /*   padding-top: 250px);
+    margin-top: -250px); */
+    overflow: auto !important;
+    /*   overflow-x: scroll !important; */
+    height: calc(100vh - 191px);
+  }
+  .tableblock_tab.tableblock__kols {
+    .tableblock__body {
+      .tableblock__col {
+        padding-top:  get-vw-laptop(7px);
+        padding-bottom:  get-vw-laptop(7px);
+        height:  get-vw-laptop(70px);
+        font-size:  get-vw-laptop(14px);
+      }
+    }
+    .tableblock__header {
+      .tableblock__col {
+        padding-top:  get-vw-laptop(7px);
+        padding-bottom:  get-vw-laptop(7px);
+        height:  get-vw-laptop(70px);
+      }
+    }
+  
+    .tableblock__col_project {
+      width:  get-vw-laptop(294px);
+      max-width:  get-vw-laptop(294px);
+      min-width:  get-vw-laptop(294px);
+    }
+    .tableblock__col_hashtags {
+      width:  get-vw-laptop(343px);
+      max-width:  get-vw-laptop(343px);
+      min-width:  get-vw-laptop(343px);
+    }
+    .tableblock__col_age {
+      width:  get-vw-laptop(100px);
+      max-width:  get-vw-laptop(100px);
+      min-width:  get-vw-laptop(100px);
+    }
+    .tableblock__col_time {
+      width:  get-vw-laptop(100px);
+      max-width:  get-vw-laptop(100px);
+      min-width:  get-vw-laptop(100px);
+    }
+    .tableblock__col_watchlist {
+      width:  get-vw-laptop(100px);
+      max-width:  get-vw-laptop(100px);
+      min-width:  get-vw-laptop(100px);
+    }
+    .tableblock__col_newkols {
+      width:  get-vw-laptop(110px);
+      max-width:  get-vw-laptop(110px);
+      min-width:  get-vw-laptop(110px);
+    }
+    .tableblock__col_kolbd {
+      width:  get-vw-laptop(252px);
+      max-width:  get-vw-laptop(252px);
+      min-width:  get-vw-laptop(252px);
+    }
+    .tableblock__col_notes {
+      width:  get-vw-laptop(452px);
+      max-width:  get-vw-laptop(452px);
+      min-width:  get-vw-laptop(452px);
+    }
+  }
+  
+  .sm_mode {
+    /*   padding-bottom: 0; */
+    .navcontent {
+      padding-bottom:  get-vw-laptop(10px);
+      .tabsnav {
+        margin-bottom: 0;
+      }
+    }
+    .tableblock__header {
+      position: sticky;
+      top: 0;
+      background-repeat: repeat-x;
+      background-color: #252a39;
+      
+      z-index: 9999;
+    }
+    .tableblock {
+      margin-bottom: 0;
+    }
+  
+    #header {
+      position: relative;
+      z-index: 999999;
+      background-repeat: repeat-x;
+      background-color: #252a39;
+     
+    }
+  }
+  
+  .tableblock__body .tableblock__row:first-child {
+    .hashtagsblock {
+      top: unset;
+      bottom:  get-vw-laptop(20px);
+      transform: translateY(100%);
+    }
+  }
+  .sm_mode .tablesection {
+    .tableblock__header {
+      position: static;
+    }
+    .tableblock__kols .tableblock__table {
+      height: unset;
+    }
+  }
+  
+  .tablesection {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  .darkmode {
+    .tablepagination {
+      padding:  get-vw-laptop(24px) 0  get-vw-laptop(85px) 0;
+      background: #212531;
+      display: flex;
+      justify-content: center;
+      .paginationblock {
+        height:  get-vw-laptop(44px);
+        background: #252a39;
+        border-radius:  get-vw-laptop(666px);
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .pagination ul li > span {
+        font-weight: 700;
+        font-size:  get-vw-laptop(14px);
+        opacity: 0.4;
+      }
+      .pagination {
+       ul li {
+          margin: 0  get-vw-laptop(23px);
+        }
+        li {
+          a {
+            font-weight: 700;
+            font-size:  get-vw-laptop(14px);
+            opacity: 0.4;
+  
+            &:hover {
+              opacity: 1;
+            }
+          }
+        }
+        li.active {
+          a {
+            opacity: 1;
+            color: #30ca4c !important;
+          }
+        }
+      }
+    }
+  }
+  
+}

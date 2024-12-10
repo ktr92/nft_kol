@@ -1,5 +1,13 @@
 @import 'params.scss';
 
+
+@function get-vw-laptop($font){
+  $vw-viewport-large: 1920;
+	$vw-context: $vw-viewport-large * 0.01 * 1px;
+	@return $font / $vw-context * 1vw;
+	@return $font;
+}
+
 @function get-vw-xxlarge($font){
  /*  $vw-viewport-large: 2500;
 	$vw-context: $vw-viewport-large * 0.01 * 1px;
