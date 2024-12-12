@@ -140,6 +140,11 @@
     @content;
   }
 }
+@mixin extrasmall-screen() {
+  @media only screen and (max-width: 374px) {
+    @content;
+  }
+}
 
 @mixin dropdown($icon: '../img/ChevronDown.svg'){
   position: relative;

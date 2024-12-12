@@ -299,29 +299,20 @@ function inputSliderInit() {
         e.preventDefault()
         $(this).toggleClass("active")
       })
-      $("[data-action='getHashtag']").on("click", function (e) {
+/*       $("[data-action='getHashtag']").on("click", function (e) {
 
-      })
+      }) */
     
  /*      $(".tablehashtags]").on("click", function (e) {
         
       }) */
-      $("[data-action='getHashtag']").on("click", function (e) {
-        e.preventDefault()
-        e.stopPropagation()
+      $(".tablehashtags__list li:not(.tablehashtags__popup):not(.active)").on("click", function (e) {
+        $(this).addClass('active')
         if ($(this).hasClass("disabled")) {
           return
         }
-
-      /*   if ($(this).hasClass("active")) {
-          $(this).removeClass("active")
-
-          return
-        } */
-
-
         $(this).find(".tablehastag").removeClass("notactive").addClass("active")
-        const html = $(this).wrap("<p/>").parent().html()
+       /*  const html = $(this).wrap("<p/>").parent().html()
         $(this).unwrap()
         $(this).hide()
         if (
@@ -333,10 +324,29 @@ function inputSliderInit() {
         $(this)
           .closest(".tableblock__col_hashtags")
           .find(".tablehashtags__selected ul")
-          .prepend(html)
+          .prepend(html) */
 
-        $('[data-toggle="hashtagsblock"]').removeClass("active")
+        $('[data-toggle="hashtagsblock"]').removeClass("active");
+        
+        $(".tablehashtags__list li.active").off('click')
+        $(".tablehashtags__list li.active").on("click", function (e) {
+          e.stopPropagation()
+          let li = null
+          if (e.target != this) {
+            li = $(this).closest('li')
+          } else {
+            li = e.target
+          }
+          console.log(li)        
+          li.find('.tablehastag').addClass("notactive").removeClass("active")
+          $('[data-toggle="hashtagsblock"]').removeClass("active")
+        });
+       
+       
       });
+
+     
+  
 
 
       $("[data-action='hashtagsblock']").on("click", function (e) {

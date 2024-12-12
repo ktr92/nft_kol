@@ -25,3 +25,12 @@
 
 
 @import "./landing.scss"; 
+
+
+input, textarea, .pagesearch__input .searchinput input {
+  &:focus::placeholder  { color:transparent !important; }
+  &:focus::-webkit-input-placeholder { color:transparent !important; }
+  &:focus:-moz-placeholder { color:transparent !important; } /* FF 4-18 */
+  &:focus::-moz-placeholder { color:transparent !important; } /* FF 19+ */
+  &:focus:-ms-input-placeholder { color:transparent !important; } /* IE 10+ */
+}
