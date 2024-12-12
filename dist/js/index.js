@@ -255,6 +255,7 @@ function inputSliderInit() {
           $(window).height() -
           $("#footer").height() -
           $("#header").height() -
+          $(".tableblock__header").height() - 
           $(".navcontent").height()
         $(".vhblock").css("min-height", `${h}px`)
       }
@@ -364,6 +365,15 @@ function inputSliderInit() {
         e.preventDefault()
         $('[data-toggle="datepick"]').removeClass('active')
         $(this).closest('.tableblock__col_notify').find('[data-toggle="datepick"]').toggleClass('active')
+      })
+
+      $('[data-notdatepicker="datepick"]').on('click', function(e) {
+        e.preventDefault()
+     
+      })
+      $('a.tableblock__title').on('click', function(e) {
+        e.preventDefault()
+     
       })
 
       $(".datepick").each(function () {

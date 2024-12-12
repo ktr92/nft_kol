@@ -1498,6 +1498,14 @@ margin-bottom: 20px;
     }
   }
 
+  .sm_mode .dropdownblock.active {
+    top: 0;
+    bottom: unset;
+    left: unset;
+    right: 0;
+    transform: translateY(50%);
+  }
+
   .siteheader_v2 .accountmenu {
     display: block;
 
@@ -2278,13 +2286,7 @@ a.notesbtn {
   height: 40px;
   font-size: 11px;
 }
-.sm_mode .dropdownblock.active {
-  top: 0;
-  bottom: unset;
-  left: unset;
-  right: 0;
-  transform: translateY(50%);
-}
+
 .siteheader_v2 .headersearch_v2  {
   display: none;
 }
@@ -3799,7 +3801,7 @@ a.notesbtn {
   
   .darkmode {
     .tablepagination {
-      padding:  get-vw-laptop(24px) 0  get-vw-laptop(85px) 0;
+      padding:  get-vw-laptop(24px) 0  get-vw-laptop(24px) 0;
       background: #212531;
       display: flex;
       justify-content: center;
@@ -3854,4 +3856,20 @@ a.notesbtn {
     font-size: 11px;
     
 }
+}
+
+.dropdownblock.datepickblock.active {
+  position: sticky;
+  left: 0;
+  right: 0;
+  bottom: unset;
+  /* top: 50%; */
+  margin: auto;
+  display: inline-flex;
+  transform: translateY(-85%);
+  justify-content: center;
+/*   height: 100dvh;
+ */  align-items: center;
+  top: 50%;
+  width: fit-content;
 }
