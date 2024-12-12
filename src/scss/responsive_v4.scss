@@ -3671,13 +3671,18 @@ a.notesbtn {
     .dropdownblock__wrapper {
     }
   }
+
+  $tb: get-vw-laptop(162px);
   
   .tableblock__kols .tableblock__table {
   /*   padding-top: 250px);
     margin-top: -250px); */
     overflow: auto !important;
     /*   overflow-x: scroll !important; */
-    height: calc(100vh - 162px);
+
+
+
+    height: calc(100vh - #{$tb});
   }
   .tableblock_tab.tableblock__kols {
     .tableblock__body {

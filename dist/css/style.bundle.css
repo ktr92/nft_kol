@@ -21488,7 +21488,7 @@ i.icon-datepicker-plus {
     margin-top: -250px); */
     overflow: auto !important;
     /*   overflow-x: scroll !important; */
-    height: calc(100vh - 162px); }
+    height: calc(100vh - 8.4375vw); }
   .tableblock_tab.tableblock__kols .tableblock__body .tableblock__col {
     padding-top: 0.36458vw;
     padding-bottom: 0.36458vw;
