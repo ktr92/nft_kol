@@ -736,12 +736,12 @@
   }
 
   .linkpopup {
-    top: get-vw-medium(13px);
+   /*  top: get-vw-medium(13px);
     left: 0;
-    transform: translateY(-100%);
+    transform: translateY(-100%); */
     width: get-vw-medium(466px);
-    position: absolute;
-    z-index: 99999999;
+   /*  position: absolute;
+    z-index: 99999999; */
     display: none;
 
     &.active {
@@ -1903,14 +1903,20 @@ margin-bottom: 20px;
       display: none;
     }
   }
-
+ 
   .linkpopup {
-    top: get-vw-xxsmall(13px);
+  /*   top: get-vw-xxsmall(13px);
     left: 0;
-    transform: translateY(-100%);
-    width: get-vw-xxsmall(466px);
-    position: absolute;
-    z-index: 99999999;
+    transform: translateY(-100%); */
+   /*  width: get-vw-xxsmall(466px); */
+    width: 216px;
+
+    left: unset !important;
+    right: 0 !important;
+/*     top: 0 !important; */
+/*     position: sticky !important; */
+   /*  position: absolute;
+    z-index: 99999999; */
     display: none;
 
     &.active {
@@ -1919,9 +1925,9 @@ margin-bottom: 20px;
   }
   .linkpopup__wrapper {
     background: #303646 !important;
-    border-radius: get-vw-xxsmall(8px);
-    padding: get-vw-xxsmall(22px) get-vw-xxsmall(18px) get-vw-xxsmall(16px)
-      get-vw-xxsmall(19px);
+    border-radius: get-vw-xxsmall(4px);
+    padding: get-vw-xxsmall(10px) get-vw-xxsmall(10px) get-vw-xxsmall(10px)
+      get-vw-xxsmall(10px);
   }
   .linkpopup__title {
     font-weight: 700;
@@ -2243,9 +2249,9 @@ font-size: get-vw-xxsmall(20px);
 .sm_mode .tableblock__header {
   position: static;
 }
-.tableblock__kols .tableblock__table {
+/* .tableblock__kols .tableblock__table {
   height: unset;
-}
+} */
 a.notesbtn {
   padding-left: 20px;
   display: inline-flex;
@@ -2367,7 +2373,7 @@ a.notesbtn {
     }
 
     #footer {
-      position: fixed;
+  /*     position: fixed; */
       bottom: 0;
       left: 0;
       right: 0;
@@ -2533,7 +2539,7 @@ a.notesbtn {
     }
   
     #footer {
-      position: fixed;
+   /*    position: fixed; */
       bottom: 0;
       left: 0;
       right: 0;
@@ -3231,17 +3237,18 @@ a.notesbtn {
   }
   
   .linkpopup {
-    top: get-vw-laptop(13px);
+   /*  top: get-vw-laptop(13px);
     left: 0;
-    transform: translateY(-100%);
-    width: get-vw-laptop(466px);
-    position: absolute;
+    transform: translateY(-100%); */
+  /*   width: get-vw-laptop(266px);
+    position: sticky !important; */
+   /*  position: absolute;
     z-index: 99999999;
     display: none;
   
     &.active {
       display: block;
-    }
+    } */
   }
   .linkpopup__wrapper {
     background: #303646 !important;
@@ -3674,7 +3681,7 @@ a.notesbtn {
     }
   }
 
-  $tb: get-vw-laptop(162px);
+  $tb: get-vw-laptop(270px);
   
   .tableblock__kols .tableblock__table {
   /*   padding-top: 250px);
@@ -3788,9 +3795,9 @@ a.notesbtn {
     .tableblock__header {
       position: static;
     }
-    .tableblock__kols .tableblock__table {
+   /*  .tableblock__kols .tableblock__table {
       height: unset;
-    }
+    } */
   }
   
   .tablesection {
@@ -3859,7 +3866,7 @@ a.notesbtn {
 }
 
 .dropdownblock.datepickblock.active {
-  position: sticky;
+  position: fixed;
   left: 0;
   right: 0;
   bottom: unset;
