@@ -19040,6 +19040,14 @@ i.icon-datepicker-plus {
   display: flex;
   align-items: center; }
 
+.tableblock__table_cut {
+  height: unset !important; }
+
+.tableblock_tab.tableblock__kols .tableblock__table_cut .tableblock__header .tableblock__col.tableblock__col_watchlist {
+  max-width: 342px;
+  min-width: 342px;
+  width: 342px; }
+
 /* .tableblock__col_notes textarea {
   --textarea-height: 50px;
   
@@ -19049,6 +19057,10 @@ i.icon-datepicker-plus {
 
   overflow: hidden;
   box-sizing: border-box;
+} */
+/* .tablepagination {
+  position: sticky;
+  bottom: 0;
 } */
 @media only screen and (max-width: 1090px) {
   .darkmode .tablepagination .pagination li a {
@@ -19696,7 +19708,8 @@ i.icon-datepicker-plus {
     font-weight: 700;
     font-size: 26px;
     line-height: 100%;
-    color: #fff; }
+    color: #fff;
+    margin-bottom: 20px; }
   .sm_mode .tabsnav_v2 .linkset__items {
     overflow: auto; }
   .sm_mode .statistics_ranges {
@@ -20571,7 +20584,11 @@ i.icon-datepicker-plus {
     max-width: unset;
     width: unset; }
   .tableblock_tab.tableblock__kols .tableblock__header .tableblock__col.tableblock__col_notify span {
-    padding-left: 15px; } }
+    padding-left: 15px; }
+  .tableblock_tab.tableblock__kols .tableblock__table_cut .tableblock__header .tableblock__col.tableblock__col_watchlist {
+    max-width: 142px;
+    min-width: 142px;
+    width: 142px; } }
 
 @media only screen and (max-width: 480px) {
   .tabsnav_v2 .linkset__items {
@@ -21550,7 +21567,7 @@ i.icon-datepicker-plus {
     display: flex;
     justify-content: center; }
     .darkmode .tablepagination .paginationblock {
-      height: 2.29167vw;
+      /*  height:  get-vw-laptop(44px); */
       background: #252a39;
       border-radius: 34.6875vw;
       display: inline-block;

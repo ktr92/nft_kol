@@ -1286,6 +1286,16 @@ padding-left: get-vw-large(15px);
   align-items: center;
 }
 
+.tableblock__table_cut {
+  height: unset !important;
+
+  
+}
+.tableblock_tab.tableblock__kols .tableblock__table_cut .tableblock__header .tableblock__col.tableblock__col_watchlist {
+  max-width: 342px;
+  min-width: 342px;
+  width: 342px;
+}
 /* .tableblock__col_notes textarea {
   --textarea-height: 50px;
   
@@ -1295,4 +1305,9 @@ padding-left: get-vw-large(15px);
 
   overflow: hidden;
   box-sizing: border-box;
+} */
+
+/* .tablepagination {
+  position: sticky;
+  bottom: 0;
 } */

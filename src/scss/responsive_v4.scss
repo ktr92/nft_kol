@@ -962,6 +962,7 @@
 font-size: get-vw-medium(26px);
 line-height: 100%;
 color: #fff;
+margin-bottom: 20px;
   }
   .sm_mode  {
     .tabsnav_v2 .linkset__items {
@@ -2294,6 +2295,11 @@ a.notesbtn {
 .tableblock_tab.tableblock__kols .tableblock__header .tableblock__col.tableblock__col_notify span {
   padding-left: get-vw-large(15px);
   }
+  .tableblock_tab.tableblock__kols .tableblock__table_cut .tableblock__header .tableblock__col.tableblock__col_watchlist {
+    max-width: 142px;
+    min-width: 142px;
+    width: 142px;
+  } 
 }
 
 
@@ -3793,7 +3799,7 @@ a.notesbtn {
       display: flex;
       justify-content: center;
       .paginationblock {
-        height:  get-vw-laptop(44px);
+       /*  height:  get-vw-laptop(44px); */
         background: #252a39;
         border-radius:  get-vw-laptop(666px);
         display: inline-block;
