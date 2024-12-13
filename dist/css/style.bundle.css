@@ -19133,7 +19133,7 @@ html {
   .itemsnav_desktop {
     display: none; }
   .sm_mode {
-    padding-bottom: 46px; }
+    /*  padding-bottom: get-vw-medium(46px); */ }
     .sm_mode .mobilemenu_v2 {
       display: none !important; }
     .sm_mode .container {
@@ -19800,7 +19800,7 @@ html {
   .itemsnav_desktop {
     display: none; }
   .sm_mode {
-    padding-bottom: 40px; }
+    /*     padding-bottom: get-vw-xxsmall(40px); */ }
     .sm_mode .container {
       max-width: 100%;
       padding: 0 18px;
@@ -20692,7 +20692,7 @@ html {
     display: block; }
   .sm_mode {
     min-height: 100vh;
-    padding-bottom: 46px; }
+    /* padding-bottom: get-vw-xxlarge(46px); */ }
     .sm_mode .container {
       max-width: 100%;
       /*  max-width: 1832px); */

@@ -14,7 +14,7 @@
     display: none;
   }
   .sm_mode {
-    padding-bottom: get-vw-medium(46px);
+   /*  padding-bottom: get-vw-medium(46px); */
 
     .mobilemenu_v2 {
       display: none !important
@@ -1012,7 +1012,7 @@ margin-bottom: 20px;
     display: none;
   }
   .sm_mode {
-    padding-bottom: get-vw-xxsmall(40px);
+/*     padding-bottom: get-vw-xxsmall(40px); */
 
     .container {
       max-width: 100%;
@@ -2367,7 +2367,7 @@ a.notesbtn {
   }
   .sm_mode {
     min-height: 100vh;
-    padding-bottom: get-vw-xxlarge(46px);
+    /* padding-bottom: get-vw-xxlarge(46px); */
 
     .container {
       max-width: 100%;
