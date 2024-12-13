@@ -266,11 +266,13 @@ function inputSliderInit() {
 
         const markpos = element.position().left
 
-        element.siblings('[data-toggle="project_link"]').addClass("active")
+        $('[data-toggle="project_link"]').addClass("active")
+
+      /*   element.siblings('[data-toggle="project_link"]').addClass("active")
         element
           .siblings('[data-toggle="project_link"]')
           .find(".linkpopup__marker")
-          .css("left", markpos + "px")
+          .css("left", markpos + "px") */
       }
 
       $("[data-action='addtofav']").on("click", function (e) {

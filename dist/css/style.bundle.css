@@ -19118,6 +19118,10 @@ html {
   .sm_mode .tabsnav_v2 .linkset__items::-webkit-scrollbar-thumb:hover {
     display: none; }
 
+.notify.chosen[data-notdatepicker="datepick"]:hover {
+  background: transparent;
+  cursor: initial; }
+
 @media only screen and (max-width: 1090px) {
   .darkmode .tablepagination .pagination li a {
     height: 44px;
@@ -20372,9 +20376,10 @@ html {
     left: 0;
     transform: translateY(-100%); */
     /*  width: get-vw-xxsmall(466px); */
-    width: 216px;
-    left: unset !important;
+    width: 90%;
     right: 0 !important;
+    left: 0 !important;
+    margin: auto;
     /*     top: 0 !important; */
     /*     position: sticky !important; */
     /*  position: absolute;
@@ -20385,7 +20390,7 @@ html {
   .linkpopup__wrapper {
     background: #303646 !important;
     border-radius: 4px;
-    padding: 10px 10px 10px 10px; }
+    padding: 15px 15px 15px 15px; }
   .linkpopup__title {
     font-weight: 700;
     font-size: 12px;
@@ -21553,7 +21558,7 @@ html {
     margin-top: -250px); */
     overflow: auto !important;
     /*   overflow-x: scroll !important; */
-    height: calc(100vh - 14.0625vw); }
+    height: calc(100vh - 11.45833vw); }
   .tableblock_tab.tableblock__kols .tableblock__body .tableblock__col {
     padding-top: 0.36458vw;
     padding-bottom: 0.36458vw;
@@ -21667,17 +21672,35 @@ html {
   position: fixed;
   left: 0;
   right: 0;
-  bottom: unset;
+  /*   bottom: unset; */
   /* top: 50%; */
   margin: auto;
   display: inline-flex;
-  transform: translateY(-85%);
+  /*   transform: translateY(-85%); */
   justify-content: center;
   /*   height: 100dvh;
  */
   align-items: center;
-  top: 50%;
-  width: fit-content; }
+  /*   top: 50%; */
+  width: fit-content;
+  top: unset;
+  bottom: 132px;
+  transform: none; }
+
+.tableblock__kols .tableblock__body {
+  background-color: #212531 !important; }
+
+@media (min-resolution: 120dpi) {
+  table, th, td {
+    border-width: 0.75px; } }
+
+@media (min-resolution: 144dpi) {
+  table, th, td {
+    border-width: 0.666px; } }
+
+@media (min-resolution: 192dpi) {
+  table, th, td {
+    border-width: 0.5px; } }
 
 @media (min-width: 1921px) {
   .siteheader__main {

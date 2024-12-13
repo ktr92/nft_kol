@@ -911,6 +911,7 @@ body {
   }
 }
 
+
 .notify {
   display: block;
   padding: get-vw-large(10px) get-vw-large(15px);
@@ -1381,4 +1382,9 @@ html{
   &::-webkit-scrollbar-thumb:hover {
     display: none;
     }
+}
+
+.notify.chosen[data-notdatepicker="datepick"]:hover {
+  background: transparent;
+  cursor: initial;
 }
