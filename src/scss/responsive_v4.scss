@@ -2313,7 +2313,9 @@ a.notesbtn {
 
 
 @include xxsmall-screen {
-  
+  .sm_mode {
+    padding-bottom: 0;
+  }
   
   .tabsnav_v2 .linkset__items {
     max-width: get-vw-xxsmall(297px); 

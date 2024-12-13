@@ -20658,6 +20658,8 @@ html {
     width: 142px; } }
 
 @media only screen and (max-width: 480px) {
+  .sm_mode {
+    padding-bottom: 0; }
   .tabsnav_v2 .linkset__items {
     max-width: 297px;
     overflow: auto; }
