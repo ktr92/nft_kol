@@ -21692,6 +21692,14 @@ html {
 .tableblock__kols .tableblock__body {
   background-color: #212531 !important; }
 
+.linkpopup__title {
+  display: none; }
+
+.linkpopup__small .projectlink_img_on {
+  width: 11px;
+  vertical-align: middle;
+  display: inline-block; }
+
 @media (min-resolution: 120dpi) {
   table, th, td {
     border-width: 0.75px; } }
