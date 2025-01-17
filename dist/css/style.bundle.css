@@ -19122,6 +19122,19 @@ html {
   background: transparent;
   cursor: initial; }
 
+.sm_mode {
+  background-image: none; }
+
+a.tableblock__title svg {
+  transition: all 0.3s ease; }
+
+a.tableblock__title.active svg {
+  transform: rotate(180deg); }
+
+@media (min-width: 980px) and (max-width: 1919px) {
+  .sm_mode #footer {
+    position: fixed; } }
+
 @media only screen and (max-width: 1090px) {
   .darkmode .tablepagination .pagination li a {
     height: 44px;

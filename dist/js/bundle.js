@@ -273,6 +273,10 @@ function inputSliderInit() {
 
   $(document).ready(function () {
     ;(function v4() {
+      $('a.tableblock__title').on('click', function(e) {
+        $(this).toggleClass('active')
+      })
+
       function setBodyheight() {
         const h =
           $(window).height() -
