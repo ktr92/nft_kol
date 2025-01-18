@@ -3684,7 +3684,7 @@ a.notesbtn {
     }
   }
 
-  $tb: get-vw-laptop(200px);
+  $tb: get-vw-laptop(245px);
   
   .tableblock__kols .tableblock__table {
   /*   padding-top: 250px);
@@ -3919,7 +3919,7 @@ a.notesbtn {
     min-width: get-vw-laptop(100px);
   }
   .tableblock__kols .tableblock__table {
-    padding-bottom: get-vw-laptop(45px);
+    /* padding-bottom: get-vw-laptop(45px); */
   }
 }
 
