@@ -525,7 +525,7 @@ $(document).ready(function () {
 
   $("[data-toggleclick]").on("click", function (e) {
     $(this).toggleClass("active")
-    e.preventDefault()
+   /*  e.preventDefault() */
     let dropdown = $(this).data("toggleclick")
     $("[data-toggle].active")
       .not($(`[data-toggle=${dropdown}]`))
@@ -539,7 +539,7 @@ $(document).ready(function () {
 
   $("[data-toggleclickset]").on("click", function (e) {
     $(this).toggleClass("active")
-    e.preventDefault()
+   /*  e.preventDefault() */
     let dropdown = $(this).data("toggleclickset")
     let wrapper = $(this).closest(`[data-toggleitem]`)
     $("[data-toggleitem].active").not(wrapper).removeClass("active")

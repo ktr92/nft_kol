@@ -16,7 +16,7 @@
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
+// This entry needs to be wrapped in an IIFE because it needs to be isolated against other entry modules.
 (() => {
 /*!*************************!*\
   !*** ./src/js/index.js ***!
@@ -548,7 +548,7 @@ $(document).ready(function () {
 
   $("[data-toggleclick]").on("click", function (e) {
     $(this).toggleClass("active")
-    e.preventDefault()
+   /*  e.preventDefault() */
     let dropdown = $(this).data("toggleclick")
     $("[data-toggle].active")
       .not($(`[data-toggle=${dropdown}]`))
@@ -562,7 +562,7 @@ $(document).ready(function () {
 
   $("[data-toggleclickset]").on("click", function (e) {
     $(this).toggleClass("active")
-    e.preventDefault()
+   /*  e.preventDefault() */
     let dropdown = $(this).data("toggleclickset")
     let wrapper = $(this).closest(`[data-toggleitem]`)
     $("[data-toggleitem].active").not(wrapper).removeClass("active")
@@ -607,7 +607,7 @@ window.addEventListener("load", function () {
 
 })();
 
-// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+// This entry needs to be wrapped in an IIFE because it needs to be in strict mode.
 (() => {
 "use strict";
 /*!*****************************!*\

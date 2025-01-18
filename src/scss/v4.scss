@@ -1399,12 +1399,12 @@ a.tableblock__title.active svg {
   transform: rotate(180deg);
 }
 
-@media (min-width: 980px) and (max-width: 1919px) {
+/* @media (min-width: 980px) and (max-width: 1919px) {
   .sm_mode #footer {
       position: fixed;
   }
 }
-
+ */
 .kolmain__img img {
   border-radius: 50%;
 }
@@ -1428,3 +1428,40 @@ a.tableblock__title.active svg {
 .tableblock__col a, .tableblock__col span {
   word-break: break-word;
 }
+
+.siteheader__nav .iconlink__count {
+  width: unset !important;
+  padding: 0 4px;
+}
+.messageblock__usericon,
+.messageblock__thingimg, 
+.messageblock__thing, 
+.messageblock__user {
+  line-height: 1;
+}
+.siteheader__nav .tabsnav__links ul li a {
+  display: flex;
+  align-items: center;
+}
+.tableblock_tab.tableblock__kols .tableblock__table_cut .tableblock__header .tableblock__col.tableblock__col_watchlist {
+  width: 100px;
+  max-width: 100px;
+  min-width: 100px;
+}
+
+body {
+
+  background: #252a39;
+  box-sizing: border-box;
+}
+
+.tableblock__kols .tableblock__table {
+  padding-bottom: 45px;
+  background: #212531;
+}
+
+/* .sm_mode #footer {
+  position: fixed;
+}
+ */
+

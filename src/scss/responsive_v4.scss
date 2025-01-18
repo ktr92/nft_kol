@@ -3684,7 +3684,7 @@ a.notesbtn {
     }
   }
 
-  $tb: get-vw-laptop(220px);
+  $tb: get-vw-laptop(200px);
   
   .tableblock__kols .tableblock__table {
   /*   padding-top: 250px);
@@ -3857,6 +3857,72 @@ a.notesbtn {
   
 }
 
+
+
+@media (min-width: 980px) and (max-width: 1919px) {
+  
+  .siteheader__nav .iconlink__count { 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: get-vw-laptop(19px);
+      line-height: 1;
+  }
+
+  .siteheader__nav .tabsnav {
+    display: block !important
+  }
+
+  .siteheader__nav .tabsnav__links{
+    margin-bottom: 0;
+  }
+
+  .messageblock__thingimg img {
+    border-radius: 50%;
+    max-width: get-vw-laptop(30px);
+    min-width: get-vw-laptop(30px);
+  }
+  
+  .projectlink img {
+    max-width: get-vw-laptop(13px);
+    min-width: get-vw-laptop(13px);
+  
+  }
+  
+  .kolmain__button img {
+    max-width: get-vw-laptop(16px);
+    min-width: get-vw-laptop(16px);
+  }
+  
+  .tableblock__col a, .tableblock__col span {
+    word-break: break-word;
+  }
+  
+  .siteheader__nav .iconlink__count {
+    width: unset;
+    padding: 0 get-vw-laptop(4px);
+
+  }
+  .messageblock__usericon,
+  .messageblock__thingimg, 
+  .messageblock__thing, 
+  .messageblock__user {
+    line-height: 1;
+  }
+  .siteheader__nav .tabsnav__links ul li a {
+    display: flex;
+    align-items: center;
+  }
+  .tableblock_tab.tableblock__kols .tableblock__table_cut .tableblock__header .tableblock__col.tableblock__col_watchlist {
+    width: get-vw-laptop(100px);
+    max-width: get-vw-laptop(100px);
+    min-width: get-vw-laptop(100px);
+  }
+  .tableblock__kols .tableblock__table {
+    padding-bottom: get-vw-laptop(45px);
+  }
+}
+
 @include extrasmall-screen() {
   .sm_mode .container {
     padding: 0 10px;
@@ -3916,4 +3982,30 @@ a.notesbtn {
   table, th, td {
     border-width: 0.5px;
   }
+}
+
+
+@media only screen and (max-width: 811px) {
+  .tableblock__kols .tableblock__table {
+      height: calc(100vh - 208px);
+      
+  }
+}
+
+
+@media only screen and (max-width: 1090px) {
+  .tabsnav_mobile .iconlink__count {
+    min-width: 19px;
+  }
+}
+@media only screen and (max-width: 811px) {
+  .tabsnav_mobile .iconlink__count {
+      min-width: 16px;
+  }
+}
+@media (min-width: 980px) and (max-width: 1919px) {
+  .tabsnav_mobile .iconlink__count {
+    min-width: 0.98958vw;
+
+ }
 }
