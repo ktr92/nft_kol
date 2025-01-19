@@ -20879,7 +20879,7 @@ body {
       width: 100%; }
   .darkmode {
     background-repeat: repeat-x;
-    background-color: #252a39; }
+    /*  background-color: #252a39; */ }
   .darkmode * {
     color: #fff !important; }
   .siteheader__nav .iconlink__count {
@@ -21729,6 +21729,8 @@ body {
       color: #30ca4c !important; } }
 
 @media (min-width: 980px) and (max-width: 1919px) {
+  .sitefooter_sm {
+    position: fixed; }
   .siteheader__nav .iconlink__count {
     display: flex;
     align-items: center;
