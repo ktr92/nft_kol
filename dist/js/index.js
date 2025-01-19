@@ -260,6 +260,7 @@ function inputSliderInit() {
           $("#footer").height() -
           $("#header").height() -
           $(".tableblock__header").height() - 
+          $(".tableblock__tab").height() - 
           $(".navcontent").height()
         $(".vhblock").css("min-height", `${h}px`)
       }

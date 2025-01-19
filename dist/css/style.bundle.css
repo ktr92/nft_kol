@@ -19183,6 +19183,9 @@ body {
   /*   padding-bottom: 45px; */
   background: #212531; }
 
+.darkmode {
+  background: #212531; }
+
 /* .sm_mode #footer {
   position: fixed;
 }
@@ -21621,11 +21624,8 @@ body {
   .darkmode .messageblock__wrapper.dropdownblock__wrapper {
     background: #303646; }
   .tableblock__kols .tableblock__table {
-    /*   padding-top: 250px);
-    margin-top: -250px); */
     overflow: auto !important;
-    /*   overflow-x: scroll !important; */
-    height: calc(100vh - 12.76042vw); }
+    height: calc(100vh - 13.28125vw); }
   .tableblock_tab.tableblock__kols .tableblock__body .tableblock__col {
     padding-top: 0.36458vw;
     padding-bottom: 0.36458vw;
