@@ -19190,6 +19190,9 @@ body {
   position: fixed;
 }
  */
+i {
+  font-style: italic; }
+
 @media only screen and (max-width: 1090px) {
   .darkmode .tablepagination .pagination li a {
     height: 44px;
