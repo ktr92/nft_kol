@@ -21826,7 +21826,12 @@ i {
 
 @media only screen and (max-width: 811px) {
   .tableblock__kols .tableblock__table {
-    height: calc(100vh - 208px); } }
+    height: calc(100vh - 208px); }
+  .sm_mode #footer {
+    position: sticky; }
+  .sm_mode .messageblock_notes.active {
+    bottom: 45px;
+    transform: none; } }
 
 @media only screen and (max-width: 1090px) {
   .tabsnav_mobile .iconlink__count {

@@ -3985,6 +3985,13 @@ a.notesbtn {
       height: calc(100vh - 208px);
       
   }
+  .sm_mode #footer {
+    position: sticky
+  }
+  .sm_mode .messageblock_notes.active {
+    bottom: 45px;
+    transform: none;
+  }
 }
 
 
