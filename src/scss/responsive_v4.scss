@@ -3684,8 +3684,7 @@ a.notesbtn {
     }
   }
 
-  $tb: get-vw-laptop(255px);
-  
+  $tb: get-vw-laptop(220px);  
   .tableblock__kols .tableblock__table {
     overflow: auto !important;
     height: calc(100vh - #{$tb});
@@ -3854,9 +3853,9 @@ a.notesbtn {
 
 
 @media (min-width: 980px) and (max-width: 1919px) {
-  .sitefooter_sm {
+/*   .sitefooter_sm {
     position: fixed;
-  }
+  } */
   .siteheader__nav .iconlink__count { 
       display: flex;
       align-items: center;

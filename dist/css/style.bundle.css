@@ -19183,9 +19183,9 @@ body {
   /*   padding-bottom: 45px; */
   background: #212531; }
 
-.darkmode {
-  background: #212531; }
-
+/* .darkmode {
+  background: #212531;
+} */
 /* .sm_mode #footer {
   position: fixed;
 }
@@ -21625,7 +21625,7 @@ body {
     background: #303646; }
   .tableblock__kols .tableblock__table {
     overflow: auto !important;
-    height: calc(100vh - 13.28125vw); }
+    height: calc(100vh - 11.45833vw); }
   .tableblock_tab.tableblock__kols .tableblock__body .tableblock__col {
     padding-top: 0.36458vw;
     padding-bottom: 0.36458vw;
@@ -21729,8 +21729,9 @@ body {
       color: #30ca4c !important; } }
 
 @media (min-width: 980px) and (max-width: 1919px) {
-  .sitefooter_sm {
-    position: fixed; }
+  /*   .sitefooter_sm {
+    position: fixed;
+  } */
   .siteheader__nav .iconlink__count {
     display: flex;
     align-items: center;
