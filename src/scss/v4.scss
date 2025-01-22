@@ -1472,3 +1472,9 @@ body {
   font-style: italic;
  }
 
+ .messageblock__notetext {
+  word-break: break-word;
+}
+.sitefooter_sm .sitefooter__info {
+width: unset;
+}

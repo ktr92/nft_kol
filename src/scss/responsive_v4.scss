@@ -4012,3 +4012,30 @@ a.notesbtn {
  }
 }
 
+.messageblock__notetext {
+  word-break: break-word;
+}
+.sitefooter_sm .sitefooter__info {
+width: unset;
+}
+
+@media only screen and (max-width: 811px) {
+  .sitefooter .dropdownblock.messageblock_notes .messageblock__username {
+    
+      font-size: 12px;
+  }
+  .sitefooter .dropdownblock.messageblock_notes .messageblock__thing {
+    margin-left: 10px;
+  }
+  .sitefooter .dropdownblock.messageblock_notes .messageblock__thingtitle {
+    font-size: 12px;
+  }
+  .messageblock__usericon img {
+    min-width: 16px;
+    max-width: 16px;
+  }
+  .messageblock__thingimg img {
+    min-width: 16px;
+    max-width: 16px;
+  }
+}
