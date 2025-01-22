@@ -4038,4 +4038,17 @@ width: unset;
     min-width: 16px;
     max-width: 16px;
   }
+  .sitefooter .dropdownblock.messageblock_notes .messageblock__username {
+    padding-left: 6px;
+  }
+  .sitefooter .dropdownblock.messageblock_notes .messageblock__header {
+    flex-wrap: wrap;
+  }
+  .sitefooter .dropdownblock.messageblock_notes .messageblock__param {
+  
+  }
+  .messageblock__right {
+    width: 100%;
+    margin-top: 4px;
+  }
 }
