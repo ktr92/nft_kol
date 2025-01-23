@@ -4018,8 +4018,13 @@ a.notesbtn {
 .sitefooter_sm .sitefooter__info {
 width: unset;
 }
-
+.sitefooter__text {
+  white-space: nowrap;
+}
 @media only screen and (max-width: 811px) {
+  .messageblock_notes .messageblock__right {
+    display: none;
+  }
   .sitefooter .dropdownblock.messageblock_notes .messageblock__username {
     
       font-size: 12px;

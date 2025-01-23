@@ -21845,6 +21845,38 @@ i {
   .tabsnav_mobile .iconlink__count {
     min-width: 0.98958vw; } }
 
+.messageblock__notetext {
+  word-break: break-word; }
+
+.sitefooter_sm .sitefooter__info {
+  width: unset; }
+
+.sitefooter__text {
+  white-space: nowrap; }
+
+@media only screen and (max-width: 811px) {
+  .messageblock_notes .messageblock__right {
+    display: none; }
+  .sitefooter .dropdownblock.messageblock_notes .messageblock__username {
+    font-size: 12px; }
+  .sitefooter .dropdownblock.messageblock_notes .messageblock__thing {
+    margin-left: 10px; }
+  .sitefooter .dropdownblock.messageblock_notes .messageblock__thingtitle {
+    font-size: 12px; }
+  .messageblock__usericon img {
+    min-width: 16px;
+    max-width: 16px; }
+  .messageblock__thingimg img {
+    min-width: 16px;
+    max-width: 16px; }
+  .sitefooter .dropdownblock.messageblock_notes .messageblock__username {
+    padding-left: 6px; }
+  .sitefooter .dropdownblock.messageblock_notes .messageblock__header {
+    flex-wrap: wrap; }
+  .messageblock__right {
+    width: 100%;
+    margin-top: 4px; } }
+
 @media (min-width: 1921px) {
   .siteheader__main {
     padding: 35px 0; }
