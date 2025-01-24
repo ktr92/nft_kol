@@ -19193,6 +19193,18 @@ body {
 i {
   font-style: italic; }
 
+.sitefooter__info {
+  gap: 20px; }
+
+.pb-0 {
+  padding-bottom: 0; }
+
+.landingcost__item {
+  max-width: 473px; }
+
+.landingcost__items {
+  justify-content: center; }
+
 @media only screen and (max-width: 1090px) {
   .darkmode .tablepagination .pagination li a {
     height: 44px;

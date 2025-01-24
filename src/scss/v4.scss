@@ -1472,3 +1472,18 @@ body {
   font-style: italic;
  }
 
+
+.sitefooter__info {
+  gap: 20px;
+}
+
+// на лендинге в Шаблоне для body добавить класс чтобы было <body class="pb-0"> ...
+.pb-0 {
+  padding-bottom: 0;
+}
+.landingcost__item {
+  max-width: 473px;
+}
+.landingcost__items {
+  justify-content: center;
+}
