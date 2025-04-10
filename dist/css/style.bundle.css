@@ -18058,7 +18058,7 @@ img {
   .footerfilter__input input[type="text"] {
     height: 28px;
     font-size: 14px;
-    max-width: 115px; }
+    max-width: 145px; }
   [data-action="resetinput"] {
     right: 10px; }
   .footerfilter .checkblock label span:last-child {
@@ -19308,7 +19308,7 @@ i {
     font-weight: 500;
     color: #fff;
     line-height: 100%;
-    max-width: 115px; }
+    max-width: 145px; }
 
 [data-action="resetinput"] {
   position: absolute;
