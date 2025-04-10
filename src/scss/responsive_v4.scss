@@ -990,6 +990,36 @@ margin-bottom: 20px;
 }
 
 @include small-screen {
+      
+.projectradar {
+  display: none;/* 
+  margin-right:  get-vw-laptop(9px);
+  gap:  get-vw-laptop(9px);
+  padding:  get-vw-laptop(14px)  get-vw-laptop(13px)  get-vw-laptop(14px)  get-vw-laptop(27px); */
+}
+/* .projectradar__text {
+  font-size:  get-vw-laptop(16px);
+}
+.projectradar__badge {
+  font-size:  get-vw-laptop(13px);
+  padding:  get-vw-laptop(6px)  get-vw-laptop(8px);
+} */
+  .sitefooter__filter {
+    display: none;
+  }
+  .kolmain__personal {
+    right:  get-vw-xxsmall(-2px);
+    top:  get-vw-xxsmall(-2px);
+  }
+  .kolmain__subscribers {
+    bottom:  get-vw-xxsmall(-7px);
+    font-size:  get-vw-xxsmall(8px);
+    padding:  get-vw-xxsmall(3px)  get-vw-xxsmall(3px)  get-vw-xxsmall(2px)  get-vw-xxsmall(3px);
+  }
+  .kolmain__personal svg {
+    width: get-vw-xxsmall(13px);
+    height: get-vw-xxsmall(13px);
+  }
   .tableblock__kols .tableblock__table {
     height: calc(100vh - 170px);
 }
@@ -3856,6 +3886,85 @@ a.notesbtn {
 /*   .sitefooter_sm {
     position: fixed;
   } */
+  .kolmain__personal svg {
+    width: get-vw-laptop(16px);
+    height: get-vw-laptop(16px);
+  }
+  .kolmain__personal {
+    right:  get-vw-laptop(-2px);
+    top:  get-vw-laptop(-2px);
+  }
+  .kolmain__subscribers {
+    bottom:  get-vw-laptop(-7px);
+    font-size:  get-vw-laptop(10px);
+    padding:  get-vw-laptop(3px)  get-vw-laptop(4px)  get-vw-laptop(3px)  get-vw-laptop(4px);
+  }
+  .footerfilter__items {
+
+    gap:  get-vw-laptop(50px);
+  }
+  .footerfilter__item {
+    gap:  get-vw-laptop(12px);
+  }
+  .footerfilter__label {
+    font-size:  get-vw-laptop(14px);
+  }
+  .footerfilter__input {
+  
+    input[type="text"] {
+      height:  get-vw-laptop(28px);
+      font-size:  get-vw-laptop(14px);
+      max-width:  get-vw-laptop(115px);
+    }
+    
+  }
+  [data-action="resetinput"]{
+    right:  get-vw-laptop(10px);
+   
+  }
+
+  
+  .footerfilter .checkblock label span:last-child {
+    width:  get-vw-laptop(40px);
+    height:  get-vw-laptop(22px);
+  }
+  
+ /*    
+.projectradar {
+  margin-right:  get-vw-laptop(9px);
+  gap:  get-vw-laptop(9px);
+  padding:  get-vw-laptop(12px)  get-vw-laptop(13px)  get-vw-laptop(12px)  get-vw-laptop(27px);
+}
+.projectradar__text {
+  font-size:  get-vw-laptop(16px);
+}
+.projectradar__badge {
+  font-size:  get-vw-laptop(13px);
+  padding:  get-vw-laptop(6px)  get-vw-laptop(8px);
+}
+ */
+  
+  .footerfilter .checkblock label span:last-child::after {
+    left:  get-vw-laptop(2px);
+    width:  get-vw-laptop(18px);
+    height:  get-vw-laptop(18px);
+  }
+  .footerfilter .checkblock label span:last-child::before {
+    width:  get-vw-laptop(2px);
+    height:  get-vw-laptop(12px);
+    left:  get-vw-laptop(10px);
+
+  }
+  
+    
+  .footerfilter .checkblock [type="checkbox"]:checked + label span:last-child::after {
+    right:  get-vw-laptop(2px);
+  }
+
+  .sitefooter__filter {
+    display: none;
+  }
+
   .siteheader__nav .iconlink__count { 
       display: flex;
       align-items: center;
