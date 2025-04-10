@@ -19391,6 +19391,11 @@ i {
 .footerfilter .checkblock {
   margin-bottom: 0; }
 
+.projectradar__text {
+  font-size: 16px;
+  color: #fff;
+  white-space: nowrap; }
+
 .projectradar {
   margin-right: 9px;
   gap: 9px;
@@ -19399,11 +19404,10 @@ i {
   background: #5d38ff;
   border-radius: 555px;
   padding: 12px 13px 12px 27px; }
-
-.projectradar__text {
-  font-size: 16px;
-  color: #fff;
-  white-space: nowrap; }
+  .projectradar:hover {
+    background: #fff; }
+    .projectradar:hover .projectradar__text {
+      color: #5d38ff; }
 
 .projectradar__badge {
   font-size: 13px;

@@ -1650,7 +1650,11 @@ background: rgba(72, 79, 99, 1);
 .footerfilter .checkblock  {
    margin-bottom: 0;
 }
-
+.projectradar__text {
+  font-size: 16px;
+  color: #fff;
+  white-space: nowrap;
+}
 .projectradar {
   margin-right: 9px;
   gap: 9px;
@@ -1658,12 +1662,16 @@ background: rgba(72, 79, 99, 1);
   align-items: center;
   background: rgba(93, 56, 255, 1);
   border-radius: 555px;padding: 12px 13px 12px 27px;
+
+  &:hover {
+    background: #fff;
+
+    .projectradar__text  {
+      color: rgba(93, 56, 255, 1);
+    }
+  }
 }
-.projectradar__text {
-  font-size: 16px;
-  color: #fff;
-  white-space: nowrap;
-}
+
 .projectradar__badge {
   font-size: 13px;
   color: rgba(33, 37, 49, 1);
