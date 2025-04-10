@@ -22036,8 +22036,6 @@ i {
     left: 0.52083vw; }
   .footerfilter .checkblock [type="checkbox"]:checked + label span:last-child::after {
     right: 0.10417vw; }
-  .sitefooter__filter {
-    display: none; }
   .siteheader__nav .iconlink__count {
     display: flex;
     align-items: center;
