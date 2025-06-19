@@ -38,7 +38,10 @@ function initFE() {
   repostSliderInit()
   inputSliderInit()
   radioTooltip()
+
+ 
 }
+
 
 function showSuggestions(e) {
   if (e.value.length > 0) {
@@ -250,8 +253,8 @@ function inputSliderInit() {
 
   $(document).ready(function () {
     ;(function v4() {
-      $('a.tableblock__title').on('click', function(e) {
-        $(this).toggleClass('active')
+      $("a.tableblock__title").on("click", function (e) {
+        $(this).toggleClass("active")
       })
 
       function setBodyheight() {
@@ -259,8 +262,8 @@ function inputSliderInit() {
           $(window).height() -
           $("#footer").height() -
           $("#header").height() -
-          $(".tableblock__header").height() - 
-          $(".tableblock__tab").height() - 
+          $(".tableblock__header").height() -
+          $(".tableblock__tab").height() -
           $(".navcontent").height()
         $(".vhblock").css("min-height", `${h}px`)
       }
@@ -273,7 +276,7 @@ function inputSliderInit() {
 
         $('[data-toggle="project_link"]').addClass("active")
 
-      /*   element.siblings('[data-toggle="project_link"]').addClass("active")
+        /*   element.siblings('[data-toggle="project_link"]').addClass("active")
         element
           .siblings('[data-toggle="project_link"]')
           .find(".linkpopup__marker")
@@ -284,20 +287,25 @@ function inputSliderInit() {
         e.preventDefault()
         $(this).toggleClass("active")
       })
-/*       $("[data-action='getHashtag']").on("click", function (e) {
+      /*       $("[data-action='getHashtag']").on("click", function (e) {
 
       }) */
-    
- /*      $(".tablehashtags]").on("click", function (e) {
+
+      /*      $(".tablehashtags]").on("click", function (e) {
         
       }) */
-      $(".tablehashtags__list li:not(.tablehashtags__popup):not(.active)").on("click", function (e) {
-        $(this).addClass('active')
-        if ($(this).hasClass("disabled")) {
-          return
-        }
-        $(this).find(".tablehastag").removeClass("notactive").addClass("active")
-       /*  const html = $(this).wrap("<p/>").parent().html()
+      $(".tablehashtags__list li:not(.tablehashtags__popup):not(.active)").on(
+        "click",
+        function (e) {
+          $(this).addClass("active")
+          if ($(this).hasClass("disabled")) {
+            return
+          }
+          $(this)
+            .find(".tablehastag")
+            .removeClass("notactive")
+            .addClass("active")
+          /*  const html = $(this).wrap("<p/>").parent().html()
         $(this).unwrap()
         $(this).hide()
         if (
@@ -311,28 +319,23 @@ function inputSliderInit() {
           .find(".tablehashtags__selected ul")
           .prepend(html) */
 
-        $('[data-toggle="hashtagsblock"]').removeClass("active");
-        
-        $(".tablehashtags__list li.active").off('click')
-        $(".tablehashtags__list li.active").on("click", function (e) {
-          e.stopPropagation()
-          let li = null
-          if (e.target != this) {
-            li = $(this).closest('li')
-          } else {
-            li = e.target
-          }
-          console.log(li)        
-          li.find('.tablehastag').addClass("notactive").removeClass("active")
           $('[data-toggle="hashtagsblock"]').removeClass("active")
-        });
-       
-       
-      });
 
-     
-  
-
+          $(".tablehashtags__list li.active").off("click")
+          $(".tablehashtags__list li.active").on("click", function (e) {
+            e.stopPropagation()
+            let li = null
+            if (e.target != this) {
+              li = $(this).closest("li")
+            } else {
+              li = e.target
+            }
+            console.log(li)
+            li.find(".tablehastag").addClass("notactive").removeClass("active")
+            $('[data-toggle="hashtagsblock"]').removeClass("active")
+          })
+        }
+      )
 
       $("[data-action='hashtagsblock']").on("click", function (e) {
         e.preventDefault()
@@ -362,25 +365,26 @@ function inputSliderInit() {
 
       function join(date, options, separator) {
         function format(option) {
-           let formatter = new Intl.DateTimeFormat('en', option);
-           return formatter.format(date);
+          let formatter = new Intl.DateTimeFormat("en", option)
+          return formatter.format(date)
         }
-        return options.map(format).join(separator);
-     }
+        return options.map(format).join(separator)
+      }
 
-      $('[data-datepicker="datepick"]').on('click', function(e) {
+      $('[data-datepicker="datepick"]').on("click", function (e) {
         e.preventDefault()
-        $('[data-toggle="datepick"]').removeClass('active')
-        $(this).closest('.tableblock__col_notify').find('[data-toggle="datepick"]').toggleClass('active')
+        $('[data-toggle="datepick"]').removeClass("active")
+        $(this)
+          .closest(".tableblock__col_notify")
+          .find('[data-toggle="datepick"]')
+          .toggleClass("active")
       })
 
-      $('[data-notdatepicker="datepick"]').on('click', function(e) {
+      $('[data-notdatepicker="datepick"]').on("click", function (e) {
         e.preventDefault()
-     
       })
-      $('a.tableblock__title').on('click', function(e) {
+      $("a.tableblock__title").on("click", function (e) {
         e.preventDefault()
-     
       })
 
       $(".datepick").each(function () {
@@ -390,18 +394,33 @@ function inputSliderInit() {
           viewMode: "YMDHMS",
           firstDayOfWeek: 1,
           onOk: function () {
-            notify.closest('.tableblock__col_notify').find('[data-toggle="datepick"]').removeClass('active')
+            notify
+              .closest(".tableblock__col_notify")
+              .find('[data-toggle="datepick"]')
+              .removeClass("active")
           },
-          onClear: function(){
-            notify.closest('.tableblock__col_notify').find('[data-datepicker="datepick"]').removeClass('chosen')
-            notify.closest('.tableblock__col_notify').find('[data-toggle="datepick"]').removeClass('active')
+          onClear: function () {
+            notify
+              .closest(".tableblock__col_notify")
+              .find('[data-datepicker="datepick"]')
+              .removeClass("chosen")
+            notify
+              .closest(".tableblock__col_notify")
+              .find('[data-toggle="datepick"]')
+              .removeClass("active")
           },
           onDateChange: function () {
-            notify.closest('.tableblock__col ').find('.notify').addClass('chosen')
-            let options = [{day: 'numeric'}, {month: 'short'}];
-            if ( this.getValue()) {
-              const date = join(this.getValue(), options, ' ');
-              const time = ("0" + this.getValue().getHours()).slice(-2) + ":" + ("0" + this.getValue().getMinutes()).slice(-2);
+            notify
+              .closest(".tableblock__col ")
+              .find(".notify")
+              .addClass("chosen")
+            let options = [{ day: "numeric" }, { month: "short" }]
+            if (this.getValue()) {
+              const date = join(this.getValue(), options, " ")
+              const time =
+                ("0" + this.getValue().getHours()).slice(-2) +
+                ":" +
+                ("0" + this.getValue().getMinutes()).slice(-2)
               notify
                 .closest(".tableblock__col")
                 .find(".tabledatetime__date")
@@ -411,12 +430,9 @@ function inputSliderInit() {
                 .closest(".tableblock__col")
                 .find(".tabledatetime__time")
                 .text(time)
-  
             }
-          
           },
         })
-       
       })
     })()
 
@@ -526,7 +542,7 @@ $(document).ready(function () {
 
   $("[data-toggleclick]").on("click", function (e) {
     $(this).toggleClass("active")
-   /*  e.preventDefault() */
+    /*  e.preventDefault() */
     let dropdown = $(this).data("toggleclick")
     $("[data-toggle].active")
       .not($(`[data-toggle=${dropdown}]`))
@@ -540,7 +556,7 @@ $(document).ready(function () {
 
   $("[data-toggleclickset]").on("click", function (e) {
     $(this).toggleClass("active")
-   /*  e.preventDefault() */
+    /*  e.preventDefault() */
     let dropdown = $(this).data("toggleclickset")
     let wrapper = $(this).closest(`[data-toggleitem]`)
     $("[data-toggleitem].active").not(wrapper).removeClass("active")
