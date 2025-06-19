@@ -1,1159 +1,657 @@
 @media (min-width: 980px) and (max-width: 1919px) {
   .siteheader_v5 {
-  .siteheader__desc {
-    font-size: get-vw-laptop(22px);
-  }
-  
-  .headerupgrade__button {
-   
-    border-radius: get-vw-laptop(12px);
-    padding: 0 get-vw-laptop(21px) 0 get-vw-laptop(12px);
-    height: get-vw-laptop(42px);
-    gap: get-vw-laptop(11px);
-    
-  }
-  .linkset__items {
-    margin-right: get-vw-laptop(9px);
-  }
-  .linkset__items_border {
-    border: get-vw-laptop(4px) solid #303646;
-  }
-  .linkset__items_noborder {
-    border: get-vw-laptop(4px) solid #303646;
- 
-  }
-  .linkset__item {
-
-    a.linkset__link {
-      padding-top: get-vw-laptop(3px);
-      padding-bottom: get-vw-laptop(3px);
+    .siteheader__desc {
+      font-size: get-vw-laptop(22px);
     }
-  }
-  .linkset__items_border,
-  .linkset__items_noborder {
-    padding-left: get-vw-laptop(4px);
-    padding-right: get-vw-laptop(4px);
-  }
-  .linkset__items_border .linkset__item a.linkset__link {
-    padding-left: get-vw-laptop(10px);
-    padding-right: get-vw-laptop(10px);
-    padding-top: get-vw-laptop(3px);
-    padding-bottom: get-vw-laptop(3px);
-        font-size: get-vw-laptop(16px);
-  
-    
-  }
-  .tabsnav_v2 .linkset__item a.linkset__upgrade {
-    .upgrade_lock {
-      padding: 0 get-vw-laptop(8px) 0 get-vw-laptop(3px);
+
+    .headerupgrade__button {
+      border-radius: get-vw-laptop(12px);
+      padding: 0 get-vw-laptop(21px) 0 get-vw-laptop(12px);
+      height: get-vw-laptop(42px);
+      gap: get-vw-laptop(11px);
     }
-  }
-  .watchlistnew__link {
-    gap: get-vw-laptop(9px);
-  }
-
-  .watchlistnew {
-    margin-left: get-vw-laptop(36px);
-
-    img {
-      max-width: get-vw-laptop(18px);
-      min-width: get-vw-laptop(18px);
+    .linkset__items {
+      margin-right: get-vw-laptop(9px);
     }
-  }
-
-  .watchlistnew__text {
-    font-size: get-vw-laptop(14px);
-}
-  }
-.headerbanner {
-  margin: get-vw-laptop(28px) 0;
-}
-.headerbanner__wrapper {
-  border-radius: get-vw-laptop(12px);
-  padding: get-vw-laptop(9px) get-vw-laptop(20px) get-vw-laptop(10px) get-vw-laptop(20px);
-}
-.headerbanner__content {
-  gap: get-vw-laptop(20px);
-}
-.headerbanner__img img {
-  min-width: get-vw-laptop(66px);
-  max-width: get-vw-laptop(66px);
-}
-.headerbanner__title {
-  font-size: get-vw-laptop(22px);
- 
-}
-
-
-.footerfilter__item_wins {
-  gap: get-vw-laptop(7px);
-}
-
-.tableblock_tab.tableblock__kols .tableblock__title {
-  gap: get-vw-laptop(7px);
-}
-
-
-.tooltipv2 {
-  .oversize {
-    margin-left:get-vw-laptop( 3px);
-  }
-  .oversize__icon {
-    width: get-vw-laptop(15px);
-    height: get-vw-laptop(15px);
-    min-width:get-vw-laptop( 15px);
-    max-width: get-vw-laptop(15px);
-    border: get-vw-laptop(1px) solid #303646;
-     transform: translateY(-10px);
-
-    &:hover {
-      border-color: #86f89b;
-    }
-  }
-  .tooltipv2__tooltip {
-    border-radius: get-vw-laptop(8px);
-   
-    max-width: get-vw-laptop(175px);
-    min-width: get-vw-laptop(175px);
-    margin-top: get-vw-laptop(0px);
-    margin-left: get-vw-laptop(-5px);
-    padding: get-vw-laptop(13px) get-vw-laptop(19px) get-vw-laptop(12px) get-vw-laptop(16px);
-    font-size: get-vw-laptop(14px);
-
-  }
-
-  .tooltipv2__tooltip::after {
-    content: "";
-    top: 100%;
-    left: unset;
-    position: absolute;
-    border-left: get-vw-laptop(7px) solid transparent;
-    border-right: get-vw-laptop(7px) solid transparent;
-    border-top: get-vw-laptop(9px) solid #303646;
-  }
-}
-
-.notableblock__wrapper {
-
-  border: get-vw-laptop(4px) solid #303646;
-  border-radius: get-vw-laptop(5555px);
-
-}
-.notableblock__count {
-  font-size: get-vw-laptop(14px);
-  
-  border-radius: get-vw-laptop(555px);
-  padding: 0 get-vw-laptop(30px);
-  height: get-vw-laptop(34px);
-}
-.notableblock__items {
-  
-
-  &:after {
-    content: "";
-
-    width: get-vw-laptop(94px);
-    height: get-vw-laptop(42px);
-    position: absolute;
-    right: get-vw-laptop(-6px);
-    top: get-vw-laptop(-5px);
-  }
-}
-.notableblock__item {
-  border: get-vw-laptop(2px) solid #303646;
-  min-width: get-vw-laptop(34px);
-  max-width: get-vw-laptop(34px);
-  height: get-vw-laptop(34px);
-  margin-left: get-vw-laptop(-12px);
- 
-  img {
-    width: get-vw-laptop(34px);
-    height: get-vw-laptop(34px);
-  }
-}
-
-
-.gainvalue {
-font-size: get-vw-laptop(18px);
-width: get-vw-laptop(54px);
-text-shadow: 0 get-vw-laptop(2px) get-vw-laptop(9px)  rgba(134, 248, 155, 0.45) !important;
-
-}
-
-.gainvalue__img {
-  img {
-    width: 100%;
-    margin-top: get-vw-laptop(-8px);
-    margin-left: get-vw-laptop(-15px);
-  
-  }
-}
-
-
-.sm_mode.hasbanner .tableblock__header {
-      background-position: top get-vw-laptop(-289px) left;
-}
-
-.linkwrapper {
-  gap: get-vw-laptop(12px);
-  .linkwrapper__text {
-font-size: get-vw-laptop(14px); 
-  }
-}
-
-.sitefooter_sm .sitefooter__info {
-  gap: get-vw-laptop(30px);
-}
-
-.footerbanner {
-  right: get-vw-laptop(20px);
-
-  bottom: get-vw-laptop(66px);
-
-}
-.footerbanner__wrapper {
-  padding: get-vw-laptop(14px) get-vw-laptop(14px) get-vw-laptop(17px) get-vw-laptop(19px);
-  max-width: get-vw-laptop(315px);
-  border-radius: get-vw-laptop(12px);
-
-
-}
-.footerbanner__content {
-  gap: get-vw-laptop(17px);
-}
-.footerbanner__icon {
-  min-width: get-vw-laptop(80px);
-  max-width: get-vw-laptop(80px);
-}
-.footerbanner__text {
-font-size: get-vw-laptop(18px);
-}
-.footerbanner__close {
-  position: absolute;
-  top: get-vw-laptop(10px);
-  right: get-vw-laptop(10px);
-}
-.gainvalue__img img {
-  width: get-vw-laptop(76px);
-
-}
-.headerupgrade__icon  img{
-  width: get-vw-laptop(28px);
-}
-.upgrade_icon img {
-  width: get-vw-laptop(22px);
-}
-.upgrade_lock img {
-  width: get-vw-laptop(16px);
-}
-.footerfilter__item_wins img {
-  width: get-vw-laptop(26px);
-}
-[src="img/headerbanner__close.svg"] {
-   width: get-vw-laptop(14px);
-}
-
-.sm_mode {
-  .tablepagination_locked {
-    .paginationblock {
-      height:  get-vw-laptop(44px);
-      min-width: get-vw-laptop(44px);
+    .linkset__items_border {
       border: get-vw-laptop(4px) solid #303646;
     }
-    .paginationblock + .paginationblock {
-      margin-left: get-vw-laptop(8px);
-
-      .pagination {
-        padding-right: get-vw-laptop(8px);
-      }
-    }
-
-    
-    .pagination ul li {
-      margin: 0 get-vw-laptop(8px);
-    }
-    .pagination ul li a {
-      height: get-vw-laptop(36px);
-    }
-    .pagination ul li.pagilock {
-      a {
-        height: get-vw-laptop(22px);
-        gap: get-vw-laptop(3px);
-
-      }
-    }
-  
-  }
-}
-
-}
-
-
-@media (min-width: 980px) and (max-width: 1919px) {
-  .siteheader_v5 {
-  .siteheader__desc {
-    font-size: get-vw-laptop(22px);
-  }
-  
-  .headerupgrade__button {
-   
-    border-radius: get-vw-laptop(12px);
-    padding: 0 get-vw-laptop(21px) 0 get-vw-laptop(12px);
-    height: get-vw-laptop(42px);
-    gap: get-vw-laptop(11px);
-    
-  }
-  .linkset__items {
-    margin-right: get-vw-laptop(9px);
-  }
-  .linkset__items_border {
-    border: get-vw-laptop(4px) solid #303646;
-  }
-  .linkset__items_noborder {
-    border: get-vw-laptop(4px) solid #303646;
- 
-  }
-  .linkset__item {
-
-    a.linkset__link {
-      padding-top: get-vw-laptop(3px);
-      padding-bottom: get-vw-laptop(3px);
-    }
-  }
-  .linkset__items_border,
-  .linkset__items_noborder {
-    padding-left: get-vw-laptop(4px);
-    padding-right: get-vw-laptop(4px);
-  }
-  .linkset__items_border .linkset__item a.linkset__link {
-    padding-left: get-vw-laptop(10px);
-    padding-right: get-vw-laptop(10px);
-    padding-top: get-vw-laptop(3px);
-    padding-bottom: get-vw-laptop(3px);
-        font-size: get-vw-laptop(16px);
-  
-    
-  }
-  .tabsnav_v2 .linkset__item a.linkset__upgrade {
-    .upgrade_lock {
-      padding: 0 get-vw-laptop(8px) 0 get-vw-laptop(3px);
-    }
-  }
-  .watchlistnew__link {
-    gap: get-vw-laptop(9px);
-  }
-
-  .watchlistnew {
-    margin-left: get-vw-laptop(36px);
-
-    img {
-      max-width: get-vw-laptop(18px);
-      min-width: get-vw-laptop(18px);
-    }
-  }
-
-  .watchlistnew__text {
-    font-size: get-vw-laptop(14px);
-}
-  }
-.headerbanner {
-  margin: get-vw-laptop(28px) 0;
-}
-.headerbanner__wrapper {
-  border-radius: get-vw-laptop(12px);
-  padding: get-vw-laptop(9px) get-vw-laptop(20px) get-vw-laptop(10px) get-vw-laptop(20px);
-}
-.headerbanner__content {
-  gap: get-vw-laptop(20px);
-}
-.headerbanner__img img {
-  min-width: get-vw-laptop(66px);
-  max-width: get-vw-laptop(66px);
-}
-.headerbanner__title {
-  font-size: get-vw-laptop(22px);
- 
-}
-
-
-.footerfilter__item_wins {
-  gap: get-vw-laptop(7px);
-}
-
-.tableblock_tab.tableblock__kols .tableblock__title {
-  gap: get-vw-laptop(7px);
-}
-
-
-.tooltipv2 {
-  .oversize {
-    margin-left:get-vw-laptop( 3px);
-  }
-  .oversize__icon {
-    width: get-vw-laptop(15px);
-    height: get-vw-laptop(15px);
-    min-width:get-vw-laptop( 15px);
-    max-width: get-vw-laptop(15px);
-    border: get-vw-laptop(1px) solid #303646;
-     transform: translateY(-10px);
-
-    &:hover {
-      border-color: #86f89b;
-    }
-  }
-  .tooltipv2__tooltip {
-    border-radius: get-vw-laptop(8px);
-   
-    max-width: get-vw-laptop(175px);
-    min-width: get-vw-laptop(175px);
-    margin-top: get-vw-laptop(0px);
-    margin-left: get-vw-laptop(-5px);
-    padding: get-vw-laptop(13px) get-vw-laptop(19px) get-vw-laptop(12px) get-vw-laptop(16px);
-    font-size: get-vw-laptop(14px);
-
-  }
-
-  .tooltipv2__tooltip::after {
-    content: "";
-    top: 100%;
-    left: unset;
-    position: absolute;
-    border-left: get-vw-laptop(7px) solid transparent;
-    border-right: get-vw-laptop(7px) solid transparent;
-    border-top: get-vw-laptop(9px) solid #303646;
-  }
-}
-
-.notableblock__wrapper {
-
-  border: get-vw-laptop(4px) solid #303646;
-  border-radius: get-vw-laptop(5555px);
-
-}
-.notableblock__count {
-  font-size: get-vw-laptop(14px);
-  
-  border-radius: get-vw-laptop(555px);
-  padding: 0 get-vw-laptop(30px);
-  height: get-vw-laptop(34px);
-}
-.notableblock__items {
-  
-
-  &:after {
-    content: "";
-
-    width: get-vw-laptop(94px);
-    height: get-vw-laptop(42px);
-    position: absolute;
-    right: get-vw-laptop(-6px);
-    top: get-vw-laptop(-5px);
-  }
-}
-.notableblock__item {
-  border: get-vw-laptop(2px) solid #303646;
-  min-width: get-vw-laptop(34px);
-  max-width: get-vw-laptop(34px);
-  height: get-vw-laptop(34px);
-  margin-left: get-vw-laptop(-12px);
- 
-  img {
-    width: get-vw-laptop(34px);
-    height: get-vw-laptop(34px);
-  }
-}
-
-
-.gainvalue {
-font-size: get-vw-laptop(18px);
-width: get-vw-laptop(54px);
-text-shadow: 0 get-vw-laptop(2px) get-vw-laptop(9px)  rgba(134, 248, 155, 0.45) !important;
-
-}
-
-.gainvalue__img {
-  img {
-    width: 100%;
-    margin-top: get-vw-laptop(-8px);
-    margin-left: get-vw-laptop(-15px);
-  
-  }
-}
-
-
-.sm_mode.hasbanner .tableblock__header {
-      background-position: top get-vw-laptop(-289px) left;
-}
-
-.linkwrapper {
-  gap: get-vw-laptop(12px);
-  .linkwrapper__text {
-font-size: get-vw-laptop(14px); 
-  }
-}
-
-.sitefooter_sm .sitefooter__info {
-  gap: get-vw-laptop(30px);
-}
-
-.footerbanner {
-  right: get-vw-laptop(20px);
-
-  bottom: get-vw-laptop(66px);
-
-}
-.footerbanner__wrapper {
-  padding: get-vw-laptop(14px) get-vw-laptop(14px) get-vw-laptop(17px) get-vw-laptop(19px);
-  max-width: get-vw-laptop(315px);
-  border-radius: get-vw-laptop(12px);
-
-
-}
-.footerbanner__content {
-  gap: get-vw-laptop(17px);
-}
-.footerbanner__icon {
-  min-width: get-vw-laptop(80px);
-  max-width: get-vw-laptop(80px);
-}
-.footerbanner__text {
-font-size: get-vw-laptop(18px);
-}
-.footerbanner__close {
-  position: absolute;
-  top: get-vw-laptop(10px);
-  right: get-vw-laptop(10px);
-}
-.gainvalue__img img {
-  width: get-vw-laptop(76px);
-
-}
-.headerupgrade__icon  img{
-  width: get-vw-laptop(28px);
-}
-.upgrade_icon img {
-  width: get-vw-laptop(22px);
-}
-.upgrade_lock img {
-  width: get-vw-laptop(16px);
-}
-.footerfilter__item_wins img {
-  width: get-vw-laptop(26px);
-}
-[src="img/headerbanner__close.svg"] {
-   width: get-vw-laptop(14px);
-}
-
-.sm_mode {
-  .tablepagination_locked {
-    .paginationblock {
-      height:  get-vw-laptop(44px);
-      min-width: get-vw-laptop(44px);
+    .linkset__items_noborder {
       border: get-vw-laptop(4px) solid #303646;
     }
-    .paginationblock + .paginationblock {
-      margin-left: get-vw-laptop(8px);
+    .linkset__item {
+      a.linkset__link {
+        padding-top: get-vw-laptop(3px);
+        padding-bottom: get-vw-laptop(3px);
+      }
+    }
+    .linkset__items_border,
+    .linkset__items_noborder {
+      padding-left: get-vw-laptop(4px);
+      padding-right: get-vw-laptop(4px);
+    }
+    .linkset__items_border .linkset__item a.linkset__link {
+      padding-left: get-vw-laptop(10px);
+      padding-right: get-vw-laptop(10px);
+      padding-top: get-vw-laptop(3px);
+      padding-bottom: get-vw-laptop(3px);
+      font-size: get-vw-laptop(16px);
+    }
+    .tabsnav_v2 .linkset__item a.linkset__upgrade {
+      .upgrade_lock {
+        padding: 0 get-vw-laptop(8px) 0 get-vw-laptop(3px);
+      }
+    }
+    .watchlistnew__link {
+      gap: get-vw-laptop(9px);
+    }
 
-      .pagination {
-        padding-right: get-vw-laptop(8px);
+    .watchlistnew {
+      margin-left: get-vw-laptop(36px);
+
+      img {
+        max-width: get-vw-laptop(18px);
+        min-width: get-vw-laptop(18px);
       }
     }
 
-    
-    .pagination ul li {
-      margin: 0 get-vw-laptop(8px);
+    .watchlistnew__text {
+      font-size: get-vw-laptop(14px);
     }
-    .pagination ul li a {
-      height: get-vw-laptop(36px);
-    }
-    .pagination ul li.pagilock {
-      a {
-        height: get-vw-laptop(22px);
-        gap: get-vw-laptop(3px);
-
-      }
-    }
-  
   }
-}
+  .headerbanner {
+    margin: get-vw-laptop(28px) 0;
+  }
+  .headerbanner__wrapper {
+    border-radius: get-vw-laptop(12px);
+    padding: get-vw-laptop(9px) get-vw-laptop(20px) get-vw-laptop(10px)
+      get-vw-laptop(20px);
+  }
+  .headerbanner__content {
+    gap: get-vw-laptop(20px);
+  }
+  .headerbanner__img img {
+    min-width: get-vw-laptop(66px);
+    max-width: get-vw-laptop(66px);
+  }
+  .headerbanner__title {
+    font-size: get-vw-laptop(22px);
+  }
+
+  .footerfilter__item_wins {
+    gap: get-vw-laptop(7px);
+  }
+
+  .tableblock_tab.tableblock__kols .tableblock__title {
+    gap: get-vw-laptop(7px);
+  }
+
+  .tooltipv2 {
+    .oversize {
+      margin-left: get-vw-laptop(3px);
+    }
+    .oversize__icon {
+      width: get-vw-laptop(15px);
+      height: get-vw-laptop(15px);
+      min-width: get-vw-laptop(15px);
+      max-width: get-vw-laptop(15px);
+      border: get-vw-laptop(1px) solid #303646;
+      transform: translateY(-10px);
+
+      &:hover {
+        border-color: #86f89b;
+      }
+    }
+    .tooltipv2__tooltip {
+      border-radius: get-vw-laptop(8px);
+
+      max-width: get-vw-laptop(175px);
+      min-width: get-vw-laptop(175px);
+      margin-top: get-vw-laptop(0px);
+      margin-left: get-vw-laptop(-5px);
+      padding: get-vw-laptop(13px) get-vw-laptop(19px) get-vw-laptop(12px)
+        get-vw-laptop(16px);
+      font-size: get-vw-laptop(14px);
+    }
+
+    .tooltipv2__tooltip::after {
+      content: "";
+      top: 100%;
+      left: unset;
+      position: absolute;
+      border-left: get-vw-laptop(7px) solid transparent;
+      border-right: get-vw-laptop(7px) solid transparent;
+      border-top: get-vw-laptop(9px) solid #303646;
+    }
+  }
+
+  .notableblock__wrapper {
+    border: get-vw-laptop(4px) solid #303646;
+    border-radius: get-vw-laptop(5555px);
+  }
+  .notableblock__count {
+    font-size: get-vw-laptop(14px);
+
+    border-radius: get-vw-laptop(555px);
+    padding: 0 get-vw-laptop(30px);
+    height: get-vw-laptop(34px);
+  }
+  .notableblock__items {
+    &:after {
+      content: "";
+
+      width: get-vw-laptop(94px);
+      height: get-vw-laptop(42px);
+      position: absolute;
+      right: get-vw-laptop(-6px);
+      top: get-vw-laptop(-5px);
+    }
+  }
+  .notableblock__item {
+    border: get-vw-laptop(2px) solid #303646;
+    min-width: get-vw-laptop(34px);
+    max-width: get-vw-laptop(34px);
+    height: get-vw-laptop(34px);
+    margin-left: get-vw-laptop(-12px);
+
+    img {
+      width: get-vw-laptop(34px);
+      height: get-vw-laptop(34px);
+    }
+  }
+
+  .gainvalue {
+    font-size: get-vw-laptop(18px);
+    width: get-vw-laptop(54px);
+    text-shadow: 0 get-vw-laptop(2px) get-vw-laptop(9px)
+      rgba(134, 248, 155, 0.45) !important;
+  }
+
+  .gainvalue__img {
+    img {
+      width: 100%;
+      margin-top: get-vw-laptop(-8px);
+      margin-left: get-vw-laptop(-15px);
+    }
+  }
+
+  .sm_mode.hasbanner .tableblock__header {
+    background-position: top get-vw-laptop(-289px) left;
+  }
+
+  .linkwrapper {
+    gap: get-vw-laptop(12px);
+    .linkwrapper__text {
+      font-size: get-vw-laptop(14px);
+    }
+  }
+
+  .sitefooter_sm .sitefooter__info {
+    gap: get-vw-laptop(30px);
+  }
+
+  .footerbanner {
+    right: get-vw-laptop(20px);
+
+    bottom: get-vw-laptop(66px);
+  }
+  .footerbanner__wrapper {
+    padding: get-vw-laptop(14px) get-vw-laptop(14px) get-vw-laptop(17px)
+      get-vw-laptop(19px);
+    max-width: get-vw-laptop(315px);
+    border-radius: get-vw-laptop(12px);
+  }
+  .footerbanner__content {
+    gap: get-vw-laptop(17px);
+  }
+  .footerbanner__icon {
+    min-width: get-vw-laptop(80px);
+    max-width: get-vw-laptop(80px);
+  }
+  .footerbanner__text {
+    font-size: get-vw-laptop(18px);
+  }
+  .footerbanner__close {
+    position: absolute;
+    top: get-vw-laptop(10px);
+    right: get-vw-laptop(10px);
+  }
+  .gainvalue__img img {
+    width: get-vw-laptop(76px);
+  }
+  .headerupgrade__icon img {
+    width: get-vw-laptop(28px);
+  }
+  .upgrade_icon img {
+    width: get-vw-laptop(22px);
+  }
+  .upgrade_lock img {
+    width: get-vw-laptop(16px);
+  }
+  .footerfilter__item_wins img {
+    width: get-vw-laptop(26px);
+  }
+  [src="img/headerbanner__close.svg"] {
+    width: get-vw-laptop(14px);
+  }
+
+  .sm_mode {
+    .tablepagination_locked {
+      .paginationblock {
+        height: get-vw-laptop(44px);
+        min-width: get-vw-laptop(44px);
+        border: get-vw-laptop(4px) solid #303646;
+      }
+      .paginationblock + .paginationblock {
+        margin-left: get-vw-laptop(8px);
+
+        .pagination {
+          padding-right: get-vw-laptop(8px);
+        }
+      }
+
+      .pagination ul li {
+        margin: 0 get-vw-laptop(8px);
+      }
+      .pagination ul li a {
+        height: get-vw-laptop(36px);
+      }
+      .pagination ul li.pagilock {
+        a {
+          height: get-vw-laptop(22px);
+          gap: get-vw-laptop(3px);
+        }
+      }
+    }
+  }
 }
 
 @include medium-screen {
-    .siteheader_v5 {
-  .siteheader__desc {
-    font-size: get-vw-laptop(22px);
-  }
-  
-  .headerupgrade__button {
-   
-    border-radius: get-vw-laptop(12px);
-    padding: 0 get-vw-laptop(21px) 0 get-vw-laptop(12px);
-    height: get-vw-laptop(42px);
-    gap: get-vw-laptop(11px);
-    
-  }
-  .linkset__items {
-    margin-right: get-vw-laptop(9px);
-  }
-  .linkset__items_border {
-    border: get-vw-laptop(4px) solid #303646;
-  }
-  .linkset__items_noborder {
-    border: get-vw-laptop(4px) solid #303646;
- 
-  }
-  .linkset__item {
-
-    a.linkset__link {
-      padding-top: get-vw-laptop(3px);
-      padding-bottom: get-vw-laptop(3px);
-    }
-  }
-  .linkset__items_border,
-  .linkset__items_noborder {
-    padding-left: get-vw-laptop(4px);
-    padding-right: get-vw-laptop(4px);
-  }
-  .linkset__items_border .linkset__item a.linkset__link {
-    padding-left: get-vw-laptop(10px);
-    padding-right: get-vw-laptop(10px);
-    padding-top: get-vw-laptop(3px);
-    padding-bottom: get-vw-laptop(3px);
-        font-size: get-vw-laptop(16px);
-  
-    
-  }
-  .tabsnav_v2 .linkset__item a.linkset__upgrade {
-    .upgrade_lock {
-      padding: 0 get-vw-laptop(8px) 0 get-vw-laptop(3px);
-    }
-  }
-  .watchlistnew__link {
-    gap: get-vw-laptop(9px);
-  }
-
-  .watchlistnew {
-    margin-left: get-vw-laptop(36px);
-
-    img {
-      max-width: get-vw-laptop(18px);
-      min-width: get-vw-laptop(18px);
-    }
-  }
-
-  .watchlistnew__text {
-    font-size: get-vw-laptop(14px);
-}
-  }
-.headerbanner {
-  margin: get-vw-laptop(28px) 0;
-}
-.headerbanner__wrapper {
-  border-radius: get-vw-laptop(12px);
-  padding: get-vw-laptop(9px) get-vw-laptop(20px) get-vw-laptop(10px) get-vw-laptop(20px);
-}
-.headerbanner__content {
-  gap: get-vw-laptop(20px);
-}
-.headerbanner__img img {
-  min-width: get-vw-laptop(66px);
-  max-width: get-vw-laptop(66px);
-}
-.headerbanner__title {
-  font-size: get-vw-laptop(22px);
- 
-}
-
-
-.footerfilter__item_wins {
-  gap: get-vw-laptop(7px);
-}
-
-.tableblock_tab.tableblock__kols .tableblock__title {
-  gap: get-vw-laptop(7px);
-}
-
-
-.tooltipv2 {
-  .oversize {
-    margin-left:get-vw-laptop( 3px);
-  }
-  .oversize__icon {
-    width: get-vw-laptop(15px);
-    height: get-vw-laptop(15px);
-    min-width:get-vw-laptop( 15px);
-    max-width: get-vw-laptop(15px);
-    border: get-vw-laptop(1px) solid #303646;
-     transform: translateY(-10px);
-
-    &:hover {
-      border-color: #86f89b;
-    }
-  }
-  .tooltipv2__tooltip {
-    border-radius: get-vw-laptop(8px);
-   
-    max-width: get-vw-laptop(175px);
-    min-width: get-vw-laptop(175px);
-    margin-top: get-vw-laptop(0px);
-    margin-left: get-vw-laptop(-5px);
-    padding: get-vw-laptop(13px) get-vw-laptop(19px) get-vw-laptop(12px) get-vw-laptop(16px);
-    font-size: get-vw-laptop(14px);
-
-  }
-
-  .tooltipv2__tooltip::after {
-    content: "";
-    top: 100%;
-    left: unset;
-    position: absolute;
-    border-left: get-vw-laptop(7px) solid transparent;
-    border-right: get-vw-laptop(7px) solid transparent;
-    border-top: get-vw-laptop(9px) solid #303646;
-  }
-}
-
-.notableblock__wrapper {
-
-  border: get-vw-laptop(4px) solid #303646;
-  border-radius: get-vw-laptop(5555px);
-
-}
-.notableblock__count {
-  font-size: get-vw-laptop(14px);
-  
-  border-radius: get-vw-laptop(555px);
-  padding: 0 get-vw-laptop(30px);
-  height: get-vw-laptop(34px);
-}
-.notableblock__items {
-  
-
-  &:after {
-    content: "";
-
-    width: get-vw-laptop(94px);
-    height: get-vw-laptop(42px);
-    position: absolute;
-    right: get-vw-laptop(-6px);
-    top: get-vw-laptop(-5px);
-  }
-}
-.notableblock__item {
-  border: get-vw-laptop(2px) solid #303646;
-  min-width: get-vw-laptop(34px);
-  max-width: get-vw-laptop(34px);
-  height: get-vw-laptop(34px);
-  margin-left: get-vw-laptop(-12px);
- 
-  img {
-    width: get-vw-laptop(34px);
-    height: get-vw-laptop(34px);
-  }
-}
-
-
-.gainvalue {
-font-size: get-vw-laptop(18px);
-width: get-vw-laptop(54px);
-text-shadow: 0 get-vw-laptop(2px) get-vw-laptop(9px)  rgba(134, 248, 155, 0.45) !important;
-
-}
-
-.gainvalue__img {
-  img {
-    width: 100%;
-    margin-top: get-vw-laptop(-8px);
-    margin-left: get-vw-laptop(-15px);
-  
-  }
-}
-
-
-.sm_mode.hasbanner .tableblock__header {
-      background-position: top get-vw-laptop(-289px) left;
-}
-
-.linkwrapper {
-  gap: get-vw-laptop(12px);
-  .linkwrapper__text {
-font-size: get-vw-laptop(14px); 
-  }
-}
-
-.sitefooter_sm .sitefooter__info {
-  gap: get-vw-laptop(30px);
-}
-
-.footerbanner {
-  right: get-vw-laptop(20px);
-
-  bottom: get-vw-laptop(66px);
-
-}
-.footerbanner__wrapper {
-  padding: get-vw-laptop(14px) get-vw-laptop(14px) get-vw-laptop(17px) get-vw-laptop(19px);
-  max-width: get-vw-laptop(315px);
-  border-radius: get-vw-laptop(12px);
-
-
-}
-.footerbanner__content {
-  gap: get-vw-laptop(17px);
-}
-.footerbanner__icon {
-  min-width: get-vw-laptop(80px);
-  max-width: get-vw-laptop(80px);
-}
-.footerbanner__text {
-font-size: get-vw-laptop(18px);
-}
-.footerbanner__close {
-  position: absolute;
-  top: get-vw-laptop(10px);
-  right: get-vw-laptop(10px);
-}
-.gainvalue__img img {
-  width: get-vw-laptop(76px);
-
-}
-.headerupgrade__icon  img{
-  width: get-vw-laptop(28px);
-}
-.upgrade_icon img {
-  width: get-vw-laptop(22px);
-}
-.upgrade_lock img {
-  width: get-vw-laptop(16px);
-}
-.footerfilter__item_wins img {
-  width: get-vw-laptop(26px);
-}
-[src="img/headerbanner__close.svg"] {
-   width: get-vw-laptop(14px);
-}
-
-.sm_mode {
-  .tablepagination_locked {
-    .paginationblock {
-      height:  get-vw-laptop(44px);
-      min-width: get-vw-laptop(44px);
-      border: get-vw-laptop(4px) solid #303646;
-    }
-    .paginationblock + .paginationblock {
-      margin-left: get-vw-laptop(8px);
-
-      .pagination {
-        padding-right: get-vw-laptop(8px);
-      }
-    }
-
-    
-    .pagination ul li {
-      margin: 0 get-vw-laptop(8px);
-    }
-    .pagination ul li a {
-      height: get-vw-laptop(36px);
-    }
-    .pagination ul li.pagilock {
-      a {
-        height: get-vw-laptop(22px);
-        gap: get-vw-laptop(3px);
-
-      }
-    }
-  
-  }
-}
-
-}
-
-
-@media (min-width: 980px) and (max-width: 1919px) {
   .siteheader_v5 {
-  .siteheader__desc {
-    font-size: get-vw-laptop(22px);
-  }
-  
-  .headerupgrade__button {
-   
-    border-radius: get-vw-laptop(12px);
-    padding: 0 get-vw-laptop(21px) 0 get-vw-laptop(12px);
-    height: get-vw-laptop(42px);
-    gap: get-vw-laptop(11px);
-    
-  }
-  .linkset__items {
-    margin-right: get-vw-laptop(9px);
-  }
-  .linkset__items_border {
-    border: get-vw-laptop(4px) solid #303646;
-  }
-  .linkset__items_noborder {
-    border: get-vw-laptop(4px) solid #303646;
- 
-  }
-  .linkset__item {
+    .siteheader__slg {
+      display: none;
+    }
+    .watchlistnew {
+      display: none;
+    }
+    .watchlistnew_mobile {
+      display: block;
+    }
 
-    a.linkset__link {
-      padding-top: get-vw-laptop(3px);
-      padding-bottom: get-vw-laptop(3px);
+    .headerupgrade {
+      display: none;
+    }
+
+    .linkset__items {
+      margin-right: get-vw-medium(9px);
+    }
+    .linkset__items_border {
+      border: get-vw-medium(4px) solid #303646;
+      padding-top: 3px;
+      padding-bottom: 3px;
+    }
+
+    .linkset__item {
+      a.linkset__link {
+        padding-top: get-vw-medium(3px);
+        padding-bottom: get-vw-medium(3px);
+      }
+    }
+    .linkset__items_border,
+    .linkset__items_noborder {
+      padding-left: get-vw-medium(4px);
+      padding-right: get-vw-medium(4px);
+    }
+    .linkset__items_noborder {
+      border: get-vw-medium(4px) solid #303646;
+      padding-left: 0;
+    }
+    .linkset__items_border .linkset__item a.linkset__link {
+      padding-left: get-vw-medium(4px);
+      padding-right: get-vw-medium(4px);
+      padding-top: get-vw-medium(0px);
+      padding-bottom: get-vw-medium(0px);
+      font-size: get-vw-medium(16px);
+    }
+    .linkset__upgrade {
+      padding-left: 0 !important;
+    }
+    .tabsnav_v2 .linkset__item a.linkset__upgrade {
+      .upgrade_lock {
+        padding: 0 get-vw-medium(8px) 0 get-vw-medium(3px);
+      }
+    }
+    .watchlistnew__link {
+      gap: get-vw-medium(9px);
+    }
+
+    .watchlistnew {
+      margin-left: get-vw-medium(36px);
+
+      img {
+        max-width: get-vw-medium(18px);
+        min-width: get-vw-medium(18px);
+      }
+    }
+
+    .watchlistnew__text {
+      font-size: get-vw-medium(14px);
     }
   }
-  .linkset__items_border,
-  .linkset__items_noborder {
-    padding-left: get-vw-laptop(4px);
-    padding-right: get-vw-laptop(4px);
-  }
-  .linkset__items_border .linkset__item a.linkset__link {
-    padding-left: get-vw-laptop(10px);
-    padding-right: get-vw-laptop(10px);
-    padding-top: get-vw-laptop(3px);
-    padding-bottom: get-vw-laptop(3px);
-        font-size: get-vw-laptop(16px);
-  
-    
-  }
-  .tabsnav_v2 .linkset__item a.linkset__upgrade {
-    .upgrade_lock {
-      padding: 0 get-vw-laptop(8px) 0 get-vw-laptop(3px);
-    }
-  }
-  .watchlistnew__link {
-    gap: get-vw-laptop(9px);
+  .headerbanner {
+    display: none;
   }
 
-  .watchlistnew {
-    margin-left: get-vw-laptop(36px);
+  .footerfilter__item_wins {
+    gap: get-vw-medium(7px);
+  }
+
+  .tableblock_tab.tableblock__kols .tableblock__title {
+    gap: get-vw-medium(7px);
+  }
+
+  .tooltipv2 {
+    .oversize {
+      margin-left: get-vw-medium(3px);
+    }
+    .oversize__icon {
+      width: get-vw-medium(15px);
+      height: get-vw-medium(15px);
+      min-width: get-vw-medium(15px);
+      max-width: get-vw-medium(15px);
+      border: get-vw-medium(1px) solid #303646;
+      transform: translateY(-10px);
+
+      &:hover {
+        border-color: #86f89b;
+      }
+    }
+    .tooltipv2__tooltip {
+      border-radius: get-vw-medium(8px);
+
+      max-width: get-vw-medium(175px);
+      min-width: get-vw-medium(175px);
+      margin-top: get-vw-medium(0px);
+      margin-left: get-vw-medium(-5px);
+      padding: get-vw-medium(13px) get-vw-medium(19px) get-vw-medium(12px)
+        get-vw-medium(16px);
+      font-size: get-vw-medium(14px);
+    }
+
+    .tooltipv2__tooltip::after {
+      content: "";
+      top: 100%;
+      left: unset;
+      position: absolute;
+      border-left: get-vw-medium(7px) solid transparent;
+      border-right: get-vw-medium(7px) solid transparent;
+      border-top: get-vw-medium(9px) solid #303646;
+    }
+  }
+
+  .notableblock__wrapper {
+    border: get-vw-medium(4px) solid #303646;
+    border-radius: get-vw-medium(5555px);
+  }
+  .notableblock__count {
+    font-size: get-vw-medium(14px);
+
+    border-radius: get-vw-medium(555px);
+    padding: 0 get-vw-medium(30px);
+    height: get-vw-medium(34px);
+  }
+  .notableblock__items {
+    &:after {
+      content: "";
+
+      width: get-vw-medium(94px);
+      height: get-vw-medium(42px);
+      position: absolute;
+      right: get-vw-medium(-6px);
+      top: get-vw-medium(-5px);
+    }
+  }
+  .notableblock__item {
+    border: get-vw-medium(2px) solid #303646;
+    min-width: get-vw-medium(34px);
+    max-width: get-vw-medium(34px);
+    height: get-vw-medium(34px);
+    margin-left: get-vw-medium(-12px);
 
     img {
-      max-width: get-vw-laptop(18px);
-      min-width: get-vw-laptop(18px);
+      width: get-vw-medium(34px);
+      height: get-vw-medium(34px);
     }
   }
 
+  .gainvalue {
+    font-size: get-vw-medium(18px);
+    width: get-vw-medium(54px);
+    text-shadow: 0 get-vw-medium(2px) get-vw-medium(9px)
+      rgba(134, 248, 155, 0.45) !important;
+  }
+
+  .gainvalue__img {
+    img {
+      width: 100%;
+      margin-top: get-vw-medium(-8px);
+      margin-left: get-vw-medium(-15px);
+    }
+  }
+
+  .linkwrapper {
+    gap: get-vw-medium(12px);
+    .linkwrapper__text {
+      font-size: get-vw-medium(14px);
+    }
+  }
+
+  .sitefooter_sm .sitefooter__info {
+    gap: get-vw-medium(30px);
+  }
+
+  .footerbanner {
+    right: get-vw-medium(20px);
+
+    bottom: get-vw-medium(66px);
+  }
+  .footerbanner__wrapper {
+    padding: get-vw-medium(14px) get-vw-medium(14px) get-vw-medium(17px)
+      get-vw-medium(19px);
+    max-width: get-vw-medium(315px);
+    border-radius: get-vw-medium(12px);
+  }
+  .footerbanner__content {
+    gap: get-vw-medium(17px);
+  }
+  .footerbanner__icon {
+    min-width: get-vw-medium(80px);
+    max-width: get-vw-medium(80px);
+  }
+  .footerbanner__text {
+    font-size: get-vw-medium(18px);
+  }
+  .footerbanner__close {
+    position: absolute;
+    top: get-vw-medium(10px);
+    right: get-vw-medium(10px);
+  }
+  .gainvalue__img img {
+    width: get-vw-medium(76px);
+  }
+  .headerupgrade__icon img {
+    width: get-vw-medium(28px);
+  }
+  .upgrade_icon img {
+    width: get-vw-medium(22px);
+  }
+  .upgrade_lock img {
+    width: get-vw-medium(16px);
+  }
+  .footerfilter__item_wins img {
+    width: get-vw-medium(26px);
+  }
+  [src="img/headerbanner__close.svg"] {
+    width: get-vw-medium(14px);
+  }
+
+  .sm_mode {
+    .tablepagination_locked {
+      .paginationblock {
+        height: get-vw-medium(44px);
+        min-width: get-vw-medium(44px);
+        border: get-vw-medium(4px) solid #303646;
+      }
+      .paginationblock + .paginationblock {
+        margin-left: get-vw-medium(8px);
+
+        .pagination {
+          padding-right: get-vw-medium(8px);
+        }
+      }
+
+      .pagination ul li {
+        margin: 0 get-vw-medium(8px);
+      }
+      .pagination ul li a {
+        height: get-vw-medium(36px);
+      }
+      .pagination ul li.pagilock {
+        a {
+          height: get-vw-medium(22px);
+          gap: get-vw-medium(3px);
+        }
+      }
+    }
+  }
+
+  .tooltipv2 {
+    .oversize {
+      display: none;
+    }
+  }
+
+  .sm_mode .tableblock__header {
+    background-position: top -116px left !important;
+  }
+
+  .footerfilter__items .onlyDesktop {
+    display: none;
+  }
+}
+
+@include small-screen() {
+  .upgrade_lock img {
+    min-width: 16px;
+  }
+  .upgrade_icon {
+    min-width: 22px;
+  }
+  .siteheader_v5 .watchlistnew {
+    display: block;
+    margin-left: 12px;
+  }
+  .siteheader_v5 .watchlistnew_mobile {
+    display: none;
+  }
+  .sm_mode .tabsnav_v2 .linkset__items {
+    width: fit-content;
+  }
+  .tabsnav_v2 {
+    .linkset__items_noborder {
+      order: -1;
+    }
+    .linkset__items_border {
+      max-width: 147px;
+      overflow: auto;
+    }
+  }
   .watchlistnew__text {
-    font-size: get-vw-laptop(14px);
-}
+    display: none;
   }
-.headerbanner {
-  margin: get-vw-laptop(28px) 0;
-}
-.headerbanner__wrapper {
-  border-radius: get-vw-laptop(12px);
-  padding: get-vw-laptop(9px) get-vw-laptop(20px) get-vw-laptop(10px) get-vw-laptop(20px);
-}
-.headerbanner__content {
-  gap: get-vw-laptop(20px);
-}
-.headerbanner__img img {
-  min-width: get-vw-laptop(66px);
-  max-width: get-vw-laptop(66px);
-}
-.headerbanner__title {
-  font-size: get-vw-laptop(22px);
- 
-}
-
-
-.footerfilter__item_wins {
-  gap: get-vw-laptop(7px);
-}
-
-.tableblock_tab.tableblock__kols .tableblock__title {
-  gap: get-vw-laptop(7px);
-}
-
-
-.tooltipv2 {
-  .oversize {
-    margin-left:get-vw-laptop( 3px);
+  .watchlistnew__link {
+    min-width: 36px;
+    max-width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #303646;
   }
-  .oversize__icon {
-    width: get-vw-laptop(15px);
-    height: get-vw-laptop(15px);
-    min-width:get-vw-laptop( 15px);
-    max-width: get-vw-laptop(15px);
-    border: get-vw-laptop(1px) solid #303646;
-     transform: translateY(-10px);
+  .sm_mode .tabsnav_v2 .linkset__items {
+    margin-right: 0;
+    padding-left: 0;
+  }
+  .sm_mode .tabsnav_v2 .linkset__items_noborder {
+    margin-right: 3px;
+  }
+  .sm_mode .tabsnav_v2 .linkset__items {
+    padding-right: 0;
+  }
+  .tabsnav_v2 .searchv2 {
+    margin-left: 6px;
+  }
+  .tableblock__col_project {
+    z-index: 777 !important;
+  }
+  .gainvalue {
+    font-size: 16px;
+  }
+  .gainvalue__img img {
+    margin-left: -4px;
+  }
+  .tableblock_tab.tableblock__kols .tableblock__title svg {
+    min-width: 7px;
+  }
+  .siteheader_v5 .linkset__item a.linkset__link {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .tabsnav_v2 .linkset__item a.linkset__link {
+    font-size: 12px !important;
+  }
+  .footerbanner__text {
+    font-size: 13px;
+  }
+  .footerbanner__icon {
+    max-width: 60px;
+    min-width: 60px;
+  }
+  .footerbanner__wrapper {
+    max-width: 240px;
+    min-width: 240px;
+    padding-left: 16px;
+  }
+  .footerbanner__close {
+    right: 7px;
+    top: 8px;
+    width: 8px;
+    height: 8px;
 
-    &:hover {
-      border-color: #86f89b;
+    div {
+      display: flex;
+      align-items: center;
     }
   }
-  .tooltipv2__tooltip {
-    border-radius: get-vw-laptop(8px);
-   
-    max-width: get-vw-laptop(175px);
-    min-width: get-vw-laptop(175px);
-    margin-top: get-vw-laptop(0px);
-    margin-left: get-vw-laptop(-5px);
-    padding: get-vw-laptop(13px) get-vw-laptop(19px) get-vw-laptop(12px) get-vw-laptop(16px);
-    font-size: get-vw-laptop(14px);
-
+  .sitefooter__text.onlyDesktop {
+    display: none;
   }
-
-  .tooltipv2__tooltip::after {
-    content: "";
-    top: 100%;
-    left: unset;
-    position: absolute;
-    border-left: get-vw-laptop(7px) solid transparent;
-    border-right: get-vw-laptop(7px) solid transparent;
-    border-top: get-vw-laptop(9px) solid #303646;
+  .sitefooter_sm .sitefooter__info {
+    gap: 20px;
   }
-}
-
-.notableblock__wrapper {
-
-  border: get-vw-laptop(4px) solid #303646;
-  border-radius: get-vw-laptop(5555px);
-
-}
-.notableblock__count {
-  font-size: get-vw-laptop(14px);
-  
-  border-radius: get-vw-laptop(555px);
-  padding: 0 get-vw-laptop(30px);
-  height: get-vw-laptop(34px);
-}
-.notableblock__items {
-  
-
-  &:after {
-    content: "";
-
-    width: get-vw-laptop(94px);
-    height: get-vw-laptop(42px);
-    position: absolute;
-    right: get-vw-laptop(-6px);
-    top: get-vw-laptop(-5px);
+  .sitefooter__social {
+    gap: 20px;
   }
-}
-.notableblock__item {
-  border: get-vw-laptop(2px) solid #303646;
-  min-width: get-vw-laptop(34px);
-  max-width: get-vw-laptop(34px);
-  height: get-vw-laptop(34px);
-  margin-left: get-vw-laptop(-12px);
- 
-  img {
-    width: get-vw-laptop(34px);
-    height: get-vw-laptop(34px);
-  }
-}
-
-
-.gainvalue {
-font-size: get-vw-laptop(18px);
-width: get-vw-laptop(54px);
-text-shadow: 0 get-vw-laptop(2px) get-vw-laptop(9px)  rgba(134, 248, 155, 0.45) !important;
-
-}
-
-.gainvalue__img {
-  img {
-    width: 100%;
-    margin-top: get-vw-laptop(-8px);
-    margin-left: get-vw-laptop(-15px);
-  
-  }
-}
-
-
-.sm_mode.hasbanner .tableblock__header {
-      background-position: top get-vw-laptop(-289px) left;
-}
-
-.linkwrapper {
-  gap: get-vw-laptop(12px);
-  .linkwrapper__text {
-font-size: get-vw-laptop(14px); 
-  }
-}
-
-.sitefooter_sm .sitefooter__info {
-  gap: get-vw-laptop(30px);
-}
-
-.footerbanner {
-  right: get-vw-laptop(20px);
-
-  bottom: get-vw-laptop(66px);
-
-}
-.footerbanner__wrapper {
-  padding: get-vw-laptop(14px) get-vw-laptop(14px) get-vw-laptop(17px) get-vw-laptop(19px);
-  max-width: get-vw-laptop(315px);
-  border-radius: get-vw-laptop(12px);
-
-
-}
-.footerbanner__content {
-  gap: get-vw-laptop(17px);
-}
-.footerbanner__icon {
-  min-width: get-vw-laptop(80px);
-  max-width: get-vw-laptop(80px);
-}
-.footerbanner__text {
-font-size: get-vw-laptop(18px);
-}
-.footerbanner__close {
-  position: absolute;
-  top: get-vw-laptop(10px);
-  right: get-vw-laptop(10px);
-}
-.gainvalue__img img {
-  width: get-vw-laptop(76px);
-
-}
-.headerupgrade__icon  img{
-  width: get-vw-laptop(28px);
-}
-.upgrade_icon img {
-  width: get-vw-laptop(22px);
-}
-.upgrade_lock img {
-  width: get-vw-laptop(16px);
-}
-.footerfilter__item_wins img {
-  width: get-vw-laptop(26px);
-}
-[src="img/headerbanner__close.svg"] {
-   width: get-vw-laptop(14px);
-}
-
-.sm_mode {
-  .tablepagination_locked {
-    .paginationblock {
-      height:  get-vw-laptop(44px);
-      min-width: get-vw-laptop(44px);
-      border: get-vw-laptop(4px) solid #303646;
+  .sitefooter_v5 {
+    .sitefooter__left {
+      width: 0;
     }
-    .paginationblock + .paginationblock {
-      margin-left: get-vw-laptop(8px);
-
-      .pagination {
-        padding-right: get-vw-laptop(8px);
-      }
-    }
-
-    
-    .pagination ul li {
-      margin: 0 get-vw-laptop(8px);
-    }
-    .pagination ul li a {
-      height: get-vw-laptop(36px);
-    }
-    .pagination ul li.pagilock {
-      a {
-        height: get-vw-laptop(22px);
-        gap: get-vw-laptop(3px);
-
-      }
-    }
-  
   }
-}
+  .sitefooter_v5 {
+    .sitefooter__right {
+      width: 100%;
+    }
+  }
 }

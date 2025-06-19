@@ -300,6 +300,11 @@ main {
     width: 34px;
     height: 34px;
   }
+
+  &:hover {
+    z-index: 70 !important;
+    cursor: pointer;
+  }
 }
 
 .notableblock__count {
@@ -450,8 +455,30 @@ main {
       }
     }
     .paginationblock_open {
-      background: #252a39;
+      background: #303646;
       border-color: transparent;
     }
+  }
+}
+.sitefooter__social {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+body {
+  background: transparent !important;
+}
+
+.darkmode  {
+  .modal-dialog {
+    background: #252a39;
+    border: 2px solid #2f3443;
+    border-radius: 12px;
+    box-shadow: 0 0 80px 0 rgba(33, 37, 49, 0.15);
+
+  }
+  .modal-content {
+       background: #252a39;
   }
 }
