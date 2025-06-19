@@ -1,6 +1,6 @@
 <% var data={ title: "MAIN" , author: "" }; %>
   <%= _.template(require('../includes/head.html').default)(data) %>
-    <div class='darkmode sm_mode'>
+    <div class='darkmode sm_mode hasbanner '>
       <%= _.template(require('../includes/header_062025.html').default)(data) %>
         <main>
 
@@ -4228,6 +4228,35 @@
                 </div>
               </div>
 
+              <div class="tablepagination tablepagination_locked">
+                <div class="paginationblock paginationblock_open">
+                  <div class="pagination">
+                    <ul>
+                      <li class="active"><a href="">1</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="paginationblock">
+                  <div class="pagination">
+                    <ul>
+                      <li class="pagilock">
+                        <a data-value="upgrade" href="#" class="linkset__link linkset__upgrade">
+                          <span class="upgrade_icon">
+                            <img src="img/upgrade_icon.svg" alt="">
+                          </span><!-- /.upgrade_lock -->
+                          <span class="upgrade_lock">
+                            <img src="img/upgrade_lock.svg" alt="">
+                          </span><!-- /.upgrade_lock -->
+                        </a>
+                      </li>
+                      <li><a href="">2</a></li>
+                      <li><a href="">3</a></li>
+                      <li><span>...</span></li>
+                      <li><a href="">162</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
 
             </div>
           </div>

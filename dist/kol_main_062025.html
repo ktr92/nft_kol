@@ -67,7 +67,7 @@
 </head>
 
 <body>
-    <div class='darkmode sm_mode'>
+    <div class='darkmode sm_mode hasbanner '>
       <div class="jsbackdrop jsbackdrop_v2"></div>
 
 <header id="header" class="siteheader siteheader_v2 siteheader_v5">
@@ -291,7 +291,7 @@
           </div><!-- /.headerbanner__img -->
           <div class="headerbanner__title">Want alerts when trending accounts post CA? Upgrade!</div><!-- /.headerbanner__title -->
         </a><!-- /.headerbanner__content -->
-        <div class="headerbanner__close" onclick="document.querySelector('.headerbanner').style.display = 'none'">
+        <div class="headerbanner__close" onclick="document.querySelector('.headerbanner').style.display = 'none';document.querySelector('.hasbanner').classList.remove('hasbanner')">
           <img src="img/headerbanner__close.svg" alt="">
         </div><!-- /.headerbanner__close -->
       </div><!-- /.headerbanner__wrapper -->
@@ -4526,6 +4526,35 @@
                 </div>
               </div>
 
+              <div class="tablepagination tablepagination_locked">
+                <div class="paginationblock paginationblock_open">
+                  <div class="pagination">
+                    <ul>
+                      <li class="active"><a href="">1</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="paginationblock">
+                  <div class="pagination">
+                    <ul>
+                      <li class="pagilock">
+                        <a data-value="upgrade" href="#" class="linkset__link linkset__upgrade">
+                          <span class="upgrade_icon">
+                            <img src="img/upgrade_icon.svg" alt="">
+                          </span><!-- /.upgrade_lock -->
+                          <span class="upgrade_lock">
+                            <img src="img/upgrade_lock.svg" alt="">
+                          </span><!-- /.upgrade_lock -->
+                        </a>
+                      </li>
+                      <li><a href="">2</a></li>
+                      <li><a href="">3</a></li>
+                      <li><span>...</span></li>
+                      <li><a href="">162</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
 
             </div>
           </div>
