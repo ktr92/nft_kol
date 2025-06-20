@@ -262,9 +262,12 @@ main {
   align-items: center;
   justify-content: center;
   border-radius: 555px;
-  padding: 0px 30px;
+  padding: 0px 14px;
   background: #86f89b;
   height: 34px;
+  min-height: 34px;
+  width: fit-content;
+  min-width: 34px;
 }
 .notableblock__items {
   display: flex;
@@ -991,5 +994,16 @@ body {
     border-bottom: 2px solid #d9dde3 !important;
     background: #f3f5f8 !important;
     }
+  }
+}
+
+.notableblock__empty {
+  .notableblock__count {
+    display: inline-flex
+;
+    align-items: center;
+    background: #4e5464;
+    color: #fff !important;
+    border: 3px solid #303646;
   }
 }
