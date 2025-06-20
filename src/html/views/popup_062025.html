@@ -1,0 +1,825 @@
+<% var data={ title: "MAIN" , author: "" }; %>
+  <%= _.template(require('../includes/head.html').default)(data) %>
+    <div class='darkmode sm_mode hasbanner '>
+      <main>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="" style="text-align: center">
+          <a href="#popup_notable" data-toggle="modal" class="btn btn_main">kols-popup</a>
+          <a href="#popup_upgrade" data-toggle="modal" class="btn btn_main">buy-popup</a>
+          <a href="#popup_signdark" data-toggle="modal" class="btn btn_main">register-dark</a>
+          <a href="#popup_signwhite" data-toggle="modal" class="btn btn_main">register-white</a>
+        </div><!-- /.flex -->
+
+
+
+
+
+
+      </main>
+
+      <div class="modal modal_sm fade modal_v5 modal_v5_default" tabindex="-1" role="dialog" id='popup_upgrade'>
+        <div class="modal-dialog" role="document">
+          <form action="">
+            <div class="modal-content">
+              <div class="modal-title">Premium Subscription</div>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.3" clip-path="url(#clip0_5026_4643)">
+                      <path
+                        d="M6.28222 0.734169C6.19343 0.644112 6.04964 0.644112 5.96086 0.734169L4.00025 2.7228L2.0398 0.734169C1.95101 0.644112 1.80722 0.644112 1.71843 0.734169L0.733583 1.73309C0.644795 1.82315 0.644795 1.96899 0.733583 2.05905L2.64714 3.99996L0.733583 5.94087C0.644795 6.03093 0.644795 6.17677 0.733583 6.26683L1.71843 7.26575C1.80722 7.35581 1.95101 7.35581 2.0398 7.26575L4.00025 5.27712L5.96086 7.26575C6.04964 7.35581 6.19343 7.35581 6.28222 7.26575L7.26707 6.26667C7.35586 6.17662 7.35586 6.03077 7.26707 5.94072L5.35366 3.99996L7.26707 2.0592C7.35586 1.96915 7.35586 1.8233 7.26707 1.73325L6.28222 0.734169Z"
+                        fill="white" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_5026_4643">
+                        <rect width="8" height="8" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+
+                </span>
+              </button>
+              <div class="modal-body">
+
+                <div class="radioselect">
+                  <div class="radioselect__items">
+                    <div class="radioselect__item">
+                      <label for="freeplan" class="radioselect__label">
+                        <input type="radio" id="freeplan" name="PREMIUM" disabled>
+                        <div class="radioselect__wrapper">
+                          <div class="radioselect__header">
+                            <div class="radioselect__input"><img src="img/freeplan.svg" alt=""></div>
+                            <div class="radioselect__title"><span class="gray">Free</span> Plan</div>
+
+                          </div><!-- /.radioselect__header -->
+                          <div class="radioselect__content">
+                            <ul>
+                              <li>View data for 24h & 2d periods</li>
+                              <li>Add up to 5 projects to your watchlist</li>
+
+                            </ul>
+                          </div><!-- /.radioselect__content -->
+                          <div class="radioselect__info">
+                            <div class="radioselect__infocurrent">Current</div>
+                          </div><!-- /.radioselect__info -->
+                        </div><!-- /.radioselect__wrapper -->
+                      </label>
+                    </div><!-- /.radioselect__item -->
+                    <div class="radioselect__item">
+                      <label for="premiumuser" class="radioselect__label">
+                        <input type="radio" id="premiumuser" name="PREMIUM" checked>
+                        <div class="radioselect__wrapper">
+                          <div class="radioselect__header">
+                            <div class="radioselect__input"></div>
+                            <div class="radioselect__title">Premium User</div>
+                            <div class="radioselect__icon">
+                              <img src="img/coin_3305481222.svg" alt="">
+                            </div>
+                          </div><!-- /.radioselect__header -->
+                          <div class="radioselect__content">
+                            <ul>
+                              <li>Access 15m+ timeframe data</li>
+                              <li>Unlimited watchlist capacity</li>
+                              <li>Real-time trending accounts alerts via Telegram</li>
+                              <li>New Launches Monitor (Beta) — live contract tracking</li>
+                              <li>Chatroom for premium users to share trading ideas</li>
+                            </ul>
+                          </div><!-- /.radioselect__content -->
+                          <div class="radioselect__info">
+                            <div class="radioselect__price">$49.00</div>
+                            <div class="radioselect__period">per 30 days</div>
+                          </div><!-- /.radioselect__info -->
+                        </div><!-- /.radioselect__wrapper -->
+                      </label>
+                    </div><!-- /.radioselect__item -->
+                    <div class="radioselect__item radioselect__item_yellow">
+                      <label for="premium90" class="radioselect__label">
+                        <input type="radio" id="premium90" name="PREMIUM">
+                        <div class="radioselect__wrapper">
+                          <div class="radioselect__header">
+                            <div class="radioselect__input"></div>
+                            <div class="radioselect__title">Premium (90 Days)</div>
+                            <div class="radioselect__icon">
+                              <img src="img/coin_330548123.svg" alt="">
+                            </div>
+                          </div><!-- /.radioselect__header -->
+                          <div class="radioselect__content">
+                            <ul>
+                              <li>All Premium features</li>
+                              <li>12% discount for 90-day subscription</li>
+                            </ul>
+                          </div><!-- /.radioselect__content -->
+                          <div class="radioselect__info">
+                            <div class="radioselect__discount">
+                              <div class="radioselect__oldprice">$147.00</div>
+                              <div class="radioselect__change">-12%</div>
+                            </div><!-- /.radioselect__discount -->
+                            <div class="radioselect__price">$129.00</div>
+                            <div class="radioselect__period">per 90 days</div>
+                          </div><!-- /.radioselect__info -->
+                        </div><!-- /.radioselect__wrapper -->
+                      </label>
+                    </div><!-- /.radioselect__item -->
+                  </div><!-- /.radioselect__items -->
+                </div><!-- /.radioselect -->
+
+
+                <div class="modal-submit">
+                  <div class="buttonsrow">
+                    <div class="buttonsrow__item buttonsrow__item_full">
+                      <button type='submit' class='btn btn_main'>Buy Now for $49.99</button>
+                    </div>
+                  </div>
+                  <!-- /.buttonsrow -->
+                </div>
+              </div>
+              <!-- /.formblock -->
+            </div>
+        </div>
+        </form>
+      </div>
+      <div class="modal modal_v5 modal_xl fade" tabindex="-1" role="dialog" id='popup_notable'>
+        <div class="modal-dialog" role="document">
+          <form action="">
+            <div class="modal-content">
+              <div class="modal-title">Notable KOLs</div>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M8.42333 0.101192C8.29015 -0.0338934 8.07446 -0.0338934 7.94128 0.101192L5.00037 3.08413L2.05969 0.101192C1.92651 -0.0338934 1.71083 -0.0338934 1.57765 0.101192L0.100375 1.59958C-0.0328072 1.73466 -0.0328072 1.95343 0.100375 2.08851L2.97072 4.99988L0.100375 7.91124C-0.0328072 8.04633 -0.0328072 8.26509 0.100375 8.40018L1.57765 9.89856C1.71083 10.0336 1.92651 10.0336 2.05969 9.89856L5.00037 6.91562L7.94128 9.89856C8.07446 10.0336 8.29015 10.0336 8.42333 9.89856L9.9006 8.39995C10.0338 8.26486 10.0338 8.0461 9.9006 7.91101L7.03049 4.99988L9.9006 2.08874C10.0338 1.95366 10.0338 1.73489 9.9006 1.59981L8.42333 0.101192Z"
+                      fill="white" />
+                  </svg>
+                </span>
+              </button>
+              <div class="modal-body">
+                <div class="notablekols">
+                  <div class="tableblock tableblock_tab tableblock_tab_full">
+                    <div class="tableblock__wrapper">
+                      <div class="tableblock__table">
+                        <div class="tableblock__scroll">
+                          <div class="tableblock__header ">
+                            <div class="tableblock__row">
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_roi flex items-center   tableblock__col_notable_name">
+                                <span class="tableblock__title">Name</span>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_bullish flex items-center   tableblock__col_notable_Description">
+                                <span class="tableblock__title">Description</span>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_shiller flex items-center   tableblock__col_notable_Followers">
+                                <span class="tableblock__title">Followers</span>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_total flex items-center    tableblock__col_notable_Date">
+                                <span class="tableblock__title">Date Followed</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tableblock__body">
+                            <div class="tableblock__row">
+                              <div
+                                class="tableblock__col tableblock_name flex items-center items-center tableblock__col_default tableblock__col_notable_name">
+                                <div class="notablekols__asset">
+                                  <div class="notablekols__icon">
+                                    <img src="img/ec035639f4f2977e08c5d8eec0563fe34e80177e.png" alt="">
+                                  </div>
+                                  <div class="notablekols__title">
+                                    Coho Deeptech
+
+                                    <div class="notablekols__text onlyMobile">
+                                      Some text about kol
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_roi flex items-center tableblock__col_default tableblock__col_notable_Description onlyDesktop">
+                                <div class="notablekols__text">
+                                  Some text about kol
+                                </div>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_shiller flex items-center  tableblock__col_notable_Followers">
+                                <div class="notablekols__text">
+                                  4,874
+
+                                  <div class="notablekols__date onlyMobile">
+                                    4 Jul, 2024
+                                  </div>
+                                </div>
+
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_total flex items-center  tableblock__col_notable_Date">
+                                <div class="notablekols__date">
+                                  4 Jul, 2024
+                                </div>
+                              </div>
+
+
+
+                            </div><!-- /.tableblock__row -->
+                            <div class="tableblock__row">
+                              <div
+                                class="tableblock__col tableblock_name flex items-center items-center tableblock__col_default tableblock__col_notable_name">
+                                <div class="notablekols__asset">
+                                  <div class="notablekols__icon">
+                                    <img src="img/ec035639f4f2977e08c5d8eec0563fe34e80177e.png" alt="">
+                                  </div>
+                                  <div class="notablekols__title">
+                                    Coho Deeptech
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_roi flex items-center tableblock__col_default tableblock__col_notable_Description">
+                                <div class="notablekols__text">
+                                  Some text about kol
+                                </div>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_shiller flex items-center  tableblock__col_notable_Followers">
+                                <div class="notablekols__text">
+                                  4,874
+                                </div>
+
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_total flex items-center  tableblock__col_notable_Date">
+                                <div class="notablekols__date">
+                                  4 Jul, 2024
+                                </div>
+                              </div>
+
+
+
+                            </div><!-- /.tableblock__row -->
+                            <div class="tableblock__row">
+                              <div
+                                class="tableblock__col tableblock_name flex items-center items-center tableblock__col_default tableblock__col_notable_name">
+                                <div class="notablekols__asset">
+                                  <div class="notablekols__icon">
+                                    <img src="img/ec035639f4f2977e08c5d8eec0563fe34e80177e.png" alt="">
+                                  </div>
+                                  <div class="notablekols__title">
+                                    Coho Deeptech
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_roi flex items-center tableblock__col_default tableblock__col_notable_Description">
+                                <div class="notablekols__text">
+                                  Some text about kol
+                                </div>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_shiller flex items-center  tableblock__col_notable_Followers">
+                                <div class="notablekols__text">
+                                  4,874
+                                </div>
+
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_total flex items-center  tableblock__col_notable_Date">
+                                <div class="notablekols__date">
+                                  4 Jul, 2024
+                                </div>
+                              </div>
+
+
+
+                            </div><!-- /.tableblock__row -->
+                            <div class="tableblock__row">
+                              <div
+                                class="tableblock__col tableblock_name flex items-center items-center tableblock__col_default tableblock__col_notable_name">
+                                <div class="notablekols__asset">
+                                  <div class="notablekols__icon">
+                                    <img src="img/ec035639f4f2977e08c5d8eec0563fe34e80177e.png" alt="">
+                                  </div>
+                                  <div class="notablekols__title">
+                                    Coho Deeptech
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_roi flex items-center tableblock__col_default tableblock__col_notable_Description">
+                                <div class="notablekols__text">
+                                  Some text about kol
+                                </div>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_shiller flex items-center  tableblock__col_notable_Followers">
+                                <div class="notablekols__text">
+                                  4,874
+                                </div>
+
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_total flex items-center  tableblock__col_notable_Date">
+                                <div class="notablekols__date">
+                                  4 Jul, 2024
+                                </div>
+                              </div>
+
+
+
+                            </div><!-- /.tableblock__row -->
+                            <div class="tableblock__row">
+                              <div
+                                class="tableblock__col tableblock_name flex items-center items-center tableblock__col_default tableblock__col_notable_name">
+                                <div class="notablekols__asset">
+                                  <div class="notablekols__icon">
+                                    <img src="img/ec035639f4f2977e08c5d8eec0563fe34e80177e.png" alt="">
+                                  </div>
+                                  <div class="notablekols__title">
+                                    Coho Deeptech
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_roi flex items-center tableblock__col_default tableblock__col_notable_Description">
+                                <div class="notablekols__text">
+                                  Some text about kol
+                                </div>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_shiller flex items-center  tableblock__col_notable_Followers">
+                                <div class="notablekols__text">
+                                  4,874
+                                </div>
+
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_total flex items-center  tableblock__col_notable_Date">
+                                <div class="notablekols__date">
+                                  4 Jul, 2024
+                                </div>
+                              </div>
+
+
+
+                            </div><!-- /.tableblock__row -->
+                            <div class="tableblock__row">
+                              <div
+                                class="tableblock__col tableblock_name flex items-center items-center tableblock__col_default tableblock__col_notable_name">
+                                <div class="notablekols__asset">
+                                  <div class="notablekols__icon">
+                                    <img src="img/ec035639f4f2977e08c5d8eec0563fe34e80177e.png" alt="">
+                                  </div>
+                                  <div class="notablekols__title">
+                                    Coho Deeptech
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_roi flex items-center tableblock__col_default tableblock__col_notable_Description">
+                                <div class="notablekols__text">
+                                  Some text about kol
+                                </div>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_shiller flex items-center  tableblock__col_notable_Followers">
+                                <div class="notablekols__text">
+                                  4,874
+                                </div>
+
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_total flex items-center  tableblock__col_notable_Date">
+                                <div class="notablekols__date">
+                                  4 Jul, 2024
+                                </div>
+                              </div>
+
+
+
+                            </div><!-- /.tableblock__row -->
+                            <div class="tableblock__row">
+                              <div
+                                class="tableblock__col tableblock_name flex items-center items-center tableblock__col_default tableblock__col_notable_name">
+                                <div class="notablekols__asset">
+                                  <div class="notablekols__icon">
+                                    <img src="img/ec035639f4f2977e08c5d8eec0563fe34e80177e.png" alt="">
+                                  </div>
+                                  <div class="notablekols__title">
+                                    Coho Deeptech
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_roi flex items-center tableblock__col_default tableblock__col_notable_Description">
+                                <div class="notablekols__text">
+                                  Some text about kol
+                                </div>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_shiller flex items-center  tableblock__col_notable_Followers">
+                                <div class="notablekols__text">
+                                  4,874
+                                </div>
+
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_total flex items-center  tableblock__col_notable_Date">
+                                <div class="notablekols__date">
+                                  4 Jul, 2024
+                                </div>
+                              </div>
+
+
+
+                            </div><!-- /.tableblock__row -->
+                            <div class="tableblock__row">
+                              <div
+                                class="tableblock__col tableblock_name flex items-center items-center tableblock__col_default tableblock__col_notable_name">
+                                <div class="notablekols__asset">
+                                  <div class="notablekols__icon">
+                                    <img src="img/ec035639f4f2977e08c5d8eec0563fe34e80177e.png" alt="">
+                                  </div>
+                                  <div class="notablekols__title">
+                                    Coho Deeptech
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_roi flex items-center tableblock__col_default tableblock__col_notable_Description">
+                                <div class="notablekols__text">
+                                  Some text about kol
+                                </div>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_shiller flex items-center  tableblock__col_notable_Followers">
+                                <div class="notablekols__text">
+                                  4,874
+                                </div>
+
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_total flex items-center  tableblock__col_notable_Date">
+                                <div class="notablekols__date">
+                                  4 Jul, 2024
+                                </div>
+                              </div>
+
+
+
+                            </div><!-- /.tableblock__row -->
+                            <div class="tableblock__row">
+                              <div
+                                class="tableblock__col tableblock_name flex items-center items-center tableblock__col_default tableblock__col_notable_name">
+                                <div class="notablekols__asset">
+                                  <div class="notablekols__icon">
+                                    <img src="img/ec035639f4f2977e08c5d8eec0563fe34e80177e.png" alt="">
+                                  </div>
+                                  <div class="notablekols__title">
+                                    Coho Deeptech
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_roi flex items-center tableblock__col_default tableblock__col_notable_Description">
+                                <div class="notablekols__text">
+                                  Some text about kol
+                                </div>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_shiller flex items-center  tableblock__col_notable_Followers">
+                                <div class="notablekols__text">
+                                  4,874
+                                </div>
+
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_total flex items-center  tableblock__col_notable_Date">
+                                <div class="notablekols__date">
+                                  4 Jul, 2024
+                                </div>
+                              </div>
+
+
+
+                            </div><!-- /.tableblock__row -->
+                            <div class="tableblock__row">
+                              <div
+                                class="tableblock__col tableblock_name flex items-center items-center tableblock__col_default tableblock__col_notable_name">
+                                <div class="notablekols__asset">
+                                  <div class="notablekols__icon">
+                                    <img src="img/ec035639f4f2977e08c5d8eec0563fe34e80177e.png" alt="">
+                                  </div>
+                                  <div class="notablekols__title">
+                                    Coho Deeptech
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_roi flex items-center tableblock__col_default tableblock__col_notable_Description">
+                                <div class="notablekols__text">
+                                  Some text about kol
+                                </div>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_shiller flex items-center  tableblock__col_notable_Followers">
+                                <div class="notablekols__text">
+                                  4,874
+                                </div>
+
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_total flex items-center  tableblock__col_notable_Date">
+                                <div class="notablekols__date">
+                                  4 Jul, 2024
+                                </div>
+                              </div>
+
+
+
+                            </div><!-- /.tableblock__row -->
+                            <div class="tableblock__row">
+                              <div
+                                class="tableblock__col tableblock_name flex items-center items-center tableblock__col_default tableblock__col_notable_name">
+                                <div class="notablekols__asset">
+                                  <div class="notablekols__icon">
+                                    <img src="img/ec035639f4f2977e08c5d8eec0563fe34e80177e.png" alt="">
+                                  </div>
+                                  <div class="notablekols__title">
+                                    Coho Deeptech
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_roi flex items-center tableblock__col_default tableblock__col_notable_Description">
+                                <div class="notablekols__text">
+                                  Some text about kol
+                                </div>
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_shiller flex items-center  tableblock__col_notable_Followers">
+                                <div class="notablekols__text">
+                                  4,874
+                                </div>
+
+                              </div>
+                              <div
+                                class="tableblock__col tableblock__param tableblock__param_total flex items-center  tableblock__col_notable_Date">
+                                <div class="notablekols__date">
+                                  4 Jul, 2024
+                                </div>
+                              </div>
+
+
+
+                            </div><!-- /.tableblock__row -->
+
+
+                          </div>
+                        </div>
+
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div><!-- /.notablekols -->
+              </div>
+            </div>
+        </div>
+        </form>
+      </div>
+      <div class="modal modal_xs fade modal_v5" tabindex="-1" role="dialog" id='popup_signdark'>
+        <div class="modal-dialog" role="document">
+          <form action="">
+            <div class="modal-content">
+              <div class="modal__leftheader">
+                <a href="#" class="modal__back" data-dismiss="modal" aria-label="Close">
+                  <svg width="23" height="26" viewBox="0 0 23 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
+                      d="M11.5553 0.51706L0.508419 11.7517C-0.169472 12.4411 -0.169472 13.5589 0.508419 14.2483L11.5553 25.4829L14.0102 22.9864L5.92656 14.7654H23L23 11.2346L5.92656 11.2346L14.0102 3.01365L11.5553 0.51706Z"
+                      fill="white" />
+                  </svg>
+
+                </a>
+              </div>
+              <div class="modal-title">Sign Up</div>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.42382 1.10119C9.29064 0.966107 9.07495 0.966107 8.94177 1.10119L6.00086 4.08413L3.06018 1.10119C2.927 0.966107 2.71132 0.966107 2.57814 1.10119L1.10086 2.59958C0.967681 2.73466 0.967681 2.95343 1.10086 3.08851L3.9712 5.99988L1.10086 8.91124C0.967681 9.04633 0.967681 9.26509 1.10086 9.40018L2.57814 10.8986C2.71132 11.0336 2.927 11.0336 3.06018 10.8986L6.00086 7.91562L8.94177 10.8986C9.07495 11.0336 9.29064 11.0336 9.42382 10.8986L10.9011 9.39995C11.0343 9.26486 11.0343 9.0461 10.9011 8.91101L8.03098 5.99988L10.9011 3.08874C11.0343 2.95366 11.0343 2.73489 10.9011 2.59981L9.42382 1.10119Z"
+                      fill="white" />
+                  </svg>
+
+                </span>
+              </button>
+              <div class="modal-body">
+                <div class="formblock">
+                  <div class="formblock__main">
+                    <div class="formblock__item">
+                      <div class="formblock__title">Username <span class="red">*</span>
+                      </div>
+                      <div class="formblock__input">
+                        <input type="text" value="Victor Ivanov" placeholder="Username" class="input-error">
+                        <small class="inputerror">Username cannot contain characters /,|\’{}[]”</small>
+                      </div>
+                    </div>
+                    <div class="formblock__item">
+                      <div class="formblock__title">Email <span class="red">*</span>
+                      </div>
+                      <div class="formblock__input">
+                        <input type="text" placeholder="Email">
+                      </div>
+                    </div>
+                    <div class="formblock__item">
+                      <div class="formblock__title">Password <span class="red">*</span>
+                      </div>
+                      <div class="formblock__input">
+                        <div class="inputpassword">
+                          <input type="password">
+                          <img src="img/Invisible_white.svg" alt="" data-toggle="password" class="password_invisible">
+                          <img src="img/Eye_white.svg" alt="" data-toggle="password" class="password_visible">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="formblock__item">
+                      <div class="formblock__title">Once again, please <span class="red">*</span>
+                      </div>
+                      <div class="formblock__input">
+                        <div class="inputpassword">
+                          <input type="password" value="andr182838">
+                          <img src="img/Invisible_white.svg" alt="" data-toggle="password" class="password_invisible">
+                          <img src="img/Eye_white.svg" alt="" data-toggle="password" class="password_visible">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal-submit">
+                  <div class="check">
+                    <input type="checkbox" id="newsletter_yes" checked="checked" value="Y">
+                    <label for="newsletter_yes">Yes, I want to receive the daily newsletter featuring <br> trending
+                      projects
+                    </label>
+                  </div>
+                  <div class="check">
+                    <input type="checkbox" id="privacy_yes" value="Y">
+                    <label for="privacy_yes">I agree to the website’s <a href="">Privacy Policy</a> and <a href="">Terms
+                        & Conditions</a>.
+                    </label>
+                  </div>
+
+                  <div class="buttonsrow">
+                    <div class="buttonsrow__item buttonsrow__item_full">
+                      <button type='submit' class='btn btn_main'>Complete registration</button>
+                    </div>
+                    <div class="buttonsrow__item buttonsrow__item_full">
+                      <a href="#" class='btn btn_border flex items-center content-center'>
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M28.2 15.3125C28.2 14.3375 28.1125 13.4 27.95 12.5H15V17.825H22.4C22.075 19.5375 21.1 20.9875 19.6375 21.9625V25.425H24.1C26.7 23.025 28.2 19.5 28.2 15.3125Z"
+                            fill="#4285F4" />
+                          <path
+                            d="M14.9996 28.75C18.7121 28.75 21.8246 27.525 24.0996 25.425L19.6371 21.9625C18.4121 22.7875 16.8496 23.2875 14.9996 23.2875C11.4246 23.2875 8.38711 20.875 7.29961 17.625H2.72461V21.175C4.98711 25.6625 9.62461 28.75 14.9996 28.75Z"
+                            fill="#34A853" />
+                          <path
+                            d="M7.3 17.6124C7.025 16.7874 6.8625 15.9124 6.8625 14.9999C6.8625 14.0874 7.025 13.2124 7.3 12.3874V8.8374H2.725C1.7875 10.6874 1.25 12.7749 1.25 14.9999C1.25 17.2249 1.7875 19.3124 2.725 21.1624L6.2875 18.3874L7.3 17.6124Z"
+                            fill="#FBBC05" />
+                          <path
+                            d="M14.9996 6.725C17.0246 6.725 18.8246 7.425 20.2621 8.775L24.1996 4.8375C21.8121 2.6125 18.7121 1.25 14.9996 1.25C9.62461 1.25 4.98711 4.3375 2.72461 8.8375L7.29961 12.3875C8.38711 9.1375 11.4246 6.725 14.9996 6.725Z"
+                            fill="#EA4335" />
+                        </svg>
+
+                        <span>Register with Google</span></button>
+                      </a>
+                    </div>
+                    <!-- /.buttonsrow -->
+                  </div>
+                </div>
+                <!-- /.formblock -->
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="modal modal_xs fade modal_v5 modal_white" tabindex="-1" role="dialog" id='popup_signwhite'>
+        <div class="modal-dialog" role="document">
+          <form action="">
+            <div class="modal-content">
+
+              <div class="modal-title">Login</div>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  <img src="img/closebutton.svg" alt="">
+
+                </span>
+              </button>
+              <div class="modal-body">
+                <div class="formblock">
+                  <div class="formblock__main">
+
+                    <div class="formblock__item">
+                      <div class="formblock__title">Email <span class="red">*</span>
+                      </div>
+                      <div class="formblock__input">
+                        <input type="text" placeholder="Email">
+                      </div>
+                    </div>
+                    <div class="formblock__item">
+                      <div class="formblock__title">Password <span class="red">*</span>
+                      </div>
+                      <div class="formblock__input">
+                        <div class="inputpassword">
+                          <input type="password">
+                          <img src="img/Invisible.svg" alt="" data-toggle="password" class="password_invisible">
+                          <img src="img/Eye.svg" alt="" data-toggle="password" class="password_visible">
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="flex content-between passwordforgot">
+                  <div class="check">
+                    <input type="checkbox" id="save" checked="checked" value="Y">
+                    <label for="save">Remember me
+                    </label>
+                  </div>
+                  <a href="#">Forgot password?</a>
+                </div>
+                <div class="modal-submit">
+
+
+                  <div class="buttonsrow">
+                    <div class="buttonsrow__item buttonsrow__item_full">
+                      <button type='submit' class='btn btn_main'>
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0_5001_19077)">
+                            <path
+                              d="M11.0074 0.872314C6.79188 0.872314 3.17307 3.46125 1.65566 7.13716C1.60882 7.24446 1.58385 7.36003 1.58223 7.4771C1.58061 7.59417 1.60237 7.71038 1.64622 7.81894C1.69008 7.92749 1.75515 8.02621 1.83763 8.1093C1.92012 8.19239 2.01835 8.25819 2.12658 8.30284C2.23481 8.3475 2.35086 8.37011 2.46794 8.36935C2.58502 8.36859 2.70077 8.34448 2.80841 8.29842C2.91605 8.25237 3.01342 8.1853 3.09482 8.10115C3.17622 8.017 3.24001 7.91745 3.28246 7.80833C4.53529 4.77336 7.51144 2.63231 11.0074 2.63231C15.6349 2.63231 19.3674 6.36478 19.3674 10.9923C19.3674 15.6198 15.6349 19.3523 11.0074 19.3523C7.51192 19.3523 4.53526 17.2121 3.28246 14.1772C3.24001 14.068 3.17622 13.9685 3.09482 13.8843C3.01342 13.8002 2.91605 13.7331 2.80841 13.6871C2.70077 13.641 2.58502 13.6169 2.46794 13.6161C2.35086 13.6154 2.23481 13.638 2.12658 13.6826C2.01835 13.7273 1.92012 13.7931 1.83763 13.8762C1.75515 13.9593 1.69008 14.058 1.64622 14.1666C1.60237 14.2751 1.58061 14.3913 1.58223 14.5084C1.58385 14.6255 1.60882 14.741 1.65566 14.8483C3.17309 18.5243 6.79228 21.1123 11.0074 21.1123C16.5861 21.1123 21.1274 16.571 21.1274 10.9923C21.1274 5.41361 16.5861 0.872314 11.0074 0.872314ZM11.8633 7.02372C11.6883 7.02377 11.5172 7.07602 11.372 7.1738C11.2268 7.27158 11.114 7.41044 11.0481 7.57264C10.9823 7.73483 10.9663 7.91299 11.0022 8.08433C11.0381 8.25567 11.1243 8.4124 11.2497 8.5345L12.8275 10.1123H1.75191C1.6353 10.1107 1.51952 10.1322 1.41131 10.1757C1.3031 10.2192 1.20461 10.2837 1.12156 10.3656C1.03852 10.4475 0.972573 10.5451 0.927564 10.6526C0.882554 10.7602 0.859375 10.8757 0.859375 10.9923C0.859375 11.1089 0.882554 11.2244 0.927564 11.332C0.972573 11.4396 1.03852 11.5371 1.12156 11.619C1.20461 11.7009 1.3031 11.7655 1.41131 11.8089C1.51952 11.8524 1.6353 11.874 1.75191 11.8723H12.8275L11.2497 13.4501C11.1653 13.5312 11.0978 13.6283 11.0514 13.7358C11.0049 13.8433 10.9804 13.9589 10.9792 14.076C10.978 14.1931 11.0002 14.3092 11.0445 14.4176C11.0887 14.526 11.1541 14.6245 11.2369 14.7073C11.3197 14.7901 11.4182 14.8555 11.5266 14.8998C11.635 14.944 11.7511 14.9662 11.8682 14.965C11.9853 14.9638 12.1009 14.9393 12.2084 14.8928C12.3159 14.8464 12.413 14.779 12.4941 14.6945L15.5741 11.6145C15.7391 11.4495 15.8317 11.2257 15.8317 10.9923C15.8317 10.759 15.7391 10.5352 15.5741 10.3701L12.4941 7.29013C12.4121 7.20583 12.314 7.13882 12.2057 7.09306C12.0973 7.04731 11.9809 7.02373 11.8633 7.02372Z"
+                              fill="white" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_5001_19077">
+                              <rect width="22" height="22" fill="white" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+
+                        <span>Login</span></button>
+                    </div>
+                    <div class="buttonsrow__item buttonsrow__item_full">
+                      <a href="#" class='btn btn_border flex items-center content-center'>
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M28.2 15.3125C28.2 14.3375 28.1125 13.4 27.95 12.5H15V17.825H22.4C22.075 19.5375 21.1 20.9875 19.6375 21.9625V25.425H24.1C26.7 23.025 28.2 19.5 28.2 15.3125Z"
+                            fill="#4285F4" />
+                          <path
+                            d="M14.9996 28.75C18.7121 28.75 21.8246 27.525 24.0996 25.425L19.6371 21.9625C18.4121 22.7875 16.8496 23.2875 14.9996 23.2875C11.4246 23.2875 8.38711 20.875 7.29961 17.625H2.72461V21.175C4.98711 25.6625 9.62461 28.75 14.9996 28.75Z"
+                            fill="#34A853" />
+                          <path
+                            d="M7.3 17.6124C7.025 16.7874 6.8625 15.9124 6.8625 14.9999C6.8625 14.0874 7.025 13.2124 7.3 12.3874V8.8374H2.725C1.7875 10.6874 1.25 12.7749 1.25 14.9999C1.25 17.2249 1.7875 19.3124 2.725 21.1624L6.2875 18.3874L7.3 17.6124Z"
+                            fill="#FBBC05" />
+                          <path
+                            d="M14.9996 6.725C17.0246 6.725 18.8246 7.425 20.2621 8.775L24.1996 4.8375C21.8121 2.6125 18.7121 1.25 14.9996 1.25C9.62461 1.25 4.98711 4.3375 2.72461 8.8375L7.29961 12.3875C8.38711 9.1375 11.4246 6.725 14.9996 6.725Z"
+                            fill="#EA4335" />
+                        </svg>
+
+                        <span>Login with Google</span></button>
+                      </a>
+                    </div>
+                    <!-- /.buttonsrow -->
+                  </div>
+
+                  <div class="textlogin flex content-center items-center">
+                    <div class="textlogin__text">Don't have an account yet?</div>
+                    <div class="textlogin__link">
+                      <a href="">
+                        <img src="img/Edit.svg" alt="">
+                        <span>Register now!</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- /.formblock -->
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+
+    </div>

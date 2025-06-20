@@ -872,21 +872,19 @@ body {
 }
 .darkmode {
   .btn_border {
-   background: #252a39;
-  border: 1px solid #4f5669;
+    background: #252a39;
+    border: 1px solid #4f5669;
 
-  &:hover {
-    background: rgba(48, 202, 76, 0.15);
-        border-color: #30ca4c;
-  }
-
+    &:hover {
+      background: rgba(48, 202, 76, 0.15);
+      border-color: #30ca4c;
+    }
   }
   .modal_xs {
     .modal-dialog {
-    width: 534px;
-    max-width: calc(100% - 20px);
+      width: 534px;
+      max-width: calc(100% - 20px);
     }
-
   }
   .modal_v5 {
     .buttonsrow__item + .buttonsrow__item {
@@ -896,8 +894,10 @@ body {
       margin-top: 28px;
       margin-bottom: 28px;
     }
-    .check {
+    .modal-submit .check {
       margin: 17px 0;
+   
+
 
       a {
         text-decoration: underline;
@@ -960,4 +960,36 @@ body {
 }
 .watchlistnew.watchlistnew_mobile {
   display: none;
+}
+
+.darkmode {
+  .modal_white {
+   .passwordforgot a {
+    opacity: 0.5;
+   }
+   .btn_main {
+    span {
+      color: #fff !important;
+    }
+   }
+    .modal-content  {
+      padding: 60px 60px 36px 60px;
+    }
+    .btn_border {
+      background: #fff;
+      border-color: #d9d9d9;
+    }
+    * {
+      color: #212531 !important;
+    }
+    .modal-dialog,
+    .modal-content {
+      background: #fff;
+    }
+
+    input {
+    border-bottom: 2px solid #d9dde3 !important;
+    background: #f3f5f8 !important;
+    }
+  }
 }

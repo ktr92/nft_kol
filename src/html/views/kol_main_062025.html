@@ -574,7 +574,7 @@
                       <div
                         class="tableblock__col tableblock__param tableblock__param_total flex items-center    tableblock__col_notable">
                         <div class="notableblock">
-                          <div class="notableblock__wrapper">
+                          <a href="#popup_notable" data-toggle="modal" class="notableblock__wrapper">
                             <div class="notableblock__count">358</div>
                             <div class="notableblock__items">
                               <div class="notableblock__item" style='z-index: 11'>
@@ -615,7 +615,7 @@
                               </div>
 
                             </div><!-- /.notableblock__items -->
-                          </div><!-- /.notableblock__wrapper -->
+                          </a><!-- /.notableblock__wrapper -->
                         </div><!-- /.notableblock -->
                       </div>
                       <div
@@ -4335,7 +4335,127 @@
                 width='11' height='11' src="img/Capa_1.svg" alt=""> with your mouse.</div>
           </div>
         </div>
+   <div class="modal modal_sm fade modal_v5 modal_v5_default" tabindex="-1" role="dialog" id='popup_upgrade'>
+          <div class="modal-dialog" role="document">
+            <form action="">
+              <div class="modal-content">
+                <div class="modal-title">Premium Subscription</div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">
+                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g opacity="0.3" clip-path="url(#clip0_5026_4643)">
+                        <path
+                          d="M6.28222 0.734169C6.19343 0.644112 6.04964 0.644112 5.96086 0.734169L4.00025 2.7228L2.0398 0.734169C1.95101 0.644112 1.80722 0.644112 1.71843 0.734169L0.733583 1.73309C0.644795 1.82315 0.644795 1.96899 0.733583 2.05905L2.64714 3.99996L0.733583 5.94087C0.644795 6.03093 0.644795 6.17677 0.733583 6.26683L1.71843 7.26575C1.80722 7.35581 1.95101 7.35581 2.0398 7.26575L4.00025 5.27712L5.96086 7.26575C6.04964 7.35581 6.19343 7.35581 6.28222 7.26575L7.26707 6.26667C7.35586 6.17662 7.35586 6.03077 7.26707 5.94072L5.35366 3.99996L7.26707 2.0592C7.35586 1.96915 7.35586 1.8233 7.26707 1.73325L6.28222 0.734169Z"
+                          fill="white" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_5026_4643">
+                          <rect width="8" height="8" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
 
+                  </span>
+                </button>
+                <div class="modal-body">
+
+                  <div class="radioselect">
+                    <div class="radioselect__items">
+                      <div class="radioselect__item">
+                        <label for="freeplan" class="radioselect__label">
+                          <input type="radio" id="freeplan" name="PREMIUM" disabled>
+                          <div class="radioselect__wrapper">
+                            <div class="radioselect__header">
+                              <div class="radioselect__input"><img src="img/freeplan.svg" alt=""></div>
+                              <div class="radioselect__title"><span class="gray">Free</span> Plan</div>
+
+                            </div><!-- /.radioselect__header -->
+                            <div class="radioselect__content">
+                              <ul>
+                                <li>View data for 24h & 2d periods</li>
+                                <li>Add up to 5 projects to your watchlist</li>
+
+                              </ul>
+                            </div><!-- /.radioselect__content -->
+                            <div class="radioselect__info">
+                              <div class="radioselect__infocurrent">Current</div>
+                            </div><!-- /.radioselect__info -->
+                          </div><!-- /.radioselect__wrapper -->
+                        </label>
+                      </div><!-- /.radioselect__item -->
+                      <div class="radioselect__item">
+                        <label for="premiumuser" class="radioselect__label">
+                          <input type="radio" id="premiumuser" name="PREMIUM" checked>
+                          <div class="radioselect__wrapper">
+                            <div class="radioselect__header">
+                              <div class="radioselect__input"></div>
+                              <div class="radioselect__title">Premium User</div>
+                              <div class="radioselect__icon">
+                                <img src="img/coin_3305481222.svg" alt="">
+                              </div>
+                            </div><!-- /.radioselect__header -->
+                            <div class="radioselect__content">
+                              <ul>
+                                <li>Access 15m+ timeframe data</li>
+                                <li>Unlimited watchlist capacity</li>
+                                <li>Real-time trending accounts alerts via Telegram</li>
+                                <li>New Launches Monitor (Beta) — live contract tracking</li>
+                                <li>Chatroom for premium users to share trading ideas</li>
+                              </ul>
+                            </div><!-- /.radioselect__content -->
+                            <div class="radioselect__info">
+                              <div class="radioselect__price">$49.00</div>
+                              <div class="radioselect__period">per 30 days</div>
+                            </div><!-- /.radioselect__info -->
+                          </div><!-- /.radioselect__wrapper -->
+                        </label>
+                      </div><!-- /.radioselect__item -->
+                      <div class="radioselect__item radioselect__item_yellow">
+                        <label for="premium90" class="radioselect__label">
+                          <input type="radio" id="premium90" name="PREMIUM">
+                          <div class="radioselect__wrapper">
+                            <div class="radioselect__header">
+                              <div class="radioselect__input"></div>
+                              <div class="radioselect__title">Premium (90 Days)</div>
+                              <div class="radioselect__icon">
+                                <img src="img/coin_330548123.svg" alt="">
+                              </div>
+                            </div><!-- /.radioselect__header -->
+                            <div class="radioselect__content">
+                              <ul>
+                                <li>All Premium features</li>
+                                <li>12% discount for 90-day subscription</li>
+                              </ul>
+                            </div><!-- /.radioselect__content -->
+                            <div class="radioselect__info">
+                              <div class="radioselect__discount">
+                                <div class="radioselect__oldprice">$147.00</div>
+                                <div class="radioselect__change">-12%</div>
+                              </div><!-- /.radioselect__discount -->
+                              <div class="radioselect__price">$129.00</div>
+                              <div class="radioselect__period">per 90 days</div>
+                            </div><!-- /.radioselect__info -->
+                          </div><!-- /.radioselect__wrapper -->
+                        </label>
+                      </div><!-- /.radioselect__item -->
+                    </div><!-- /.radioselect__items -->
+                  </div><!-- /.radioselect -->
+
+
+                  <div class="modal-submit">
+                    <div class="buttonsrow">
+                      <div class="buttonsrow__item buttonsrow__item_full">
+                        <button type='submit' class='btn btn_main'>Buy Now for $49.99</button>
+                      </div>
+                    </div>
+                    <!-- /.buttonsrow -->
+                  </div>
+                </div>
+                <!-- /.formblock -->
+              </div>
+          </div>
+          </form>
+        </div>
         <div class="modal modal_v5 modal_xl fade" tabindex="-1" role="dialog" id='popup_notable'>
           <div class="modal-dialog" role="document">
             <form action="">
@@ -4786,7 +4906,7 @@
           </div>
           </form>
         </div>
-        <div class="modal modal_xs fade modal_v5" tabindex="-1" role="dialog" id='popup_signup'>
+        <div class="modal modal_xs fade modal_v5" tabindex="-1" role="dialog" id='popup_signdark'>
           <div class="modal-dialog" role="document">
             <form action="">
               <div class="modal-content">
@@ -4901,127 +5021,8 @@
           </div>
           </form>
         </div>
-        <div class="modal modal_sm fade modal_v5 modal_v5_default" tabindex="-1" role="dialog" id='popup_upgrade'>
-          <div class="modal-dialog" role="document">
-            <form action="">
-              <div class="modal-content">
-                <div class="modal-title">Premium Subscription</div>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">
-                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g opacity="0.3" clip-path="url(#clip0_5026_4643)">
-                        <path
-                          d="M6.28222 0.734169C6.19343 0.644112 6.04964 0.644112 5.96086 0.734169L4.00025 2.7228L2.0398 0.734169C1.95101 0.644112 1.80722 0.644112 1.71843 0.734169L0.733583 1.73309C0.644795 1.82315 0.644795 1.96899 0.733583 2.05905L2.64714 3.99996L0.733583 5.94087C0.644795 6.03093 0.644795 6.17677 0.733583 6.26683L1.71843 7.26575C1.80722 7.35581 1.95101 7.35581 2.0398 7.26575L4.00025 5.27712L5.96086 7.26575C6.04964 7.35581 6.19343 7.35581 6.28222 7.26575L7.26707 6.26667C7.35586 6.17662 7.35586 6.03077 7.26707 5.94072L5.35366 3.99996L7.26707 2.0592C7.35586 1.96915 7.35586 1.8233 7.26707 1.73325L6.28222 0.734169Z"
-                          fill="white" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_5026_4643">
-                          <rect width="8" height="8" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-
-                  </span>
-                </button>
-                <div class="modal-body">
-
-                  <div class="radioselect">
-                    <div class="radioselect__items">
-                      <div class="radioselect__item">
-                        <label for="freeplan" class="radioselect__label">
-                          <input type="radio" id="freeplan" name="PREMIUM" disabled>
-                          <div class="radioselect__wrapper">
-                            <div class="radioselect__header">
-                              <div class="radioselect__input"><img src="img/freeplan.svg" alt=""></div>
-                              <div class="radioselect__title"><span class="gray">Free</span> Plan</div>
-
-                            </div><!-- /.radioselect__header -->
-                            <div class="radioselect__content">
-                              <ul>
-                                <li>View data for 24h & 2d periods</li>
-                                <li>Add up to 5 projects to your watchlist</li>
-
-                              </ul>
-                            </div><!-- /.radioselect__content -->
-                            <div class="radioselect__info">
-                              <div class="radioselect__infocurrent">Current</div>
-                            </div><!-- /.radioselect__info -->
-                          </div><!-- /.radioselect__wrapper -->
-                        </label>
-                      </div><!-- /.radioselect__item -->
-                      <div class="radioselect__item">
-                        <label for="premiumuser" class="radioselect__label">
-                          <input type="radio" id="premiumuser" name="PREMIUM" checked>
-                          <div class="radioselect__wrapper">
-                            <div class="radioselect__header">
-                              <div class="radioselect__input"></div>
-                              <div class="radioselect__title">Premium User</div>
-                              <div class="radioselect__icon">
-                                <img src="img/coin_3305481222.svg" alt="">
-                              </div>
-                            </div><!-- /.radioselect__header -->
-                            <div class="radioselect__content">
-                              <ul>
-                                <li>Access 15m+ timeframe data</li>
-                                <li>Unlimited watchlist capacity</li>
-                                <li>Real-time trending accounts alerts via Telegram</li>
-                                <li>New Launches Monitor (Beta) — live contract tracking</li>
-                                <li>Chatroom for premium users to share trading ideas</li>
-                              </ul>
-                            </div><!-- /.radioselect__content -->
-                            <div class="radioselect__info">
-                              <div class="radioselect__price">$49.00</div>
-                              <div class="radioselect__period">per 30 days</div>
-                            </div><!-- /.radioselect__info -->
-                          </div><!-- /.radioselect__wrapper -->
-                        </label>
-                      </div><!-- /.radioselect__item -->
-                      <div class="radioselect__item radioselect__item_yellow">
-                        <label for="premium90" class="radioselect__label">
-                          <input type="radio" id="premium90" name="PREMIUM">
-                          <div class="radioselect__wrapper">
-                            <div class="radioselect__header">
-                              <div class="radioselect__input"></div>
-                              <div class="radioselect__title">Premium (90 Days)</div>
-                              <div class="radioselect__icon">
-                                <img src="img/coin_330548123.svg" alt="">
-                              </div>
-                            </div><!-- /.radioselect__header -->
-                            <div class="radioselect__content">
-                              <ul>
-                                <li>All Premium features</li>
-                                <li>12% discount for 90-day subscription</li>
-                              </ul>
-                            </div><!-- /.radioselect__content -->
-                            <div class="radioselect__info">
-                              <div class="radioselect__discount">
-                                <div class="radioselect__oldprice">$147.00</div>
-                                <div class="radioselect__change">-12%</div>
-                              </div><!-- /.radioselect__discount -->
-                              <div class="radioselect__price">$129.00</div>
-                              <div class="radioselect__period">per 90 days</div>
-                            </div><!-- /.radioselect__info -->
-                          </div><!-- /.radioselect__wrapper -->
-                        </label>
-                      </div><!-- /.radioselect__item -->
-                    </div><!-- /.radioselect__items -->
-                  </div><!-- /.radioselect -->
-
-
-                  <div class="modal-submit">
-                    <div class="buttonsrow">
-                      <div class="buttonsrow__item buttonsrow__item_full">
-                        <button type='submit' class='btn btn_main'>Buy Now for $49.99</button>
-                      </div>
-                    </div>
-                    <!-- /.buttonsrow -->
-                  </div>
-                </div>
-                <!-- /.formblock -->
-              </div>
-          </div>
-          </form>
         </div>
+     
 
         <%= _.template(require('../includes/footer_062025.html').default)(data) %>
 

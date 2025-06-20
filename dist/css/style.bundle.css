@@ -27994,22 +27994,22 @@ body {
   margin-top: 28px;
   margin-bottom: 28px; }
 
-.darkmode .modal_v5 .check {
+.darkmode .modal_v5 .modal-submit .check {
   margin: 17px 0; }
-  .darkmode .modal_v5 .check a {
+  .darkmode .modal_v5 .modal-submit .check a {
     text-decoration: underline; }
-  .darkmode .modal_v5 .check label {
+  .darkmode .modal_v5 .modal-submit .check label {
     padding-left: 28px;
     font-weight: 400;
     font-size: 13px;
     color: #fff;
     line-height: 1.2; }
-  .darkmode .modal_v5 .check label:before {
+  .darkmode .modal_v5 .modal-submit .check label:before {
     background: transparent;
     border: 2px solid #4f5669;
     border-radius: 3px;
     box-sizing: border-box; }
-  .darkmode .modal_v5 .check input[type="checkbox"]:checked + label:before {
+  .darkmode .modal_v5 .modal-submit .check input[type="checkbox"]:checked + label:before {
     background-color: #30ca4c;
     border-color: #30ca4c; }
 
@@ -28044,6 +28044,30 @@ body {
 
 .watchlistnew.watchlistnew_mobile {
   display: none; }
+
+.darkmode .modal_white .passwordforgot a {
+  opacity: 0.5; }
+
+.darkmode .modal_white .btn_main span {
+  color: #fff !important; }
+
+.darkmode .modal_white .modal-content {
+  padding: 60px 60px 36px 60px; }
+
+.darkmode .modal_white .btn_border {
+  background: #fff;
+  border-color: #d9d9d9; }
+
+.darkmode .modal_white * {
+  color: #212531 !important; }
+
+.darkmode .modal_white .modal-dialog,
+.darkmode .modal_white .modal-content {
+  background: #fff; }
+
+.darkmode .modal_white input {
+  border-bottom: 2px solid #d9dde3 !important;
+  background: #f3f5f8 !important; }
 
 @media (min-width: 980px) and (max-width: 1919px) {
   .siteheader_v5 .siteheader__desc {
