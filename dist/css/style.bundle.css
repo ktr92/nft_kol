@@ -27348,7 +27348,8 @@ p {
   font-weight: 400;
   font-size: 14px;
   line-height: 100%;
-  color: #fff; }
+  color: #fff;
+  margin-top: 3px; }
 
 .headerbanner {
   margin: 28px 0; }
@@ -27847,6 +27848,8 @@ body {
       padding-left: 18px;
       position: relative;
       min-height: 14px; }
+      .radioselect__content ul li:last-child {
+        margin-bottom: 0 !important; }
       .radioselect__content ul li:before {
         content: url('data:image/svg+xml,<svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.88733 0.434382C8.30594 -0.0739278 9.05735 -0.146646 9.56567 0.271963C10.074 0.690572 10.1467 1.44199 9.72809 1.9503L4.10096 8.78324L0.407184 5.55118C-0.0883827 5.11756 -0.1386 4.36431 0.295021 3.86874C0.728642 3.37317 1.4819 3.32296 1.97746 3.75658L3.82215 5.37068L7.88733 0.434382Z" fill="%2330CA4C" /></svg>');
         position: absolute;
@@ -27859,7 +27862,8 @@ body {
     opacity: 0;
     width: 0;
     height: 0;
-    visibility: hidden; }
+    visibility: hidden;
+    position: absolute; }
 
 .radioselect__info {
   position: absolute;
@@ -27947,7 +27951,7 @@ body {
   margin-bottom: 2px; }
 
 .gray {
-  color: #7983A1; }
+  color: #7983a1; }
 
 .radioselect__label input:disabled ~ .radioselect__wrapper .radioselect__input {
   border: none;
@@ -27961,6 +27965,85 @@ body {
 
 .radioselect__infocurrent {
   color: #7983a1 !important; }
+
+.radioselect__item {
+  margin-bottom: 13px; }
+
+.siteheader_v5 .accountblock_unauthored {
+  margin-left: 40px; }
+
+.btn_border.flex {
+  gap: 13px;
+  width: 100%; }
+
+.darkmode .btn_border {
+  background: #252a39;
+  border: 1px solid #4f5669; }
+  .darkmode .btn_border:hover {
+    background: rgba(48, 202, 76, 0.15);
+    border-color: #30ca4c; }
+
+.darkmode .modal_xs .modal-dialog {
+  width: 534px;
+  max-width: calc(100% - 20px); }
+
+.darkmode .modal_v5 .buttonsrow__item + .buttonsrow__item {
+  margin-top: 15px; }
+
+.darkmode .modal_v5 .buttonsrow {
+  margin-top: 28px;
+  margin-bottom: 28px; }
+
+.darkmode .modal_v5 .check {
+  margin: 17px 0; }
+  .darkmode .modal_v5 .check a {
+    text-decoration: underline; }
+  .darkmode .modal_v5 .check label {
+    padding-left: 28px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+    line-height: 1.2; }
+  .darkmode .modal_v5 .check label:before {
+    background: transparent;
+    border: 2px solid #4f5669;
+    border-radius: 3px;
+    box-sizing: border-box; }
+  .darkmode .modal_v5 .check input[type="checkbox"]:checked + label:before {
+    background-color: #30ca4c;
+    border-color: #30ca4c; }
+
+.darkmode .modal_v5 .modal__back {
+  margin-bottom: 0; }
+
+.darkmode .modal_v5 input {
+  background-color: #3b4255;
+  border-bottom: 2px solid #4f5669;
+  padding: 22px 29px; }
+  .darkmode .modal_v5 input::-webkit-input-placeholder {
+    font-size: 16px; }
+  .darkmode .modal_v5 input::-moz-placeholder {
+    font-size: 16px; }
+  .darkmode .modal_v5 input:-ms-input-placeholder {
+    font-size: 16px; }
+  .darkmode .modal_v5 input:-moz-placeholder {
+    font-size: 16px; }
+
+.darkmode .modal_v5 .inputerror {
+  color: #f8444f !important; }
+
+.darkmode .modal_v5 input.input-error,
+.darkmode .modal_v5 textarea.input-error {
+  border-bottom: 2px solid #f8444f !important; }
+
+.darkmode .modal_v5 .formblock__title {
+  color: #7983a1 !important; }
+
+.darkmode .modal_v5 .red {
+  color: #f8444f !important; }
+
+.watchlistnew.watchlistnew_mobile {
+  display: none; }
 
 @media (min-width: 980px) and (max-width: 1919px) {
   .siteheader_v5 .siteheader__desc {
@@ -28130,6 +28213,8 @@ body {
     gap: 0.15625vw; } }
 
 @media only screen and (max-width: 1090px) {
+  .watchlistnew.watchlistnew_mobile {
+    display: block; }
   .siteheader_v5 .siteheader__slg {
     display: none; }
   .siteheader_v5 .watchlistnew {
@@ -28295,9 +28380,9 @@ body {
     background-position: top -116px left !important; }
   .footerfilter__items .onlyDesktop {
     display: none; }
-  .modal_xl .modal-content {
+  .modal_v5 .modal-content {
     padding: 30px 14px 15px 30px; }
-  .modal_xl .modal-title {
+  .modal_v5 .modal-title {
     margin-bottom: 44px; }
   .darkmode
 .notablekols
@@ -28306,10 +28391,12 @@ body {
 .tableblock__row
 .tableblock__col {
     background: #252a39 !important; }
-  .modal_xl .modal-dialog {
+  .modal_v5 .modal-dialog {
     max-width: calc(100% - 20px); } }
 
 @media only screen and (max-width: 811px) {
+  .watchlistnew.watchlistnew_mobile {
+    display: none; }
   .upgrade_lock img {
     min-width: 16px; }
   .upgrade_icon {
@@ -28411,7 +28498,8 @@ body {
     margin-top: 7px; }
   .notablekols .tableblock__header {
     display: none; }
-  .notablekols .notablekols__text, .notablekols .notablekols__date {
+  .notablekols .notablekols__text,
+  .notablekols .notablekols__date {
     display: block;
     width: 100%;
     text-align: right; }
@@ -28433,13 +28521,51 @@ body {
     font-size: 11px; }
   .notablekols__date {
     font-size: 10px; }
-  .modal_xl button.close {
+  .modal_v5 button.close {
     right: 11px;
     top: 11px;
     width: 8px;
     height: 8px; }
   .notablekols .tableblock__wrapper {
-    padding-right: 0; } }
+    padding-right: 0; }
+  .radioselect__content {
+    padding-left: 0; }
+  .modal_v5_default .modal-title {
+    margin-bottom: 18px;
+    font-size: 22px; }
+  .modal_v5_default .modal-content {
+    padding: 30px 8px; }
+  .radioselect__title {
+    font-size: 14px; }
+  .radioselect__input {
+    min-width: 14px;
+    max-width: 14px;
+    height: 14px; }
+  .radioselect__content ul li {
+    font-size: 11px;
+    margin-bottom: 12px; }
+  .radioselect__label
+input:checked
+~ .radioselect__wrapper
+.radioselect__input:after {
+    width: 8px;
+    height: 8px; }
+  .radioselect__wrapper {
+    padding: 11px 10px; }
+  .radioselect__price {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 6px; }
+  .radioselect__period {
+    font-size: 10px; }
+  .radioselect {
+    margin-bottom: 19px; }
+  .modal_v5.modal_xs .modal-content {
+    padding: 16px; }
+  .darkmode .modal_v5 input {
+    padding: 15px 16px; }
+  .darkmode .modal_v5 .check label br {
+    display: none; } }
 
 input, textarea, .pagesearch__input .searchinput input {
   /* FF 4-18 */

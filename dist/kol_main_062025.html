@@ -123,7 +123,7 @@
 
 
 
-            <div class="accountmenu" data-toggleclick="accountmenu">
+           <!--  <div class="accountmenu" data-toggleclick="accountmenu">
               <div class="accountmenu__wrapper flex items-center">
                 <div class="accountmenu__icon">
                   <div class="accountmenu__img"><img src="img/Heart_white.svg" alt=""></div>
@@ -142,10 +142,10 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <!-- <div class="accountblock accountblock_unauthored">
-            <a href="" class="accountblock__link">Sign In</a>
-        </div> -->
+            </div> -->
+            <div class="accountblock accountblock_unauthored">
+            <a href="#popup_signup" data-toggle="modal" class="accountblock__link">Login</a>
+        </div>
           </div>
         </div>
 
@@ -234,7 +234,7 @@
           <div class="flex ">
             <div class="linkset__items statistics_ranges flex linkset__items_border">
               <div class="linkset__item">
-                <a data-value="upgrade" href="#" class="linkset__link linkset__upgrade">
+                <a data-value="upgrade" href="#popup_upgrade" data-toggle="modal" class="linkset__link linkset__upgrade">
                   <span class="upgrade_icon">
                     <img src="img/upgrade_icon.svg" alt="">
                   </span><!-- /.upgrade_lock -->
@@ -291,7 +291,7 @@
   <div class="headerbanner">
     <div class="container">
       <div class="headerbanner__wrapper">
-        <a href="#" class="headerbanner__content">
+        <a href="#popup_upgrade" data-toggle="modal" class="headerbanner__content">
           <div class="headerbanner__img">
             <img src="img/headerbanner__img.png" alt="">
           </div><!-- /.headerbanner__img -->
@@ -4587,7 +4587,8 @@
                   <div class="pagination">
                     <ul>
                       <li class="pagilock">
-                        <a data-value="upgrade" href="#" class="linkset__link linkset__upgrade">
+                        <a data-value="upgrade" href="#popup_upgrade" data-toggle="modal"
+                          class="linkset__link linkset__upgrade">
                           <span class="upgrade_icon">
                             <img src="img/upgrade_icon.svg" alt="">
                           </span><!-- /.upgrade_lock -->
@@ -5089,23 +5090,29 @@
           </div>
           </form>
         </div>
-        <div class="modal modal_small fade modal_v5" tabindex="-1" role="dialog" id='popup_signup'>
+        <div class="modal modal_xs fade modal_v5" tabindex="-1" role="dialog" id='popup_signup'>
           <div class="modal-dialog" role="document">
             <form action="">
               <div class="modal-content">
                 <div class="modal__leftheader">
                   <a href="#" class="modal__back" data-dismiss="modal" aria-label="Close">
-                    <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="23" height="26" viewBox="0 0 23 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
-                        d="M12.1295 0.26706L1.08264 11.5017C0.404747 12.1911 0.404747 13.3089 1.08264 13.9983L12.1295 25.2329L14.5844 22.7364L6.50078 14.5154H23.5742L23.5742 10.9846L6.50078 10.9846L14.5844 2.76365L12.1295 0.26706Z"
-                        fill="#3A4659" />
+                        d="M11.5553 0.51706L0.508419 11.7517C-0.169472 12.4411 -0.169472 13.5589 0.508419 14.2483L11.5553 25.4829L14.0102 22.9864L5.92656 14.7654H23L23 11.2346L5.92656 11.2346L14.0102 3.01365L11.5553 0.51706Z"
+                        fill="white" />
                     </svg>
+
                   </a>
                 </div>
                 <div class="modal-title">Sign Up</div>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">
-                    <img src="img/closebutton.svg" alt="">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M9.42382 1.10119C9.29064 0.966107 9.07495 0.966107 8.94177 1.10119L6.00086 4.08413L3.06018 1.10119C2.927 0.966107 2.71132 0.966107 2.57814 1.10119L1.10086 2.59958C0.967681 2.73466 0.967681 2.95343 1.10086 3.08851L3.9712 5.99988L1.10086 8.91124C0.967681 9.04633 0.967681 9.26509 1.10086 9.40018L2.57814 10.8986C2.71132 11.0336 2.927 11.0336 3.06018 10.8986L6.00086 7.91562L8.94177 10.8986C9.07495 11.0336 9.29064 11.0336 9.42382 10.8986L10.9011 9.39995C11.0343 9.26486 11.0343 9.0461 10.9011 8.91101L8.03098 5.99988L10.9011 3.08874C11.0343 2.95366 11.0343 2.73489 10.9011 2.59981L9.42382 1.10119Z"
+                        fill="white" />
+                    </svg>
+
                   </span>
                 </button>
                 <div class="modal-body">
@@ -5132,8 +5139,8 @@
                         <div class="formblock__input">
                           <div class="inputpassword">
                             <input type="password">
-                            <img src="img/Invisible.svg" alt="" data-toggle="password" class="password_invisible">
-                            <img src="img/Eye2.svg" alt="" data-toggle="password" class="password_visible">
+                            <img src="img/Invisible_white.svg" alt="" data-toggle="password" class="password_invisible">
+                            <img src="img/Eye_white.svg" alt="" data-toggle="password" class="password_visible">
                           </div>
                         </div>
                       </div>
@@ -5143,21 +5150,52 @@
                         <div class="formblock__input">
                           <div class="inputpassword">
                             <input type="password" value="andr182838">
-                            <img src="img/Invisible.svg" alt="" data-toggle="password" class="password_invisible">
-                            <img src="img/Eye2.svg" alt="" data-toggle="password" class="password_visible">
+                            <img src="img/Invisible_white.svg" alt="" data-toggle="password" class="password_invisible">
+                            <img src="img/Eye_white.svg" alt="" data-toggle="password" class="password_visible">
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="captchablock">
-                    <img src="img/captcha.png" alt="">
-                  </div>
+
                   <div class="modal-submit">
+                    <div class="check">
+                      <input type="checkbox" id="newsletter_yes" checked="checked" value="Y">
+                      <label for="newsletter_yes">Yes, I want to receive the daily newsletter featuring <br> trending
+                        projects
+                      </label>
+                    </div>
+                    <div class="check">
+                      <input type="checkbox" id="privacy_yes" value="Y">
+                      <label for="privacy_yes">I agree to the website’s <a href="">Privacy Policy</a> and <a
+                          href="">Terms & Conditions</a>.
+                      </label>
+                    </div>
+
                     <div class="buttonsrow">
                       <div class="buttonsrow__item buttonsrow__item_full">
                         <button type='submit' class='btn btn_main'>Complete registration</button>
                       </div>
+                      <div class="buttonsrow__item buttonsrow__item_full">
+                        <a href="#" class='btn btn_border flex items-center content-center'>
+                          <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M28.2 15.3125C28.2 14.3375 28.1125 13.4 27.95 12.5H15V17.825H22.4C22.075 19.5375 21.1 20.9875 19.6375 21.9625V25.425H24.1C26.7 23.025 28.2 19.5 28.2 15.3125Z"
+                              fill="#4285F4" />
+                            <path
+                              d="M14.9996 28.75C18.7121 28.75 21.8246 27.525 24.0996 25.425L19.6371 21.9625C18.4121 22.7875 16.8496 23.2875 14.9996 23.2875C11.4246 23.2875 8.38711 20.875 7.29961 17.625H2.72461V21.175C4.98711 25.6625 9.62461 28.75 14.9996 28.75Z"
+                              fill="#34A853" />
+                            <path
+                              d="M7.3 17.6124C7.025 16.7874 6.8625 15.9124 6.8625 14.9999C6.8625 14.0874 7.025 13.2124 7.3 12.3874V8.8374H2.725C1.7875 10.6874 1.25 12.7749 1.25 14.9999C1.25 17.2249 1.7875 19.3124 2.725 21.1624L6.2875 18.3874L7.3 17.6124Z"
+                              fill="#FBBC05" />
+                            <path
+                              d="M14.9996 6.725C17.0246 6.725 18.8246 7.425 20.2621 8.775L24.1996 4.8375C21.8121 2.6125 18.7121 1.25 14.9996 1.25C9.62461 1.25 4.98711 4.3375 2.72461 8.8375L7.29961 12.3875C8.38711 9.1375 11.4246 6.725 14.9996 6.725Z"
+                              fill="#EA4335" />
+                          </svg>
+
+                          <span>Register with Google</span></button>
+                        </a>
                     </div>
                     <!-- /.buttonsrow -->
                   </div>
@@ -5167,14 +5205,26 @@
           </div>
           </form>
         </div>
-        <div class="modal modal_sm fade modal_v5" tabindex="-1" role="dialog" id='popup_upgrade'>
+        <div class="modal modal_sm fade modal_v5 modal_v5_default" tabindex="-1" role="dialog" id='popup_upgrade'>
           <div class="modal-dialog" role="document">
             <form action="">
               <div class="modal-content">
                 <div class="modal-title">Premium Subscription</div>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">
-                    <img src="img/closebutton.svg" alt="">
+                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g opacity="0.3" clip-path="url(#clip0_5026_4643)">
+                        <path
+                          d="M6.28222 0.734169C6.19343 0.644112 6.04964 0.644112 5.96086 0.734169L4.00025 2.7228L2.0398 0.734169C1.95101 0.644112 1.80722 0.644112 1.71843 0.734169L0.733583 1.73309C0.644795 1.82315 0.644795 1.96899 0.733583 2.05905L2.64714 3.99996L0.733583 5.94087C0.644795 6.03093 0.644795 6.17677 0.733583 6.26683L1.71843 7.26575C1.80722 7.35581 1.95101 7.35581 2.0398 7.26575L4.00025 5.27712L5.96086 7.26575C6.04964 7.35581 6.19343 7.35581 6.28222 7.26575L7.26707 6.26667C7.35586 6.17662 7.35586 6.03077 7.26707 5.94072L5.35366 3.99996L7.26707 2.0592C7.35586 1.96915 7.35586 1.8233 7.26707 1.73325L6.28222 0.734169Z"
+                          fill="white" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_5026_4643">
+                          <rect width="8" height="8" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+
                   </span>
                 </button>
                 <div class="modal-body">
@@ -5188,13 +5238,13 @@
                             <div class="radioselect__header">
                               <div class="radioselect__input"><img src="img/freeplan.svg" alt=""></div>
                               <div class="radioselect__title"><span class="gray">Free</span> Plan</div>
-                             
+
                             </div><!-- /.radioselect__header -->
                             <div class="radioselect__content">
                               <ul>
                                 <li>View data for 24h & 2d periods</li>
                                 <li>Add up to 5 projects to your watchlist</li>
-                           
+
                               </ul>
                             </div><!-- /.radioselect__content -->
                             <div class="radioselect__info">
@@ -5232,7 +5282,7 @@
                       </div><!-- /.radioselect__item -->
                       <div class="radioselect__item radioselect__item_yellow">
                         <label for="premium90" class="radioselect__label">
-                          <input type="radio" id="premium90" name="PREMIUM" >
+                          <input type="radio" id="premium90" name="PREMIUM">
                           <div class="radioselect__wrapper">
                             <div class="radioselect__header">
                               <div class="radioselect__input"></div>
@@ -5261,7 +5311,7 @@
                     </div><!-- /.radioselect__items -->
                   </div><!-- /.radioselect -->
 
-                
+
                   <div class="modal-submit">
                     <div class="buttonsrow">
                       <div class="buttonsrow__item buttonsrow__item_full">

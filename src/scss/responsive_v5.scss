@@ -267,6 +267,9 @@
 }
 
 @include medium-screen {
+  .watchlistnew.watchlistnew_mobile {
+  display: block;
+}
   .siteheader_v5 {
     .siteheader__slg {
       display: none;
@@ -539,12 +542,14 @@
     display: none;
   }
 
-  .modal_xl .modal-content {
+  .modal_v5 .modal-content {
     padding: 30px 14px 15px 30px;
   }
-  .modal_xl .modal-title {
+
+  .modal_v5 .modal-title {
     margin-bottom: 44px;
   }
+
   .darkmode
     .notablekols
     .tableblock_tab
@@ -553,12 +558,15 @@
     .tableblock__col {
     background: #252a39 !important;
   }
-  .modal_xl .modal-dialog {
+  .modal_v5 .modal-dialog {
     max-width: calc(100% - 20px);
   }
 }
 
 @include small-screen() {
+  .watchlistnew.watchlistnew_mobile {
+  display: none;
+}
   .upgrade_lock img {
     min-width: 16px;
   }
@@ -697,8 +705,6 @@
     gap: 11px;
   }
   .notablekols {
-
- 
     .tableblock__col_notable_name {
       .notablekols__text {
         margin-top: 5px;
@@ -712,10 +718,11 @@
     .tableblock__header {
       display: none;
     }
-    .notablekols__text, .notablekols__date {
+    .notablekols__text,
+    .notablekols__date {
       display: block;
       width: 100%;
- 
+
       text-align: right;
     }
   }
@@ -745,16 +752,69 @@
   .notablekols__date {
     font-size: 10px;
   }
-  .modal_xl {
-       button.close {
+  .modal_v5 {
+    button.close {
       right: 11px;
       top: 11px;
       width: 8px;
       height: 8px;
     }
-    
   }
   .notablekols .tableblock__wrapper {
     padding-right: 0;
+  }
+  .radioselect__content {
+    padding-left: 0;
+  }
+  .modal_v5_default .modal-title {
+    margin-bottom: 18px;
+    font-size: 22px;
+  }
+  .modal_v5_default .modal-content {
+    padding: 30px 8px;
+  }
+  .radioselect__title {
+    font-size: 14px;
+  }
+  .radioselect__input {
+    min-width: 14px;
+    max-width: 14px;
+    height: 14px;
+  }
+  .radioselect__content ul li {
+    font-size: 11px;
+    margin-bottom: 12px;
+  }
+  .radioselect__label
+    input:checked
+    ~ .radioselect__wrapper
+    .radioselect__input:after {
+    width: 8px;
+    height: 8px;
+  }
+  .radioselect__wrapper {
+    padding: 11px 10px;
+  }
+  .radioselect__price {
+    font-weight: 700;
+font-size: 14px;
+margin-bottom: 6px;
+  }
+  .radioselect__period {
+    font-size: 10px;
+  }
+  .radioselect {
+    margin-bottom: 19px;
+  }
+  .modal_v5.modal_xs .modal-content {
+    padding: 16px;
+  }
+  .darkmode .modal_v5 input {
+    padding: 15px 16px;
+  }
+  .darkmode .modal_v5 .check label {
+    br {
+      display: none;
+    }
   }
 }
