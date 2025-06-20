@@ -538,6 +538,24 @@
   .footerfilter__items .onlyDesktop {
     display: none;
   }
+
+  .modal_xl .modal-content {
+    padding: 30px 14px 15px 30px;
+  }
+  .modal_xl .modal-title {
+    margin-bottom: 44px;
+  }
+  .darkmode
+    .notablekols
+    .tableblock_tab
+    .tableblock__body
+    .tableblock__row
+    .tableblock__col {
+    background: #252a39 !important;
+  }
+  .modal_xl .modal-dialog {
+    max-width: calc(100% - 20px);
+  }
 }
 
 @include small-screen() {
@@ -653,5 +671,90 @@
     .sitefooter__right {
       width: 100%;
     }
+  }
+
+  .tableblock_tab
+    .tableblock__header
+    .tableblock__col.tableblock__col_notable_Description {
+    display: none !important;
+  }
+  .tableblock_tab
+    .tableblock__header
+    .tableblock__col.tableblock__col_notable_Date {
+    display: none !important;
+  }
+  .tableblock_tab
+    .tableblock__body
+    .tableblock__col.tableblock__col_notable_Description {
+    display: none !important;
+  }
+  .tableblock_tab
+    .tableblock__body
+    .tableblock__col.tableblock__col_notable_Date {
+    display: none !important;
+  }
+  .notablekols__asset {
+    gap: 11px;
+  }
+  .notablekols {
+
+ 
+    .tableblock__col_notable_name {
+      .notablekols__text {
+        margin-top: 5px;
+      }
+    }
+    .tableblock__col_notable_Followers {
+      .notablekols__date {
+        margin-top: 7px;
+      }
+    }
+    .tableblock__header {
+      display: none;
+    }
+    .notablekols__text, .notablekols__date {
+      display: block;
+      width: 100%;
+ 
+      text-align: right;
+    }
+  }
+  .modal_xl .modal-title {
+    margin-bottom: 21px;
+  }
+  .modal_xl .modal-content {
+    padding: 20px 16px;
+  }
+  .notablekols .tableblock__wrapper {
+    max-height: unset;
+  }
+  .notablekols__icon img {
+    width: 26px;
+    height: 26px;
+  }
+  .notablekols__icon {
+    max-width: 26px;
+    min-width: 26px;
+  }
+  .notablekols__title {
+    font-size: 13px;
+  }
+  .notablekols__text {
+    font-size: 11px;
+  }
+  .notablekols__date {
+    font-size: 10px;
+  }
+  .modal_xl {
+       button.close {
+      right: 11px;
+      top: 11px;
+      width: 8px;
+      height: 8px;
+    }
+    
+  }
+  .notablekols .tableblock__wrapper {
+    padding-right: 0;
   }
 }
