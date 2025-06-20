@@ -60,7 +60,7 @@
     }
   }
   .headerbanner {
-    margin: get-vw-laptop(28px) 0;
+    margin: get-vw-laptop(28px) 0 0 0;
   }
   .headerbanner__wrapper {
     border-radius: get-vw-laptop(12px);
@@ -176,7 +176,7 @@
   }
 
   .sm_mode.hasbanner .tableblock__header {
-    background-position: top get-vw-laptop(-289px) left;
+    background-position: top -289px left;
   }
 
   .linkwrapper {
