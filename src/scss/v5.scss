@@ -923,6 +923,7 @@ body {
       input[type="checkbox"]:checked + label:before {
         background-color: #30ca4c;
         border-color: #30ca4c;
+            background-image: url(../img/selected_icon.svg);
       }
     }
     .modal__back {
