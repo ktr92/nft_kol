@@ -460,7 +460,7 @@ $(window).resize(function () {
 })
 $(document).ready(function () {
   resizeEvents()
-
+  
   $(".modal").on("shown.bs.modal", function (e) {
     $(this).find("[data-slider]").slick("setPosition")
   })
@@ -528,7 +528,9 @@ $(document).ready(function () {
   })
 
   document.querySelectorAll('[data-toggle="password"]').forEach((item) => {
+
     item.addEventListener("click", (event) => {
+
       let inp = item.closest(".inputpassword").querySelector("input")
       if (inp.type === "password") {
         inp.type = "text"
