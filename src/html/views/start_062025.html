@@ -1,0 +1,44 @@
+<% var data={ title: "MAIN" , author: "" }; %>
+  <%= _.template(require('../includes/head.html').default)(data) %>
+<style>
+      a {
+        display: block;
+        margin: 10px;
+      }
+
+      .sm_mode #footer {
+        position: fixed;
+      }
+    </style>
+    <div class='darkmode sm_mode hasbanner '>
+      <main>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="" style="text-align: center">
+          <a href="kol_main_062025.html"  class="btn btn_main" target="_blank">Main без авторизации</a>
+          <a href="kol_main_login_062025.html"  class="btn btn_main" target="_blank">Main авторизован нет подписки</a>
+          <a href="kol_main_login_premium_062025.html"  class="btn btn_main" target="_blank">Main есть подписка</a>
+          <a href="popup_062025.html"  class="btn btn_main" target="_blank">Попапы + темные</a>
+
+      
+
+        </div><!-- /.flex -->
+
+
+
+
+
+
+      </main>
+
+            <%= _.template(require('../includes/footer_062025.html').default)(data) %>
