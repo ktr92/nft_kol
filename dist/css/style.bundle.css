@@ -28114,6 +28114,9 @@ body {
   .sm_mode.hasupgrade .tableblock__wrapper {
     filter: none; }
 
+.siteheader_v5 .linkset__items_noborder {
+  padding-left: 0 !important; }
+
 @media only screen and (max-width: 1090px) {
   .watchlistnew.watchlistnew_mobile {
     display: block; }
