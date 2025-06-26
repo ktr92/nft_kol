@@ -637,7 +637,7 @@
     align-items: center;
     justify-content: center;
     width: 36px;
-    height: 36px;
+    height: 36px !important;
     border-radius: 50%;
     background: #303646;
   }
@@ -865,5 +865,8 @@ margin-bottom: 6px;
   .tabsnav__links.flex.content-between.items-center.tabsnav__links_wallets > .flex:first-child {
     width: 100%;
     justify-content: space-between;
+}
+.siteheader_v5 .tabsnav_v2 .linkset__items {
+          max-width: 254px;
 }
 }

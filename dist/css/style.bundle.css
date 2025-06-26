@@ -28526,7 +28526,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 36px;
-    height: 36px;
+    height: 36px !important;
     border-radius: 50%;
     background: #303646; }
   .sm_mode .tabsnav_v2 .linkset__items {
@@ -28680,7 +28680,9 @@ input:checked
     justify-content: flex-end; }
   .tabsnav__links.flex.content-between.items-center.tabsnav__links_wallets > .flex:first-child {
     width: 100%;
-    justify-content: space-between; } }
+    justify-content: space-between; }
+  .siteheader_v5 .tabsnav_v2 .linkset__items {
+    max-width: 254px; } }
 
 input, textarea, .pagesearch__input .searchinput input {
   /* FF 4-18 */
