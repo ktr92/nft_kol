@@ -238,6 +238,13 @@
     width: get-vw-medium(14px);
   }
 
+  .sm_mode.hasupgrade .tableblock__header {
+    background-position: top get-vw-medium(-166px) left !important;
+}
+  .sm_mode.hasbanner .tableblock__header {
+  background-position: top get-vw-medium(-289px) left !important;
+}
+
   .sm_mode {
     .tablepagination_locked {
       .paginationblock {
@@ -493,9 +500,12 @@
     }
   } */
 
+  .sm_mode.hasupgrade .tableblock__header {
+    background-position: top get-vw-laptop(-166px) left !important;
+}
   .sm_mode.hasbanner .tableblock__header {
-    background-position: top -289px left;
-  }
+  background-position: top get-vw-laptop(-289px) left !important;
+}
 
   .linkwrapper {
     gap: get-vw-laptop(12px);
