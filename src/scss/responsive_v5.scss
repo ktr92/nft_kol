@@ -91,7 +91,12 @@
 
   .tableblock_tab.tableblock__kols .tableblock__title {
     gap: get-vw-medium(7px);
+       svg {
+            width: get-vw-medium(5px);
+            min-width: get-vw-medium(5px);
+      }
   }
+  $tooltiptop: get-vw-medium(-8px);  
 
   .tooltipv2 {
     .oversize {
@@ -103,10 +108,14 @@
       min-width: get-vw-medium(15px);
       max-width: get-vw-medium(15px);
       border: get-vw-medium(1px) solid #303646;
-      transform: translateY(-10px);
+      transform: translateY(#{$tooltiptop});
 
       &:hover {
         border-color: #86f89b;
+      }
+
+       svg {
+            min-width: get-vw-medium(7px);
       }
     }
     .tooltipv2__tooltip {
@@ -219,6 +228,13 @@
     top: get-vw-medium(10px);
     right: get-vw-medium(10px);
   }
+
+   .sm_mode .tablepagination_locked .pagination ul li.pagilock {
+      a.linkset__link {
+       
+        min-width: get-vw-medium(46px);
+      }
+    }
 /*   .gainvalue__img img {
     width: get-vw-medium(76px);
   } */
@@ -334,6 +350,7 @@
       a.linkset__link {
         padding-top: get-vw-laptop(3px);
         padding-bottom: get-vw-laptop(3px);
+        min-width: get-vw-laptop(26px);
       }
     }
     .linkset__items_border,
@@ -370,6 +387,12 @@
       font-size: get-vw-laptop(14px);
     }
   }
+ .sm_mode .tablepagination_locked .pagination ul li.pagilock {
+      a.linkset__link {
+       
+        min-width: get-vw-laptop(46px);
+      }
+    }
   .headerbanner {
     margin: get-vw-laptop(28px) 0 0 0;
   }
@@ -395,7 +418,15 @@
 
   .tableblock_tab.tableblock__kols .tableblock__title {
     gap: get-vw-laptop(7px);
+
+       svg {
+            width: get-vw-laptop(5px);
+                        min-width: get-vw-laptop(5px);
+
+      }
   }
+
+  $tooltiptop: get-vw-laptop(-8px);  
 
   .tooltipv2 {
     .oversize {
@@ -407,10 +438,14 @@
       min-width: get-vw-laptop(15px);
       max-width: get-vw-laptop(15px);
       border: get-vw-laptop(1px) solid #303646;
-      transform: translateY(-10px);
+      transform: translateY(#{$tooltiptop});
 
       &:hover {
         border-color: #86f89b;
+      }
+
+      svg {
+            min-width: get-vw-laptop(7px);
       }
     }
     .tooltipv2__tooltip {
@@ -869,4 +904,9 @@ margin-bottom: 6px;
 .hasupgrade .siteheader_v5 .tabsnav_v2 .linkset__items {
           max-width: 160px;
 }
+    .haspremium {
+       .siteheader_v5 .tabsnav_v2 .linkset__items {
+        max-width: 245px;
+    }
+    }
 }

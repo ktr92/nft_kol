@@ -594,7 +594,7 @@ $messageblock_top: get-vw-large(20px);
 }
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #eaecf0;
+  background: #EAECF0;
   border-radius: 10px;
 }
 /* Handle */
@@ -604,7 +604,7 @@ $messageblock_top: get-vw-large(20px);
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #ccc;
+  background: #EAECF0;
 }
 
 $mobmenuheight: get-vw-small(116px);

@@ -301,23 +301,19 @@ body {
   }
 }
 
-.darkmode {
-  /* width */
+/* .darkmode {
   ::-webkit-scrollbar {
     width: get-vw-large(4px);
     height: get-vw-large(4px);
   }
-  /* Track */
   ::-webkit-scrollbar-track {
     background: #414757;
     border-radius: get-vw-large(10px);
   }
-  /* Handle */
   ::-webkit-scrollbar-thumb {
     background: #677292;
     border-radius: get-vw-large(10px);
   }
-  /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #677292;
   }
@@ -325,7 +321,7 @@ body {
   .dropdownblock__wrapper {
     background: #303646;
   }
-}
+} */
 
 .sitefooter .dropdownblock.messageblock_notes {
   min-width: get-vw-large(767px);
@@ -1321,29 +1317,29 @@ padding-left: get-vw-large(15px);
   position: sticky;
   bottom: 0;
 } */
-html{
+/* html{
 
 
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
 
   &::-webkit-scrollbar {
     display: none !important;
   }
 
-  /* Track */
+
   &::-webkit-scrollbar-track {
     display: none;
   }
-  /* Handle */
+
   &::-webkit-scrollbar-thumb {
     display: none;
   }
-  /* Handle on hover */
+
   &::-webkit-scrollbar-thumb:hover {
     display: none;
     }
-}
+} */
 
 
 .linkpopup {
