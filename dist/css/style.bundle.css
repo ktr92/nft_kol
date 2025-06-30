@@ -28137,6 +28137,9 @@ body {
 .tableblock__title.active svg {
   transform: none !important; }
 
+.tableblock__title.active > svg {
+  transform: rotate(180deg) !important; }
+
 .sm_mode .tablepagination_locked .pagination ul li.pagilock a.linkset__link {
   min-width: 46px; }
 
@@ -28424,8 +28427,8 @@ body {
     border-radius: 0.41667vw;
     max-width: 9.11458vw;
     min-width: 9.11458vw;
-    margin-top: 0vw;
-    margin-left: -0.26042vw;
+    margin-top: -0.85vw;
+    margin-left: -0.46875vw;
     padding: 0.67708vw 0.98958vw 0.625vw 0.83333vw;
     font-size: 0.72917vw; }
   .tooltipv2 .tooltipv2__tooltip::after {

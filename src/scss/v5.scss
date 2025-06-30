@@ -1067,8 +1067,13 @@ body {
 }
 
 .tableblock__title.active {
+ 
   svg {
-  transform: none !important;
+  transform: none!important;
+
+  }
+   > svg {
+  transform: rotate(180deg) !important;
 
   }
 }
