@@ -19174,9 +19174,10 @@ i.icon-datepicker-plus {
   background: transparent;
   cursor: initial; }
 
+/* 
 .sm_mode {
-  background-image: none; }
-
+  background-image: none;
+} */
 a.tableblock__title svg {
   transition: all 0.3s ease; }
 
