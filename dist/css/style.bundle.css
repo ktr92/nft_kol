@@ -28150,6 +28150,10 @@ body {
         max-width: 245px;
     }
     } */
+.headerbanner__wrapper {
+  background: #5d38ff;
+  background: linear-gradient(90deg, rgba(93, 56, 255, 0.8) 0%, rgba(34, 38, 52, 0.8) 100%); }
+
 .sm_mode .tableblock__header.sticky-applied {
   background-color: #252a39 !important;
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.7); }
