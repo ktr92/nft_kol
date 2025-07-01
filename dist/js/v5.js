@@ -20,3 +20,20 @@ function showTooltip() {
   })
 }
  showTooltip()
+
+
+const stickyElement = document.querySelector('.tableblock__header');
+
+window.addEventListener('scroll', function() {
+  const elementPosition = stickyElement.getBoundingClientRect();
+
+  if (elementPosition.top <= 0 && elementPosition.bottom > 0) {
+    // Элемент находится в зоне видимости и "прилип"
+    stickyElement.classList.add('sticky-applied'); // Добавляем класс, если нужно
+    // Можно добавить другие действия, например, изменение цвета или анимацию
+  } else {
+    // Элемент уже не "прилип"
+    stickyElement.classList.remove('sticky-applied');
+    // Удаляем класс или другие изменения
+  }
+});
