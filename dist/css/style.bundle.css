@@ -28150,9 +28150,9 @@ body {
         max-width: 245px;
     }
     } */
-.headerbanner__wrapper {
+.testbanner .headerbanner__wrapper {
   background: #5d38ff;
-  background: linear-gradient(90deg, rgba(93, 56, 255, 0.65) 0%, rgba(34, 38, 52, 0.65) 100%); }
+  background: linear-gradient(90deg, rgba(93, 56, 255, 0.75) 0%, rgba(34, 38, 52, 0.5) 100%); }
 
 .sm_mode .tableblock__header.sticky-applied {
   background-color: #252a39 !important;

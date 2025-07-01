@@ -1,6 +1,6 @@
 <div class="jsbackdrop jsbackdrop_v2"></div>
 
-<header id="header" class="siteheader siteheader_v2 siteheader_v5 ">
+<header id="header" class="siteheader siteheader_v2 siteheader_v5">
   <div class="siteheader__main">
     <div class="container">
       <div class="flex content-between items-center relative">
@@ -24,7 +24,7 @@
             <div class="headerupgrade">
               <a href="#popup_upgrade" data-toggle="modal" class="headerupgrade__button">
                 <span class="headerupgrade__icon"><img src="img/Upgrade.svg" alt=""></span>
-                <span class="headerupgrade__text">30 Days</span>
+                <span class="headerupgrade__text">Upgrade</span>
               </a>
             </div><!-- /.headerupgrade -->
 
@@ -53,7 +53,7 @@
 
 
 
-            <div class="accountmenu" data-toggleclick="accountmenu">
+           <!--  <div class="accountmenu" data-toggleclick="accountmenu">
               <div class="accountmenu__wrapper flex items-center">
                 <div class="accountmenu__icon">
                   <div class="accountmenu__img"><img src="img/Heart_white.svg" alt=""></div>
@@ -72,10 +72,10 @@
                   </div>
                 </div>
               </div>
-            </div>
-           <!--  <div class="accountblock accountblock_unauthored">
+            </div> -->
+            <div class="accountblock accountblock_unauthored">
             <a href="#popup_signdark" data-toggle="modal" class="accountblock__link">Login</a>
-        </div> -->
+        </div>
           </div>
         </div>
 
@@ -163,19 +163,29 @@
         <div class="tabsnav__links flex content-between items-center tabsnav__links_wallets">
           <div class="flex ">
           <div class="flex ">
-           <div class="linkset__items statistics_ranges flex">
+            <div class="linkset__items statistics_ranges flex linkset__items_border">
+              <div class="linkset__item">
+                <a data-value="upgrade" href="#popup_upgrade" data-toggle="modal" class="linkset__link linkset__upgrade">
+                  <span class="upgrade_icon">
+                    <img src="img/upgrade_icon.svg" alt="">
+                  </span><!-- /.upgrade_lock -->
+                  <span class="upgrade_lock">
+                    <img src="img/upgrade_lock.svg" alt="">
+                  </span><!-- /.upgrade_lock -->
+                </a>
+              </div>
+              <div class="linkset__item"><a data-value="15m" href="#" class="linkset__link ">15m</a></div>
+              <div class="linkset__item"><a data-value="1h" href="#" class="linkset__link ">1h</a></div>
+              <div class="linkset__item"><a data-value="2h" href="#" class="linkset__link ">2h</a></div>
+              <div class="linkset__item"><a data-value="3h" href="#" class="linkset__link ">3h</a></div>
+              <div class="linkset__item"><a data-value="6h" href="#" class="linkset__link ">6h</a></div>
+              <div class="linkset__item"><a data-value="12h" href="#" class="linkset__link ">12h</a></div>
+            </div>
+            <div class="linkset__items statistics_ranges flex linkset__items_noborder">
 
-            <div class="linkset__item"><a data-value="15m" href="#" class="linkset__link ">15m</a></div>
-            <div class="linkset__item"><a data-value="30m" href="#" class="linkset__link active">30m</a></div>
-            <div class="linkset__item"><a data-value="1h" href="#" class="linkset__link ">1h</a></div>
-            <div class="linkset__item"><a data-value="2h" href="#" class="linkset__link ">2h</a></div>
-            <div class="linkset__item"><a data-value="3h" href="#" class="linkset__link ">3h</a></div>
-            <div class="linkset__item"><a data-value="6h" href="#" class="linkset__link ">6h</a></div>
-            <div class="linkset__item"><a data-value="12h" href="#" class="linkset__link ">12h</a></div>
-            <div class="linkset__item"><a data-value="24h" href="#" class="linkset__link ">24h</a></div>
-            <div class="linkset__item"><a data-value="2d" href="#" class="linkset__link ">2d</a></div>
-          </div>
-            
+              <div class="linkset__item"><a data-value="24h" href="#" class="linkset__link active">24h</a></div>
+              <div class="linkset__item"><a data-value="2d" href="#" class="linkset__link ">2d</a></div>
+            </div>
             </div>
 
             <div class="watchlistnew">
@@ -210,7 +220,7 @@
     </div>
   </div>
 
-  <div class="headerbanner" style="display: none !important;">
+  <div class="headerbanner testbanner">
     <div class="container">
       <div class="headerbanner__wrapper">
         <a href="#popup_upgrade" data-toggle="modal" class="headerbanner__content">
