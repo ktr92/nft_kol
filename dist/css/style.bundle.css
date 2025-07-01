@@ -28413,7 +28413,7 @@ body {
       width: 0.26042vw;
       min-width: 0.26042vw; }
   .tooltipv2 .oversize {
-    margin-left: 0.15625vw; }
+    margin-left: 0; }
   .tooltipv2 .oversize__icon {
     width: 0.78125vw;
     height: 0.78125vw;
