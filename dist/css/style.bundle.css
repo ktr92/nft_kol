@@ -28143,9 +28143,11 @@ body {
 .sm_mode .tablepagination_locked .pagination ul li.pagilock a.linkset__link {
   min-width: 46px; }
 
-.haspremium .siteheader_v5 .tabsnav_v2 .linkset__items {
-  max-width: 245px; }
-
+/*     .haspremium {
+       .siteheader_v5 .tabsnav_v2 .linkset__items {
+        max-width: 245px;
+    }
+    } */
 @media only screen and (max-width: 1090px) {
   .watchlistnew.watchlistnew_mobile {
     display: block; }
@@ -28542,7 +28544,10 @@ body {
   .sm_mode .tablepagination_locked .pagination ul li.pagilock a {
     height: 1.14583vw;
     gap: 0.15625vw; }
-  .siteheader_v5 .linkset__items_border .linkset__item a.linkset__link[data-value="upgrade"] {
+  .siteheader_v5
+.linkset__items_border
+.linkset__item
+a.linkset__link[data-value="upgrade"] {
     padding-right: 0; } }
 
 @media only screen and (max-width: 811px) {
@@ -28725,7 +28730,8 @@ input:checked
     font-size: 16px; }
   .tabsnav_v2 .tabsnav__links.flex.content-between.items-center {
     justify-content: flex-end; }
-  .tabsnav__links.flex.content-between.items-center.tabsnav__links_wallets > .flex:first-child {
+  .tabsnav__links.flex.content-between.items-center.tabsnav__links_wallets
+> .flex:first-child {
     width: 100%;
     justify-content: space-between; }
   .hasupgrade .siteheader_v5 .tabsnav_v2 .linkset__items {
