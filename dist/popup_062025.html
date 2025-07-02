@@ -97,6 +97,7 @@
           <a href="#popup_signwhite" data-toggle="modal" class="btn btn_main">register-white</a>
 
           <a href="#popup_signdark" data-toggle='modal' class="btn btn_main"> Sign dark</a>
+          <a href="#popup_sign" data-toggle='modal' class="btn btn_main"> Sign white</a>
           <a href="#popup_authdark" data-toggle='modal' class="btn btn_main"> Log In dark</a>
           <a href="#popup_resetdark" data-toggle='modal' class="btn btn_main"> Password reset dark </a>
           <a href="#popup_reset_password" data-toggle='modal' class="btn btn_main"> Password reset 2 dark </a>
@@ -113,6 +114,104 @@
 
       </main>
 
+      <div class="modal modal_small fade modal_v5  modal_white" tabindex="-1" role="dialog" id="popup_sign">
+        <div class="modal-dialog" role="document">
+          <form action="">
+            <div class="modal-content">
+              <div class="modal__leftheader">
+                <a href="#" class="modal__back" data-dismiss="modal" aria-label="Close">
+                  <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd"
+                      d="M12.1295 0.26706L1.08264 11.5017C0.404747 12.1911 0.404747 13.3089 1.08264 13.9983L12.1295 25.2329L14.5844 22.7364L6.50078 14.5154H23.5742L23.5742 10.9846L6.50078 10.9846L14.5844 2.76365L12.1295 0.26706Z"
+                      fill="#3A4659"></path>
+                  </svg>
+                </a>
+              </div>
+              <div class="modal-title">Sign Up</div>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  <img src="img/closebutton.svg" alt="">
+                </span>
+              </button>
+              <div class="modal-body">
+                <div class="formblock">
+                  <div class="formblock__main">
+                    <div class="formblock__item">
+                      <div class="formblock__title">Username <span class="red">*</span>
+                      </div>
+                      <div class="formblock__input">
+                        <input type="text" value="Victor Ivanov" placeholder="Username" class="input-error">
+                        <small class="inputerror">Username cannot contain characters /,|\’{}[]”</small>
+                      </div>
+                    </div>
+                    <div class="formblock__item">
+                      <div class="formblock__title">Email <span class="red">*</span>
+                      </div>
+                      <div class="formblock__input">
+                        <input type="text" placeholder="Email">
+                      </div>
+                    </div>
+                    <div class="formblock__item">
+                      <div class="formblock__title">Password <span class="red">*</span>
+                      </div>
+                      <div class="formblock__input">
+                        <div class="inputpassword">
+                          <input type="password">
+                          <img src="img/Invisible.svg" alt="" data-toggle="password" class="password_invisible">
+                          <img src="img/Eye2.svg" alt="" data-toggle="password" class="password_visible">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="formblock__item">
+                      <div class="formblock__title">Once again, please <span class="red">*</span>
+                      </div>
+                      <div class="formblock__input">
+                        <div class="inputpassword">
+                          <input type="password" value="andr182838">
+                          <img src="img/Invisible.svg" alt="" data-toggle="password" class="password_invisible">
+                          <img src="img/Eye2.svg" alt="" data-toggle="password" class="password_visible">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+                <div class="modal-submit">
+                  <div class="buttonsrow">
+                    <div class="buttonsrow__item buttonsrow__item_full">
+                      <button type="submit" class="btn btn_main">Complete registration</button>
+                    </div>
+                    <div class="buttonsrow__item buttonsrow__item_full">
+                      <a href="#" class='btn btn_border flex items-center content-center'>
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M28.2 15.3125C28.2 14.3375 28.1125 13.4 27.95 12.5H15V17.825H22.4C22.075 19.5375 21.1 20.9875 19.6375 21.9625V25.425H24.1C26.7 23.025 28.2 19.5 28.2 15.3125Z"
+                            fill="#4285F4" />
+                          <path
+                            d="M14.9996 28.75C18.7121 28.75 21.8246 27.525 24.0996 25.425L19.6371 21.9625C18.4121 22.7875 16.8496 23.2875 14.9996 23.2875C11.4246 23.2875 8.38711 20.875 7.29961 17.625H2.72461V21.175C4.98711 25.6625 9.62461 28.75 14.9996 28.75Z"
+                            fill="#34A853" />
+                          <path
+                            d="M7.3 17.6124C7.025 16.7874 6.8625 15.9124 6.8625 14.9999C6.8625 14.0874 7.025 13.2124 7.3 12.3874V8.8374H2.725C1.7875 10.6874 1.25 12.7749 1.25 14.9999C1.25 17.2249 1.7875 19.3124 2.725 21.1624L6.2875 18.3874L7.3 17.6124Z"
+                            fill="#FBBC05" />
+                          <path
+                            d="M14.9996 6.725C17.0246 6.725 18.8246 7.425 20.2621 8.775L24.1996 4.8375C21.8121 2.6125 18.7121 1.25 14.9996 1.25C9.62461 1.25 4.98711 4.3375 2.72461 8.8375L7.29961 12.3875C8.38711 9.1375 11.4246 6.725 14.9996 6.725Z"
+                            fill="#EA4335" />
+                        </svg>
+
+                        <span>Register with Google</span></button>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- /.buttonsrow -->
+                </div>
+              </div>
+              <!-- /.formblock -->
+            </div>
+          </form>
+        </div>
+
+      </div>
+
       <div class="modal modal_sm fade modal_v5 modal_v5_default" tabindex="-1" role="dialog" id='popup_upgrade'>
         <div class="modal-dialog" role="document">
           <form action="">
@@ -121,7 +220,9 @@
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">
                   <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8.42333 0.101192C8.29015 -0.0338934 8.07446 -0.0338934 7.94128 0.101192L5.00037 3.08413L2.05969 0.101192C1.92651 -0.0338934 1.71083 -0.0338934 1.57765 0.101192L0.100375 1.59958C-0.0328072 1.73466 -0.0328072 1.95343 0.100375 2.08851L2.97072 4.99988L0.100375 7.91124C-0.0328072 8.04633 -0.0328072 8.26509 0.100375 8.40018L1.57765 9.89856C1.71083 10.0336 1.92651 10.0336 2.05969 9.89856L5.00037 6.91562L7.94128 9.89856C8.07446 10.0336 8.29015 10.0336 8.42333 9.89856L9.9006 8.39995C10.0338 8.26486 10.0338 8.0461 9.9006 7.91101L7.03049 4.99988L9.9006 2.08874C10.0338 1.95366 10.0338 1.73489 9.9006 1.59981L8.42333 0.101192Z" fill="white"></path>
+                    <path
+                      d="M8.42333 0.101192C8.29015 -0.0338934 8.07446 -0.0338934 7.94128 0.101192L5.00037 3.08413L2.05969 0.101192C1.92651 -0.0338934 1.71083 -0.0338934 1.57765 0.101192L0.100375 1.59958C-0.0328072 1.73466 -0.0328072 1.95343 0.100375 2.08851L2.97072 4.99988L0.100375 7.91124C-0.0328072 8.04633 -0.0328072 8.26509 0.100375 8.40018L1.57765 9.89856C1.71083 10.0336 1.92651 10.0336 2.05969 9.89856L5.00037 6.91562L7.94128 9.89856C8.07446 10.0336 8.29015 10.0336 8.42333 9.89856L9.9006 8.39995C10.0338 8.26486 10.0338 8.0461 9.9006 7.91101L7.03049 4.99988L9.9006 2.08874C10.0338 1.95366 10.0338 1.73489 9.9006 1.59981L8.42333 0.101192Z"
+                      fill="white"></path>
                   </svg>
 
                 </span>
@@ -233,7 +334,9 @@
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">
                   <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8.42333 0.101192C8.29015 -0.0338934 8.07446 -0.0338934 7.94128 0.101192L5.00037 3.08413L2.05969 0.101192C1.92651 -0.0338934 1.71083 -0.0338934 1.57765 0.101192L0.100375 1.59958C-0.0328072 1.73466 -0.0328072 1.95343 0.100375 2.08851L2.97072 4.99988L0.100375 7.91124C-0.0328072 8.04633 -0.0328072 8.26509 0.100375 8.40018L1.57765 9.89856C1.71083 10.0336 1.92651 10.0336 2.05969 9.89856L5.00037 6.91562L7.94128 9.89856C8.07446 10.0336 8.29015 10.0336 8.42333 9.89856L9.9006 8.39995C10.0338 8.26486 10.0338 8.0461 9.9006 7.91101L7.03049 4.99988L9.9006 2.08874C10.0338 1.95366 10.0338 1.73489 9.9006 1.59981L8.42333 0.101192Z" fill="white"></path>
+                    <path
+                      d="M8.42333 0.101192C8.29015 -0.0338934 8.07446 -0.0338934 7.94128 0.101192L5.00037 3.08413L2.05969 0.101192C1.92651 -0.0338934 1.71083 -0.0338934 1.57765 0.101192L0.100375 1.59958C-0.0328072 1.73466 -0.0328072 1.95343 0.100375 2.08851L2.97072 4.99988L0.100375 7.91124C-0.0328072 8.04633 -0.0328072 8.26509 0.100375 8.40018L1.57765 9.89856C1.71083 10.0336 1.92651 10.0336 2.05969 9.89856L5.00037 6.91562L7.94128 9.89856C8.07446 10.0336 8.29015 10.0336 8.42333 9.89856L9.9006 8.39995C10.0338 8.26486 10.0338 8.0461 9.9006 7.91101L7.03049 4.99988L9.9006 2.08874C10.0338 1.95366 10.0338 1.73489 9.9006 1.59981L8.42333 0.101192Z"
+                      fill="white"></path>
                   </svg>
                 </span>
               </button>
@@ -677,10 +780,12 @@
         <div class="modal-dialog" role="document">
           <form action="">
             <div class="modal-content">
-             <div class="modal__leftheader">
+              <div class="modal__leftheader">
                 <a href="#" class="modal__back" data-dismiss="modal" aria-label="Close">
                   <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path opacity="1" fill-rule="evenodd" clip-rule="evenodd" d="M12.1295 0.26706L1.08264 11.5017C0.404747 12.1911 0.404747 13.3089 1.08264 13.9983L12.1295 25.2329L14.5844 22.7364L6.50078 14.5154H23.5742L23.5742 10.9846L6.50078 10.9846L14.5844 2.76365L12.1295 0.26706Z" fill="#3A4659"></path>
+                    <path opacity="1" fill-rule="evenodd" clip-rule="evenodd"
+                      d="M12.1295 0.26706L1.08264 11.5017C0.404747 12.1911 0.404747 13.3089 1.08264 13.9983L12.1295 25.2329L14.5844 22.7364L6.50078 14.5154H23.5742L23.5742 10.9846L6.50078 10.9846L14.5844 2.76365L12.1295 0.26706Z"
+                      fill="#3A4659"></path>
                   </svg>
                 </a>
               </div>
@@ -791,7 +896,7 @@
             <div class="modal-content">
 
               <div class="modal-title">Login</div>
-               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">
                   <img src="img/closebutton.svg" alt="">
 
@@ -896,10 +1001,12 @@
           <form action="">
             <div class="modal-content">
               <div class="modal-title">Log In</div>
-               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">
                   <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8.42333 0.101192C8.29015 -0.0338934 8.07446 -0.0338934 7.94128 0.101192L5.00037 3.08413L2.05969 0.101192C1.92651 -0.0338934 1.71083 -0.0338934 1.57765 0.101192L0.100375 1.59958C-0.0328072 1.73466 -0.0328072 1.95343 0.100375 2.08851L2.97072 4.99988L0.100375 7.91124C-0.0328072 8.04633 -0.0328072 8.26509 0.100375 8.40018L1.57765 9.89856C1.71083 10.0336 1.92651 10.0336 2.05969 9.89856L5.00037 6.91562L7.94128 9.89856C8.07446 10.0336 8.29015 10.0336 8.42333 9.89856L9.9006 8.39995C10.0338 8.26486 10.0338 8.0461 9.9006 7.91101L7.03049 4.99988L9.9006 2.08874C10.0338 1.95366 10.0338 1.73489 9.9006 1.59981L8.42333 0.101192Z" fill="white"></path>
+                    <path
+                      d="M8.42333 0.101192C8.29015 -0.0338934 8.07446 -0.0338934 7.94128 0.101192L5.00037 3.08413L2.05969 0.101192C1.92651 -0.0338934 1.71083 -0.0338934 1.57765 0.101192L0.100375 1.59958C-0.0328072 1.73466 -0.0328072 1.95343 0.100375 2.08851L2.97072 4.99988L0.100375 7.91124C-0.0328072 8.04633 -0.0328072 8.26509 0.100375 8.40018L1.57765 9.89856C1.71083 10.0336 1.92651 10.0336 2.05969 9.89856L5.00037 6.91562L7.94128 9.89856C8.07446 10.0336 8.29015 10.0336 8.42333 9.89856L9.9006 8.39995C10.0338 8.26486 10.0338 8.0461 9.9006 7.91101L7.03049 4.99988L9.9006 2.08874C10.0338 1.95366 10.0338 1.73489 9.9006 1.59981L8.42333 0.101192Z"
+                      fill="white"></path>
                   </svg>
                 </span>
               </button>
@@ -941,6 +1048,26 @@
                     <div class="buttonsrow__item buttonsrow__item_full">
                       <button type='submit' class='btn btn_main'>Log In</button>
                     </div>
+                    <div class="buttonsrow__item buttonsrow__item_full">
+                      <a href="#" class="btn btn_border flex items-center content-center">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M28.2 15.3125C28.2 14.3375 28.1125 13.4 27.95 12.5H15V17.825H22.4C22.075 19.5375 21.1 20.9875 19.6375 21.9625V25.425H24.1C26.7 23.025 28.2 19.5 28.2 15.3125Z"
+                            fill="#4285F4"></path>
+                          <path
+                            d="M14.9996 28.75C18.7121 28.75 21.8246 27.525 24.0996 25.425L19.6371 21.9625C18.4121 22.7875 16.8496 23.2875 14.9996 23.2875C11.4246 23.2875 8.38711 20.875 7.29961 17.625H2.72461V21.175C4.98711 25.6625 9.62461 28.75 14.9996 28.75Z"
+                            fill="#34A853"></path>
+                          <path
+                            d="M7.3 17.6124C7.025 16.7874 6.8625 15.9124 6.8625 14.9999C6.8625 14.0874 7.025 13.2124 7.3 12.3874V8.8374H2.725C1.7875 10.6874 1.25 12.7749 1.25 14.9999C1.25 17.2249 1.7875 19.3124 2.725 21.1624L6.2875 18.3874L7.3 17.6124Z"
+                            fill="#FBBC05"></path>
+                          <path
+                            d="M14.9996 6.725C17.0246 6.725 18.8246 7.425 20.2621 8.775L24.1996 4.8375C21.8121 2.6125 18.7121 1.25 14.9996 1.25C9.62461 1.25 4.98711 4.3375 2.72461 8.8375L7.29961 12.3875C8.38711 9.1375 11.4246 6.725 14.9996 6.725Z"
+                            fill="#EA4335"></path>
+                        </svg>
+
+                        <span>Register with Google</span>
+                      </a>
+                    </div>
                   </div>
                   <!-- /.buttonsrow -->
                 </div>
@@ -976,10 +1103,12 @@
                 </a>
               </div>
               <div class="modal-title">Password reset</div>
-               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">
                   <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8.42333 0.101192C8.29015 -0.0338934 8.07446 -0.0338934 7.94128 0.101192L5.00037 3.08413L2.05969 0.101192C1.92651 -0.0338934 1.71083 -0.0338934 1.57765 0.101192L0.100375 1.59958C-0.0328072 1.73466 -0.0328072 1.95343 0.100375 2.08851L2.97072 4.99988L0.100375 7.91124C-0.0328072 8.04633 -0.0328072 8.26509 0.100375 8.40018L1.57765 9.89856C1.71083 10.0336 1.92651 10.0336 2.05969 9.89856L5.00037 6.91562L7.94128 9.89856C8.07446 10.0336 8.29015 10.0336 8.42333 9.89856L9.9006 8.39995C10.0338 8.26486 10.0338 8.0461 9.9006 7.91101L7.03049 4.99988L9.9006 2.08874C10.0338 1.95366 10.0338 1.73489 9.9006 1.59981L8.42333 0.101192Z" fill="white"></path>
+                    <path
+                      d="M8.42333 0.101192C8.29015 -0.0338934 8.07446 -0.0338934 7.94128 0.101192L5.00037 3.08413L2.05969 0.101192C1.92651 -0.0338934 1.71083 -0.0338934 1.57765 0.101192L0.100375 1.59958C-0.0328072 1.73466 -0.0328072 1.95343 0.100375 2.08851L2.97072 4.99988L0.100375 7.91124C-0.0328072 8.04633 -0.0328072 8.26509 0.100375 8.40018L1.57765 9.89856C1.71083 10.0336 1.92651 10.0336 2.05969 9.89856L5.00037 6.91562L7.94128 9.89856C8.07446 10.0336 8.29015 10.0336 8.42333 9.89856L9.9006 8.39995C10.0338 8.26486 10.0338 8.0461 9.9006 7.91101L7.03049 4.99988L9.9006 2.08874C10.0338 1.95366 10.0338 1.73489 9.9006 1.59981L8.42333 0.101192Z"
+                      fill="white"></path>
                   </svg>
                 </span>
               </button>
@@ -1028,10 +1157,12 @@
                 </a>
               </div>
               <div class="modal-title">Reset password</div>
-               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">
                   <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8.42333 0.101192C8.29015 -0.0338934 8.07446 -0.0338934 7.94128 0.101192L5.00037 3.08413L2.05969 0.101192C1.92651 -0.0338934 1.71083 -0.0338934 1.57765 0.101192L0.100375 1.59958C-0.0328072 1.73466 -0.0328072 1.95343 0.100375 2.08851L2.97072 4.99988L0.100375 7.91124C-0.0328072 8.04633 -0.0328072 8.26509 0.100375 8.40018L1.57765 9.89856C1.71083 10.0336 1.92651 10.0336 2.05969 9.89856L5.00037 6.91562L7.94128 9.89856C8.07446 10.0336 8.29015 10.0336 8.42333 9.89856L9.9006 8.39995C10.0338 8.26486 10.0338 8.0461 9.9006 7.91101L7.03049 4.99988L9.9006 2.08874C10.0338 1.95366 10.0338 1.73489 9.9006 1.59981L8.42333 0.101192Z" fill="white"></path>
+                    <path
+                      d="M8.42333 0.101192C8.29015 -0.0338934 8.07446 -0.0338934 7.94128 0.101192L5.00037 3.08413L2.05969 0.101192C1.92651 -0.0338934 1.71083 -0.0338934 1.57765 0.101192L0.100375 1.59958C-0.0328072 1.73466 -0.0328072 1.95343 0.100375 2.08851L2.97072 4.99988L0.100375 7.91124C-0.0328072 8.04633 -0.0328072 8.26509 0.100375 8.40018L1.57765 9.89856C1.71083 10.0336 1.92651 10.0336 2.05969 9.89856L5.00037 6.91562L7.94128 9.89856C8.07446 10.0336 8.29015 10.0336 8.42333 9.89856L9.9006 8.39995C10.0338 8.26486 10.0338 8.0461 9.9006 7.91101L7.03049 4.99988L9.9006 2.08874C10.0338 1.95366 10.0338 1.73489 9.9006 1.59981L8.42333 0.101192Z"
+                      fill="white"></path>
                   </svg>
                 </span>
               </button>
@@ -1083,13 +1214,15 @@
       <div class="modal modal_small fade modal_v5" tabindex="-1" role="dialog" id='popup_emailsentdark'>
         <div class="modal-dialog" role="document">
           <div class="modal-content">
-             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">
-                  <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8.42333 0.101192C8.29015 -0.0338934 8.07446 -0.0338934 7.94128 0.101192L5.00037 3.08413L2.05969 0.101192C1.92651 -0.0338934 1.71083 -0.0338934 1.57765 0.101192L0.100375 1.59958C-0.0328072 1.73466 -0.0328072 1.95343 0.100375 2.08851L2.97072 4.99988L0.100375 7.91124C-0.0328072 8.04633 -0.0328072 8.26509 0.100375 8.40018L1.57765 9.89856C1.71083 10.0336 1.92651 10.0336 2.05969 9.89856L5.00037 6.91562L7.94128 9.89856C8.07446 10.0336 8.29015 10.0336 8.42333 9.89856L9.9006 8.39995C10.0338 8.26486 10.0338 8.0461 9.9006 7.91101L7.03049 4.99988L9.9006 2.08874C10.0338 1.95366 10.0338 1.73489 9.9006 1.59981L8.42333 0.101192Z" fill="white"></path>
-                  </svg>
-                </span>
-              </button>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8.42333 0.101192C8.29015 -0.0338934 8.07446 -0.0338934 7.94128 0.101192L5.00037 3.08413L2.05969 0.101192C1.92651 -0.0338934 1.71083 -0.0338934 1.57765 0.101192L0.100375 1.59958C-0.0328072 1.73466 -0.0328072 1.95343 0.100375 2.08851L2.97072 4.99988L0.100375 7.91124C-0.0328072 8.04633 -0.0328072 8.26509 0.100375 8.40018L1.57765 9.89856C1.71083 10.0336 1.92651 10.0336 2.05969 9.89856L5.00037 6.91562L7.94128 9.89856C8.07446 10.0336 8.29015 10.0336 8.42333 9.89856L9.9006 8.39995C10.0338 8.26486 10.0338 8.0461 9.9006 7.91101L7.03049 4.99988L9.9006 2.08874C10.0338 1.95366 10.0338 1.73489 9.9006 1.59981L8.42333 0.101192Z"
+                    fill="white"></path>
+                </svg>
+              </span>
+            </button>
             <div class="modal-body">
               <div class="modalinfo">
                 <div class="modalinfo__image">
@@ -1113,13 +1246,15 @@
       <div class="modal modal_small fade modal_v5" tabindex="-1" role="dialog" id='popup_emailcheckdark'>
         <div class="modal-dialog" role="document">
           <div class="modal-content">
-             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">
-                  <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8.42333 0.101192C8.29015 -0.0338934 8.07446 -0.0338934 7.94128 0.101192L5.00037 3.08413L2.05969 0.101192C1.92651 -0.0338934 1.71083 -0.0338934 1.57765 0.101192L0.100375 1.59958C-0.0328072 1.73466 -0.0328072 1.95343 0.100375 2.08851L2.97072 4.99988L0.100375 7.91124C-0.0328072 8.04633 -0.0328072 8.26509 0.100375 8.40018L1.57765 9.89856C1.71083 10.0336 1.92651 10.0336 2.05969 9.89856L5.00037 6.91562L7.94128 9.89856C8.07446 10.0336 8.29015 10.0336 8.42333 9.89856L9.9006 8.39995C10.0338 8.26486 10.0338 8.0461 9.9006 7.91101L7.03049 4.99988L9.9006 2.08874C10.0338 1.95366 10.0338 1.73489 9.9006 1.59981L8.42333 0.101192Z" fill="white"></path>
-                  </svg>
-                </span>
-              </button>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8.42333 0.101192C8.29015 -0.0338934 8.07446 -0.0338934 7.94128 0.101192L5.00037 3.08413L2.05969 0.101192C1.92651 -0.0338934 1.71083 -0.0338934 1.57765 0.101192L0.100375 1.59958C-0.0328072 1.73466 -0.0328072 1.95343 0.100375 2.08851L2.97072 4.99988L0.100375 7.91124C-0.0328072 8.04633 -0.0328072 8.26509 0.100375 8.40018L1.57765 9.89856C1.71083 10.0336 1.92651 10.0336 2.05969 9.89856L5.00037 6.91562L7.94128 9.89856C8.07446 10.0336 8.29015 10.0336 8.42333 9.89856L9.9006 8.39995C10.0338 8.26486 10.0338 8.0461 9.9006 7.91101L7.03049 4.99988L9.9006 2.08874C10.0338 1.95366 10.0338 1.73489 9.9006 1.59981L8.42333 0.101192Z"
+                    fill="white"></path>
+                </svg>
+              </span>
+            </button>
             <div class="modal-body">
               <div class="modalinfo">
                 <div class="modalinfo__image">
@@ -1139,13 +1274,15 @@
       <div class="modal modal_small fade modal_v5" tabindex="-1" role="dialog" id='popup_successdark'>
         <div class="modal-dialog" role="document">
           <div class="modal-content">
-             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">
-                  <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8.42333 0.101192C8.29015 -0.0338934 8.07446 -0.0338934 7.94128 0.101192L5.00037 3.08413L2.05969 0.101192C1.92651 -0.0338934 1.71083 -0.0338934 1.57765 0.101192L0.100375 1.59958C-0.0328072 1.73466 -0.0328072 1.95343 0.100375 2.08851L2.97072 4.99988L0.100375 7.91124C-0.0328072 8.04633 -0.0328072 8.26509 0.100375 8.40018L1.57765 9.89856C1.71083 10.0336 1.92651 10.0336 2.05969 9.89856L5.00037 6.91562L7.94128 9.89856C8.07446 10.0336 8.29015 10.0336 8.42333 9.89856L9.9006 8.39995C10.0338 8.26486 10.0338 8.0461 9.9006 7.91101L7.03049 4.99988L9.9006 2.08874C10.0338 1.95366 10.0338 1.73489 9.9006 1.59981L8.42333 0.101192Z" fill="white"></path>
-                  </svg>
-                </span>
-              </button>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8.42333 0.101192C8.29015 -0.0338934 8.07446 -0.0338934 7.94128 0.101192L5.00037 3.08413L2.05969 0.101192C1.92651 -0.0338934 1.71083 -0.0338934 1.57765 0.101192L0.100375 1.59958C-0.0328072 1.73466 -0.0328072 1.95343 0.100375 2.08851L2.97072 4.99988L0.100375 7.91124C-0.0328072 8.04633 -0.0328072 8.26509 0.100375 8.40018L1.57765 9.89856C1.71083 10.0336 1.92651 10.0336 2.05969 9.89856L5.00037 6.91562L7.94128 9.89856C8.07446 10.0336 8.29015 10.0336 8.42333 9.89856L9.9006 8.39995C10.0338 8.26486 10.0338 8.0461 9.9006 7.91101L7.03049 4.99988L9.9006 2.08874C10.0338 1.95366 10.0338 1.73489 9.9006 1.59981L8.42333 0.101192Z"
+                    fill="white"></path>
+                </svg>
+              </span>
+            </button>
             <div class="modal-body">
               <div class="modalinfo">
                 <div class="modalinfo__image">

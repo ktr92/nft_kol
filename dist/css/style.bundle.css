@@ -28158,6 +28158,16 @@ body {
   background-color: #252a39 !important;
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.7); }
 
+.modal_v5 a.btn.btn_border.flex.items-center.content-center, .modal_white a.btn.btn_border.flex.items-center.content-center {
+  margin: 0; }
+
+.modal_v5 .modal-submit .check a, .modal_white .modal-submit .check a {
+  display: inline;
+  margin: 0; }
+
+.darkmode .modal_white .btn_main {
+  color: #fff !important; }
+
 @media only screen and (max-width: 1090px) {
   .watchlistnew.watchlistnew_mobile {
     display: block; }
