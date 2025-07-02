@@ -28457,7 +28457,7 @@ body {
     .tableblock__col_gain span.gainvalue__img img {
       object-fit: cover;
       object-position: center;
-      max-width: 100%; }
+      /*     max-width: 100%; */ }
   .notableblock__wrapper {
     border: 0.20833vw solid #303646;
     border-radius: 289.32292vw; }
