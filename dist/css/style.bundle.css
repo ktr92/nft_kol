@@ -27579,7 +27579,7 @@ main {
   align-items: center;
   justify-content: center; }
   .tableblock__col_gain span.gainvalue__img img {
-    width: unset;
+    width: 70px;
     max-width: unset;
     max-height: unset;
     /*     margin-top: -8px;
@@ -28457,6 +28457,7 @@ body {
     .tableblock__col_gain span.gainvalue__img img {
       object-fit: cover;
       object-position: center;
+      width: 3.64583vw;
       /*     max-width: 100%; */ }
   .notableblock__wrapper {
     border: 0.20833vw solid #303646;

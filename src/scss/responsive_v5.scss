@@ -472,6 +472,7 @@
     img {
       object-fit: cover;
       object-position: center;
+      width: get-vw-laptop(70px);
   /*     max-width: 100%; */
     }
   }
