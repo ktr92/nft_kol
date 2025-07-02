@@ -18,6 +18,9 @@ function showTooltip() {
       .find(".tooltipv2__tooltip")
       .css("visibility", "hidden")
   })
+  $(".oversize__icon").on("click", function (e) {
+   e.stopPropagation()
+  })
 }
  showTooltip()
 
