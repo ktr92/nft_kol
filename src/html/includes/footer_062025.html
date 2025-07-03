@@ -265,7 +265,7 @@
   </div>
 </footer>
 
-<div class="footerbanner">
+<div class="footerbanner active" data-toggle="footerbanner">
   <a href="#" class="footerbanner__wrapper">
     <div class="footerbanner__content">
       <div class="footerbanner__icon">
@@ -274,12 +274,13 @@
       <div class="footerbanner__text">Discover trending projects — straight to your inbox.</div>
       <!-- /.footerbanner__text -->
     </div><!-- /.footerbanner__content -->
-    <div class="footerbanner__close">
-      <div onclick="document.querySelector('.footerbanner').style.display = 'none'">
+   
+  </a><!-- /.footerbanner__wrapper -->
+   <div class="footerbanner__close">
+      <div data-toggleclick="footerbanner">
         <img src="img/headerbanner__close.svg" alt="">
       </div>
     </div><!-- /.footerbanner__close -->
-  </a><!-- /.footerbanner__wrapper -->
 </div><!-- /.footerbanner -->
 
 

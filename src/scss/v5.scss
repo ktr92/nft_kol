@@ -381,6 +381,10 @@ main {
   right: 20px;
   z-index: 999;
   bottom: 66px;
+  display: none;
+}
+.footerbanner.active {
+  display: block;
 }
 .footerbanner__wrapper {
   display: block;
@@ -410,6 +414,7 @@ main {
   position: absolute;
   top: 10px;
   right: 10px;
+  z-index: 99;
 }
 
 .sm_mode {
@@ -900,6 +905,7 @@ body {
       max-width: calc(100% - 20px);
     }
   }
+  
   .modal_v5 {
     .buttonsrow__item + .buttonsrow__item {
       margin-top: 15px;
@@ -927,10 +933,11 @@ body {
         background: transparent;
         border: 2px solid #4f5669;
         border-radius: 3px;
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
       }
       input[type="checkbox"]:checked + label:before {
         background-color: #30ca4c;
+        background-position: center;
         border-color: #30ca4c;
         background-image: url(../img/selected_icon.svg);
       }
@@ -1111,4 +1118,6 @@ body {
 .darkmode .modal_white .btn_main  {
   color: #fff !important;
 }
-
+body.modal-open {
+   padding-right: 0 !important;
+}

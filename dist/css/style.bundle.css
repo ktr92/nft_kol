@@ -27602,7 +27602,11 @@ main {
   position: fixed;
   right: 20px;
   z-index: 999;
-  bottom: 66px; }
+  bottom: 66px;
+  display: none; }
+
+.footerbanner.active {
+  display: block; }
 
 .footerbanner__wrapper {
   display: block;
@@ -27631,7 +27635,8 @@ main {
 .footerbanner__close {
   position: absolute;
   top: 10px;
-  right: 10px; }
+  right: 10px;
+  z-index: 99; }
 
 .sm_mode .paginationblock {
   margin-left: 0;
@@ -28033,9 +28038,10 @@ body {
     background: transparent;
     border: 2px solid #4f5669;
     border-radius: 3px;
-    box-sizing: border-box; }
+    /* box-sizing: border-box; */ }
   .darkmode .modal_v5 .modal-submit .check input[type="checkbox"]:checked + label:before {
     background-color: #30ca4c;
+    background-position: center;
     border-color: #30ca4c;
     background-image: url(../img/selected_icon.svg); }
 
@@ -28167,6 +28173,9 @@ body {
 
 .darkmode .modal_white .btn_main {
   color: #fff !important; }
+
+body.modal-open {
+  padding-right: 0 !important; }
 
 @media only screen and (max-width: 1090px) {
   .watchlistnew.watchlistnew_mobile {
