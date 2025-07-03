@@ -28644,10 +28644,10 @@ a.linkset__link[data-value="upgrade"] {
     min-width: 240px;
     padding-left: 16px; }
   .footerbanner__close {
-    right: 7px;
+    right: 8px;
     top: 8px;
-    width: 8px;
-    height: 8px; }
+    width: 14px;
+    height: 14px; }
     .footerbanner__close div {
       display: flex;
       align-items: center; }
