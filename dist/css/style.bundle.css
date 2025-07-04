@@ -28177,9 +28177,6 @@ body {
 body.modal-open {
   padding-right: 0 !important; }
 
-.darkmode .tableblock_tab .tableblock__header .tableblock__row .tableblock__col {
-  background: #252a39 !important; }
-
 @media only screen and (max-width: 1090px) {
   .watchlistnew.watchlistnew_mobile {
     display: block; }
@@ -28770,7 +28767,9 @@ input:checked
   .hasupgrade .siteheader_v5 .tabsnav_v2 .linkset__items {
     max-width: 160px; }
   .haspremium .siteheader_v5 .tabsnav_v2 .linkset__items {
-    max-width: 245px; } }
+    max-width: 245px; }
+  .darkmode .tableblock_tab .tableblock__header .tableblock__row .tableblock__col {
+    background: #252a39 !important; } }
 
 input, textarea, .pagesearch__input .searchinput input {
   /* FF 4-18 */
