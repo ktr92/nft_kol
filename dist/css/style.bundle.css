@@ -28177,6 +28177,9 @@ body {
 body.modal-open {
   padding-right: 0 !important; }
 
+.darkmode .tableblock_tab .tableblock__header .tableblock__row .tableblock__col {
+  background: #252a39 !important; }
+
 @media only screen and (max-width: 1090px) {
   .watchlistnew.watchlistnew_mobile {
     display: block; }
