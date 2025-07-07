@@ -907,8 +907,7 @@
   }
   
 .darkmode .tableblock_tab .tableblock__header .tableblock__row .tableblock__col,
-.darkmode .tableblock_tab .tableblock__row:nth-child(2n-1) .tableblock__col:nth-child(2),
-.darkmode .tableblock_tab .tableblock__row:nth-child(2n-1) .tableblock__col:nth-child(1)  {
+.darkmode .tableblock__header .tableblock__row.tableblock__col  {
         background: #212531 !important;
 }
 }
